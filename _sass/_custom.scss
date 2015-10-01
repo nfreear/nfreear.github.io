@@ -1,0 +1,14 @@
+
+
+/**
+ * Accessibility [a11y].
+ */
+.sr-only {
+    position: absolute;
+    top: -1000px;
+
+    border: 2px solid red;
+    display: inline-block;
+}
+
+//End.

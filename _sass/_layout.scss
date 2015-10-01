@@ -97,7 +97,7 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 1.15em;  //Was: 18px;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $small-font-size;  //Was: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
