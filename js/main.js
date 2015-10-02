@@ -17,6 +17,22 @@ jQuery(function ($) {
   ga('send', 'pageview');
 
 
+  // Event tracking: https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+  $("a").on("click", function (ev) {
+    var url = $(this).attr("href")
+      , text = $(this).text();
+
+    // Assumption: absolute URL === external link.
+    if (url.match(/^https?:/)) {
+      ga('send', 'event', 'link', 'click', text +' '+ url);
+
+      D && console.log("Track extern link click:", text, url);
+    }
+
+    //ev.preventDefault();
+  });
+
+
   // oEmbed / Open Media Player ...
   $("a[ href *= '_EMBED_ME_' ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
     oupodcast: { rgb: "omp-purple" },

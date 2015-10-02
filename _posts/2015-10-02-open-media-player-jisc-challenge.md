@@ -52,6 +52,6 @@ Thank you!
 [video-pod]: http://podcast.open.ac.uk/pod/open-media-player#!c0370d88c0
 [omp]: http://iet-ou.github.io/open-media-player/
 [omp-icon]: http://iet-ou.github.io/open-media-player/badge.svg "Open Media Player"
-[jisc]: https://elevator.jisc.ac.uk/e/accessiblebydesign/#!/idea/open-media-player
+[jisc]: https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player
 [jisc-icon]: https://img.shields.io/badge/Jisc-vote_%E2%9C%93-ff6d00.svg
   "Vote for us in the Jisc Accessible by Design challenge – not yet public?"
