@@ -10,7 +10,8 @@ url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear
 github_username:  nfreear
 
-x_nicks_setting: hello
+google_analytics_id: UA-8330079-6
+
 
 # Build settings
 markdown: kramdown

@@ -6,9 +6,36 @@
 .sr-only {
     position: absolute;
     top: -1000px;
+}
 
-    border: 2px solid red;
-    display: inline-block;
+a:focus { text-decoration: underline; }
+
+
+img[ src *= "open-media-player/badge.svg" ] {
+    width: 240px; height: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+img[ src *= "shields.io" ] {
+    width: 120px; height: 30px; /* x 1.5 */
+}
+
+iframe {
+    display: block;
+    margin: 1em auto;
+    border: 8px solid #eee;
+    border-radius: 5px;
+}
+iframe:hover, iframe:focus {
+    border-color: #ff6d00;  /* darkorange */
+    transition: .7s;
+}
+
+a:hover img {
+    outline: 2px solid orange;
+    outline-offset: 4px;
+    transition: .7s;
 }
 
 //End.
