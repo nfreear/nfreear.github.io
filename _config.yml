@@ -5,6 +5,15 @@ description: > # this means to ignore newlines until "baseurl:"
   This is an experiment!
   I’m rebooting my blog using GitHub pages & Jekyll.
   The blog archive is at <a href="http://freear.org.uk">Freear.org.uk</a>.
+
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+  ><img alt="Creative Commons License"
+  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title=
+  "Content: licensed under Creative Commons Attribution-ShareAlike 4.0 License"/></a>
+
+  <a href="http://nfreear.mit-license.org/" title=
+  "Source code snippets are released under an MIT license">Code snippets: MIT license</a>
+#paginate: 2
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear

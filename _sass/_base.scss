@@ -127,7 +127,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: $code-font-size;  //Was: 15px; [a11y]
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;

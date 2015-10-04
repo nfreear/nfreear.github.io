@@ -38,4 +38,21 @@ a:hover img {
     transition: .7s;
 }
 
+a[ rel = license], a[ href *= mit-license ] {
+    display: block;
+    margin: .5em 0;
+}
+
+hr {
+    //background: none;
+    border: 1px solid #ccc;
+    margin: 1em;
+}
+
+pre,
+code {
+    background-color: #f8f8ff;
+    border-color: #ccc;
+}
+
 //End.

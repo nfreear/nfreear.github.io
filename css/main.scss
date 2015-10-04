@@ -7,14 +7,15 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   .96em;  //Was: 16px;  [a11y]
-$small-font-size:  .87em;  //Was: $base-font-size * 0.875;
+$base-font-size:   .97em;  //Was: 16px;  [a11y]
+$small-font-size:  .89em;  //Was: $base-font-size * 0.875;
+$code-font-size:   1.05em;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #fefefe;  //Was: #fdfdfd;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #555;  //Was: #828282;  [a11y]
