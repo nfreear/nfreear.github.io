@@ -17,8 +17,11 @@ img[ src *= "open-media-player/badge.svg" ] {
     margin: 0 auto;
 }
 
-img[ src *= "shields.io" ] {
+.post-content img[ src *= "shields.io" ] {
     width: 120px; height: 30px; /* x 1.5 */
+}
+.X-site-footer img[ src *= "shields.io" ] {
+    width: 96px; height: 24px; /* x 1.2 */
 }
 
 iframe {
@@ -38,9 +41,14 @@ a:hover img {
     transition: .7s;
 }
 
-a[ rel = license], a[ href *= mit-license ] {
+.site-footer .text i {
     display: block;
     margin: .5em 0;
+}
+.site-footer .text i a, a[ rel = license], a[ href *= mit-license ] {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 hr {

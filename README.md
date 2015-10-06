@@ -1,3 +1,7 @@
+
+[![Jekyll][jekyll-icon]][jekyll]
+[![Prose.io][prose-icon]][prose.io]
+
 # nfreear.github.io
 
 ## Nick Freear's blog
@@ -21,12 +25,16 @@ My legacy blog posts:
 *  All content in `_posts` & other Markdown pages (`*.md`, `*.markdown`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
 *  All JS, CSS and other code in this repository, and code snippets in blog posts
-   are released under an [MIT License][].
+   are released under an [![MIT License][mit-icon]][mit license].
 
 
 [cc]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-icon-x]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-icon]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [MIT License]: http://nfreear.mit-license.org/
-[Jekyll]: http://jekyllrb.com/
+[mit-icon]: https://img.shields.io/badge/license-MIT-blue.svg
+[Jekyll]: http://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
+[jekyll-icon]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
+[Prose.io]: http://prose.io/ "Edited via Prose.io"
+[prose-icon]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
 [GitHub pages]: https://pages.github.com/
