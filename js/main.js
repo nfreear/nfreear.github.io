@@ -33,8 +33,23 @@ jQuery(function ($) {
   });
 
 
-  // oEmbed / Open Media Player ...
-  $("a[ href *= '_EMBED_ME_' ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
+  /* Accessibility fixes.
+  */
+  $("header a.menu-icon").attr({
+    role: "button",
+    title: "Show/hide navigation",
+    "aria-label": "Show / hide navigation"
+  })
+  .on("click", function (ev) {
+    $("header .trigger").show();
+
+    ev.preventDefault();
+  });
+
+
+  /* oEmbed / Open Media Player ..
+  */
+  $.fn.oembed && $("a[ href *= '_EMBED_ME_' ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
     oupodcast: { rgb: "omp-purple" },
     youtube: { rgb: "omp-orange" },
     debug: debug ? 2 : 0
