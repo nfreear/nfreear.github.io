@@ -1,7 +1,9 @@
+/*!
+ * Custom CSS.
+ */
 
 
-/**
- * Accessibility [a11y].
+/* Accessibility [a11y].
  */
 .sr-only {
     position: absolute;
@@ -11,6 +13,10 @@
 a:focus { text-decoration: underline; }
 
 
+.site-nav .menu-icon svg path {
+    fill: #ee7600;  //darkorange; //#a22; //Was: #151515;
+}
+
 img[ src *= "open-media-player/badge.svg" ] {
     width: 240px; height: 140px;
     display: block;
@@ -18,25 +24,37 @@ img[ src *= "open-media-player/badge.svg" ] {
 }
 
 .post-content img[ src *= "shields.io" ] {
-    width: 120px; height: 30px; /* x 1.5 */
+    width: 120px; height: 30px; // x 1.5;
 }
 .X-site-footer img[ src *= "shields.io" ] {
-    width: 96px; height: 24px; /* x 1.2 */
+    width: 96px; height: 24px; // x 1.2;
 }
 
 iframe {
     display: block;
     margin: 1em auto;
-    border: 8px solid #eee;
+    border: 6px solid #eee;
     border-radius: 5px;
 }
 iframe:hover, iframe:focus {
-    border-color: #ff6d00;  /* darkorange */
+    border-color: #ff6d00;  // darkorange;
     transition: .7s;
 }
 
+/* Open Media Player embeds.
+*/
+@include media-query($on-palm) {
+
+    iframe[ src *= "/embed/-/youtube" ],
+    iframe[ src *= "/embed/pod/" ] {
+        //width: 560px; height: 315px;
+        width: 480px;
+        height: 292.5px;
+    }
+}
+
 a:hover img {
-    outline: 2px solid orange;
+    outline: 2px solid darkorange;
     outline-offset: 4px;
     transition: .7s;
 }
@@ -51,6 +69,17 @@ a:hover img {
     margin-right: 10px;
 }
 
+.ex-site-message {
+    font-size: 1.06em;
+    padding: .7em 0;
+    background: #fff8f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.site-nav .ex-custom-nav > * {
+    margin-left: 20px;
+}
+
 hr {
     //background: none;
     border: 1px solid #ccc;
@@ -63,4 +92,6 @@ code {
     border-color: #ccc;
 }
 
-//End.
+/*
+ * End custom CSS.
+ */

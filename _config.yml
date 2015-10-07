@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I’m rebooting my blog using GitHub pages & Jekyll.
   <a href="https://github.com/nfreear/nfreear.github.io">(source)</a>
   <br>
-  The blog archive is at <a href="http://freear.org.uk">Freear.org.uk</a>.
+  The blog archive is at <a href="http://freear.org.uk">Freear.org.uk</a> &bull; &copy;Nick Freear.
 
   <i>
   <a href="http://nfreear.mit-license.org/"><img alt="MIT license"
@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
   ><img alt="Creative Commons License"
-  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" title=
+  src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" title=
   "Content: released under a Creative Commons Attribution-ShareAlike 4.0 License"></a>
   </i>
 #paginate: 2
@@ -24,7 +24,18 @@ url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear
 github_username:  nfreear
 
+
+# Site setting extensions.
 google_analytics_id: UA-8330079-6
+
+# https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]
+date_fmt: "%-d %B %Y"
+
+ex_comments: false
+ex_custom_nav:
+  - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>
+  #- <a href="#">Test 2</a>
+#ex_site_message: Hello world! Just a <a href="#">test</a>!
 
 
 # Build settings

@@ -29,8 +29,9 @@ My legacy blog posts:
 
 
 [cc]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-icon-x]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
-[cc-icon]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
+[cc-icon-lg]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+[cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
+[cc-icon]: https://licensebuttons.net/l/by-sa/4.0/88x15.png
 [MIT License]: http://nfreear.mit-license.org/
 [mit-icon]: https://img.shields.io/badge/license-MIT-blue.svg
 [Jekyll]: http://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
