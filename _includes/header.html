@@ -14,14 +14,33 @@
       </a>
 
       <div class="trigger">
+        <span class="page-links">
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        </span>
+
+        {% if site.ex_custom_nav %}
+        <span class="ex-custom-nav">
+        {% for link in site.ex_custom_nav %}
+          {{ link }}
+        {% endfor %}
+        </span>
+        {% endif %}
       </div>
     </nav>
 
   </div>
 
 </header>
+
+
+{% if site.ex_site_message %}
+<div id="message" class="ex-site-message">
+  <div class="wrapper">
+  {{ site.ex_site_message }}
+  </div>
+</div>
+{% endif %}
