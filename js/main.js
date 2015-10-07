@@ -41,7 +41,7 @@ jQuery(function ($) {
     "aria-label": "Show / hide navigation"
   })
   .on("click", function (ev) {
-    $("header .trigger").show();
+    $("header .trigger").toggle();
 
     ev.preventDefault();
   });
