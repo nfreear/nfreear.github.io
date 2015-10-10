@@ -26,12 +26,15 @@ github_username:  nfreear
 
 
 # Site setting extensions.
-google_analytics_id: UA-8330079-6
+
+js_config:
+  # Google Analytics.
+  analytics_id: UA-8330079-6
+  comments: false
 
 # https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]
 date_fmt: "%-d %B %Y"
 
-ex_comments: false
 ex_custom_nav:
   - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>
   #- <a href="#">Test 2</a>

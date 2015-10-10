@@ -57,11 +57,12 @@
 </footer>
 
 
-<script>
-var BLOG = {
-  analytics_id: "{{site.google_analytics_id}}"
-}
-</script>
+
+<div
+ id="js-config"
+{% for cfg in site.js_config %} data-{{ cfg[0] }}={{ cfg[1] | jsonify }}{% endfor %}
+></div>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 {% if page.url != '/index.html' %}
 <script src="http://embed.open.ac.uk/scripts/jquery.oembed.js"></script>

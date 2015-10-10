@@ -10,6 +10,7 @@ jQuery(function ($) {
   var W = window
     , debug = W.location.search.match(/debug=1/)
     , D = W.console && debug
+    , BLOG = $("#js-config").data()
     ;
 
   // Google Analytics.
@@ -49,10 +50,18 @@ jQuery(function ($) {
 
   /* oEmbed / Open Media Player ..
   */
-  $.fn.oembed && $("a[ href *= '_EMBED_ME_' ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
+  $.fn.oembed && $("a[ href *= _EMBED_ME_ ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
     oupodcast: { rgb: "omp-purple" },
     youtube: { rgb: "omp-orange" },
     debug: debug ? 2 : 0
+  });
+
+
+  $("a[ href *= _FRAME_ME_ ]").each(function () {
+    var $link = $(this)
+      , url = $link.attr("href").replace(/\#\!.+/, "");
+
+    $link.replaceWith('<iframe src="' + url + '"></iframe>');
   });
 
 

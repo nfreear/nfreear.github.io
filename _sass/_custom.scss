@@ -40,6 +40,10 @@ iframe:hover, iframe:focus {
     border-color: #ff6d00;  // darkorange;
     transition: .7s;
 }
+iframe[ src *= "books.google" ] {
+    width: 500px;
+    height: 500px;
+}
 
 /* Open Media Player embeds.
 */
