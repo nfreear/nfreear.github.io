@@ -12,7 +12,7 @@ tags:   accessibility  IET-OU   LACE  event  workshop
 
 
 I've been working with Doug (Clow) and Rebecca (Ferguson) on the
-LACE Evidence Hu over the past 18 months.
+_LACE Evidence Hub_ over the past 18 months.
 It has not been continuous development --
 just this week, we're completing the third phase of software development.
 
