@@ -10,7 +10,8 @@ Experimental!
 
 I'm re-developing my blog, using [Jekyll][] and [GitHub pages][].
 
-* <http://nfreear.github.io>
+*  <http://nick.freear.org.uk>
+* (<http://nfreear.github.io>)
 
 
 My legacy blog posts:

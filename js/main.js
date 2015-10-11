@@ -61,7 +61,7 @@ jQuery(function ($) {
     var $link = $(this)
       , url = $link.attr("href").replace(/\#\!.+/, "");
 
-    $link.replaceWith('<iframe src="' + url + '"></iframe>');
+    $link.replaceWith('<div class="frame-me"><iframe src="' + url + '"></iframe></div>');
   });
 
 
