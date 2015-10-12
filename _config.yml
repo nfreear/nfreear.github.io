@@ -39,7 +39,17 @@ date_fmt: "%-d %B %Y"
 ex_custom_nav:
   - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>
   #- <a href="#">Test 2</a>
+
 #ex_site_message: Hello world! Just a <a href="#">test</a>!
+ex_site_message: >
+  Help us fund features – vote for Open Media Player! &nbsp;
+  <a href="https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player"
+  ><img src="https://img.shields.io/badge/Jisc-vote_%E2%9C%93-ff6d00.svg"
+  alt="Vote! Jisc" title="Vote for us in the Jisc Accessible by Design challenge" /></a>
+
+# https://access.ecs.soton.ac.uk/ToolBar/
+# https://atbar.org/
+ex_atbar: false
 
 
 # Build settings

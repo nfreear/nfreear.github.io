@@ -53,7 +53,8 @@ iframe[ src *= "books.google" ] {
   display: block;
   height: 0;
   padding: 0;
-  overflow: hidden;
+  //overflow: hidden;
+  margin: 1em 0 2em;
 }
 .embed-rsp.youtube iframe,
 .embed-responsive iframe,
@@ -64,7 +65,7 @@ iframe[ src *= "books.google" ] {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 0;
+  //border: 0;
   margin: 0;
 }
 .embed-rsp.youtube,
@@ -93,14 +94,22 @@ a:hover img {
 
 .ex-site-message {
     font-size: 1.06em;
-    padding: .7em 0;
-    background: #fff8f8;
+    padding: .6em 0;
+    background: #fffbfb;
     border-bottom: 1px solid #ccc;
 }
-
-.site-nav .ex-custom-nav > * {
-    margin-left: 20px;
+.ex-site-message:hover {
+    background: #fff3f3;
+    border-color: #999;
+    transition: .7s;
 }
+
+.site-nav #toolbar-launch,
+.site-nav .ex-custom-nav > * {
+    display: inline-block;
+    margin-left: 14px;
+}
+
 
 hr {
     //background: none;

@@ -7,7 +7,7 @@ tags:   accessibility  IET-OU   multimedia   oEmbed   OU   ouplayer   Jisc
 ---
 
 
-[![Vote! Jisc][jisc-icon]][jisc]
+<!--[![Vote! Jisc][jisc-icon]][jisc]-->
 
 Today we entered our idea in Jisc's Accessible by Design competition. We've got some
 innovations we'd like us to pursue, and Jisc's competition seems like a great vehicle.
