@@ -9,17 +9,19 @@ tags:   accessibility  IET-OU   multimedia   oEmbed   OU   ouplayer   Jisc
 
 [![Vote! Jisc][jisc-icon]][jisc]
 
-Today we entered our idea in Jisc's Accessible by Design competition. I've got some
-innovations I'd like us to pursue, and Jisc's competition seems like a great vehicle.
+Today we entered our idea in Jisc's Accessible by Design competition. We've got some
+innovations we'd like us to pursue, and Jisc's competition seems like a great vehicle.
 
-We're looking at two features. The first is interactive synchronized transcripts.
+[video-yt][]
+
+We're looking at two features. The first is _interactive synchronized transcripts_.
 This should be of benefit to those with hearing impairments, and a general audience.
 In an e-learning context, interactive transcripts may be of benefit to anyone
 who is time-poor, and quickly wants to recap specific parts of a online lecture or talk.
 User's will be able to do a text search and jump to that point in the audio and video.
 The current word or phrase will also be highlighted as the media is played.
 
-The second is audio description (AD), sometimes called described video. This is
+The second is _audio description_ (AD), sometimes called _described video_. This is
 important for the blind and visually impaired. Its fairly established on TV, but
 not at all common on the Web (only the BBC in the UK I think). I envisage using
 a separate audio track for the descriptions --
@@ -38,10 +40,6 @@ Also take some to look at the other great ideas people have submitted.
 
 Thank you!
 
-
-[video-yt][]
-
-
 [![Vote! Jisc][jisc-icon]][jisc]
 
 
@@ -54,4 +52,4 @@ Thank you!
 [omp-icon]: http://iet-ou.github.io/open-media-player/badge.svg "Open Media Player"
 [jisc]: https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player
 [jisc-icon]: https://img.shields.io/badge/Jisc-vote_%E2%9C%93-ff6d00.svg
-  "Vote for us in the Jisc Accessible by Design challenge – not yet public?"
+  "Vote for us in the Jisc Accessible by Design challenge"
