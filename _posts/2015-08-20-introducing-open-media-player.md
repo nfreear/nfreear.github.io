@@ -14,6 +14,8 @@ x-search: https://google.co.uk/search?q="Open+Media+Player"
 
 I'm very happy to announce that we have released Open Media Player (formerly called OU Media Player), as a free/open source project. It has been our intention for a while to make the code open source, and we were finally able to plan in the time to make it happen.
 
+<!--more-->
+
 [![Open Media Player][example-img]][link]
 
 ## Why open source?

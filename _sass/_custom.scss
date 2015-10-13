@@ -17,6 +17,10 @@ a:focus { text-decoration: underline; }
     fill: #ee7600;  //darkorange; //#a22; //Was: #151515;
 }
 
+.post-list a.more:after {
+    content: "...";
+}
+
 img[ src *= "open-media-player/badge.svg" ] {
     width: 240px; height: 140px;
     display: block;

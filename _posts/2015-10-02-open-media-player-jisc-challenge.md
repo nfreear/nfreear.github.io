@@ -12,7 +12,9 @@ tags:   accessibility  IET-OU   multimedia   oEmbed   OU   ouplayer   Jisc
 Today we entered our idea in Jisc's Accessible by Design competition. We've got some
 innovations we'd like us to pursue, and Jisc's competition seems like a great vehicle.
 
-[video-yt][]
+<!--more-->
+
+[Video, on YouTube.][]
 
 We're looking at two features. The first is _interactive synchronized transcripts_.
 This should be of benefit to those with hearing impairments, and a general audience.
@@ -46,7 +48,7 @@ Thank you!
 [![Open Media Player][omp-icon]][omp]
 
 
-[video-yt]: https://youtu.be/0rj_td9wwbI#_EMBED_ME_
+[Video, on YouTube.]: https://youtu.be/0rj_td9wwbI#_EMBED_ME_
 [video-pod]: http://podcast.open.ac.uk/pod/open-media-player#!c0370d88c0
 [omp]: http://iet-ou.github.io/open-media-player/
 [omp-icon]: http://iet-ou.github.io/open-media-player/badge.svg "Open Media Player"

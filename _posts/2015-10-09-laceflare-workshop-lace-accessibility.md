@@ -7,14 +7,14 @@ tags:   accessibility  IET-OU   LACE  event  workshop
 ---
 
 
-<a href="https://youtu.be/YC7NBEuCVUo#!__EMBED_ME__">YouTube: extended talk</a>
-
-
+[Extended talk, on YouTube.][]
 
 I've been working with Doug (Clow) and Rebecca (Ferguson) on the
 _LACE Evidence Hub_ over the past 18 months.
 It has not been continuous development --
 just this week, we're completing the third phase of software development.
+
+<!--more-->
 
 This talk is an extended version of a lightning talk I'll be giving on Friday 9 October
 (it should last 2 minutes -- a challenge!)
@@ -57,7 +57,8 @@ That's all from me today. Thanks for listening!
 
 [Visit: _evidence.laceproject.eu_][visit]
 
-[Slide 10](http://www.slideshare.net/laceproject/learning-analytics-lace-solar-flare-2015/10#!__EMBED_ME__)
+[Slide 10](http://slideshare.net/laceproject/learning-analytics-lace-solar-flare-2015/10#!__EMBED_ME__)
 
 
+[Extended talk, on YouTube.]: https://youtu.be/YC7NBEuCVUo#!__EMBED_ME__
 [visit]: http://evidence.laceproject.eu#!__BIG_ME__

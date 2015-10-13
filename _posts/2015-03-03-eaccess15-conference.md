@@ -21,6 +21,8 @@ Tuesday 20-21:00 <abbr title="Greenwich Mean Time">UTC/GMT</abbr> on
 in business on the web and beyond. Run by [@neilmilliken](https://twitter.com/neilmilliken)
 and [@akwyz](https://twitter.com/akwyz).
 
+<!--more-->
+
 Greetings!
 
 On the 24 February, I attended the [e-Access'15 conference](http://headstar.com/eaccess14/)

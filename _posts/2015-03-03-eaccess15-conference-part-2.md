@@ -19,6 +19,8 @@ presented the valuable work done by the charity on [digital inclusion][ageuk].
 She discussed a project to use teenagers as volunteer mentors, and
 [referred to the _Digital inclusion evidence review_, 2013 (PDF)][ageuk-pdf].
 
+<!--more-->
+
 The final session of the morning was by Paul Smyth, Head of IT Accessibility at
 Barclays Bank. Paul Smyth and his colleagues have acheived a high-level of buy-in
 and ownership of Web accessibility from the bank's senior management.

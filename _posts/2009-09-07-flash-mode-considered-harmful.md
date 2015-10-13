@@ -13,11 +13,11 @@ Despite the emergence of the [`<video>`][video] element in HTML 5, Shockwave Fla
 is still the defacto standard for publish multimedia on the Web. Macromedia, and
 now Adobe have improved the support for assistive technologies and software
 interfaces like _Microsoft Active Accessibility (MSAA)_ within the Flash browser
-plug-ins and it is now possible to create a video player in which all the controls
+plug-ins.  <!--more-->
+And, it is now possible to create a video player in which all the controls
 and status information are perceivable by screen reader users. So all the
 challenges to do with Flash have been overcome, no problems? Wrong.
 
-<!--more-->
 
 I [and others][] have uncovered what appears to be a [little publicised][] or
 little known flaw that renders some of the "embed codes" displayed at sites like YouTube, Vimeo et al completely inaccessible.
