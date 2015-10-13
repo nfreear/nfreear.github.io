@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="google-site-verification" content="a8AX3Ei4nRM-IYgCtzxfbOCed3HPRlXChpCYZaVBPqU" />
+  <meta name="google-site-verification" content="aQpZHJpekYdSfnJK75V3ptYoHd8vGpFhfs90_lVGqoE" />
 
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} {% unless page.title %}| {{ site.ex_tagline | strip_html | truncate: 160 }}{% endunless %}</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} {% unless page.title %}| {{ site.description | strip_html | truncate: 160 }}{% endunless %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

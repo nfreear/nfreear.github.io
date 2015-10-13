@@ -1,8 +1,8 @@
 # Site settings
 title: Nick Freear’s blog
-ex_tagline: Accessibility, e-learning, internationalization, web dev, edtech, Moodle and other stuff
 email: nfreear+@+yahoo.co.uk
-description: > # this means to ignore newlines until "baseurl:"
+description: Accessibility, e-learning, internationalization, web dev, Moodle and other stuff
+ex_long_desc: > # this means to ignore newlines until "baseurl:"
   This is an experiment!
   I’m rebooting my blog using GitHub pages & Jekyll.
   <a href="https://github.com/nfreear/nfreear.github.io">(source)</a>
@@ -21,7 +21,8 @@ description: > # this means to ignore newlines until "baseurl:"
   </i>
 #paginate: 2
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://nfreear.github.io" # the base hostname & protocol for your site
+url: "http://nick.freear.org.uk"
+#url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear
 github_username:  nfreear
 
