@@ -30,20 +30,47 @@ img[ src *= "open-media-player/badge.svg" ] {
     width: 96px; height: 24px; // x 1.2;
 }
 
+.big-me {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 7px 0;
+    margin: 1em 0;
+    background: $message-background;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+
+    em {
+        display: inline-block;
+        margin-left: 3px;
+        font-style: normal;
+        border-bottom: 2px solid transparent;
+    }
+}
+.big-me:hover {
+    text-decoration: none;
+}
+.big-me:hover em {
+    //text-decoration: underline;
+    border-color: gray;
+    transition: $transition;
+}
+
 iframe {
     display: block;
     margin: 1em auto;
     border: 6px solid #eee;
     border-radius: 5px;
 }
-iframe:hover, iframe:focus {
-    border-color: #ff6d00;  // darkorange;
-    transition: .7s;
-}
 iframe[ src *= "books.google" ] {
     width: 500px;
     height: 500px;
 }
+iframe:hover, iframe:focus, a.big-me:hover {
+    border-color: #ff6d00;  // darkorange;
+    transition: $transition;
+}
+
 
 /* Open Media Player embeds / Bootstrap embeds.
 */
@@ -79,7 +106,7 @@ iframe[ src *= "books.google" ] {
 a:hover img {
     outline: 2px solid darkorange;
     outline-offset: 4px;
-    transition: .7s;
+    transition: $transition;
 }
 
 .site-footer .text i {
@@ -95,7 +122,7 @@ a:hover img {
 .ex-site-message {
     font-size: 1.06em;
     padding: .6em 0;
-    background: #fffbfb;
+    background: $message-background;
     border-bottom: 1px solid #ccc;
 }
 .ex-site-message:hover {
@@ -121,6 +148,7 @@ pre,
 code {
     background-color: #f8f8ff;
     border-color: #ccc;
+    padding: 5px;
 }
 
 /*

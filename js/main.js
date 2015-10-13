@@ -64,6 +64,14 @@ jQuery(function ($) {
     $link.replaceWith('<div class="frame-me"><iframe src="' + url + '"></iframe></div>');
   });
 
+  $("a[ href *= _BIG_ME_ ]").each(function () {
+    var $link = $(this)
+      , url = $link.attr("href").replace(/\#\!.+/, "")
+      , text = $link.html().replace(/\#\!.+/, "");
+
+    $link.addClass("big-me").attr("href", url);  //.html(text);
+  });
+
 
   D && console.log("main.js", debug, BLOG);
 
