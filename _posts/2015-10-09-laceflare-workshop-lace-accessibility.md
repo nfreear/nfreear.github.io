@@ -55,4 +55,9 @@ Take-away messages:
 
 That's all from me today. Thanks for listening!
 
-<http://evidence.laceproject.eu>
+[Visit: _evidence.laceproject.eu_][visit]
+
+[Slide 10](http://www.slideshare.net/laceproject/learning-analytics-lace-solar-flare-2015/10#!__EMBED_ME__)
+
+
+[visit]: http://evidence.laceproject.eu#!__BIG_ME__

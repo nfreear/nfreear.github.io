@@ -4,6 +4,11 @@ title:  "Introducing ... Open Media Player"
 date:   2015-08-20 15:23:00
 categories:
 tags:   accessibility   embed   Flash   HTML5   IET-OU   multimedia   oEmbed   OU   ouplayer   usability   video   WAI-ARIA
+x-source:
+  - http://freear.org.uk/content/introducing-open-media-player
+  - http://www.open.ac.uk/blogs/LTT_IET/2015/08/introducing-open-media-player/
+  - http://cloudworks.ac.uk/tag/view/oEmbed
+x-search: https://google.co.uk/search?q="Open+Media+Player"
 ---
 
 
@@ -36,14 +41,14 @@ Some of the highlights of version 2 of Open Media Player:
 * New embeddable, themed YouTube player
 * Configurable site layout and authentication
 * [Composer][] adopted, code-base re-factored into sub-packages
-* Upgraded to [MediaElement.js][] 2.17.0
+* Upgraded to [MediaElement.js][] <del>2.17.0</del> <ins>2.18.1</ins>
 * Improved player user-interface in high-contrast (ignore colours) mode
 
 And, [lots more][releases]!
 
 Enjoy!
 
-[iet-ou.github.io/open-media-player][]
+[Visit: _iet-ou.github.io/open-media-player_][visit]
 
 [![Open Media Player][logo]][link]
 
@@ -51,17 +56,10 @@ Enjoy!
 [Composer]: http://getcomposer.org/
 [packagist]: https://packagist.org/packages/iet-ou/open-media-player "Open Media Player on Packagist"
 [releases]: https://github.com/IET-OU/open-media-player/wiki/Releases#2x
-[iet-ou.github.io/open-media-player]: http://iet-ou.github.io/open-media-player/
+[visit]: http://iet-ou.github.io/open-media-player/#!__BIG_ME__
 [link]: http://iet-ou.github.io/open-media-player/
 [example-img]: http://iet-ou.github.io/open-media-player/assets/images/omp-example.png
-[logo]: http://iet-ou.github.io/open-media-player/assets/images/omp-logo-footer.png
+[logo]: http://iet-ou.github.io/open-media-player/badge.svg
 [MediaElement.js]: http://mediaelementjs.com/
 
-
-Targets:
-
- * http://www.open.ac.uk/blogs/LTT_IET/
- * http://freear.org.uk/content/introducing-open-media-player
- * http://cloudworks.ac.uk/tag/view/oEmbed
-
-<!-- https://google.co.uk/search?q="Open+Media+Player" -->
+[End]: end
