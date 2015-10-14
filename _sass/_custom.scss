@@ -19,6 +19,16 @@ abbr {
     cursor: help;
 }
 
+noscript,
+.comments-disabled {
+    font-size: $small-font-size;
+    text-align: center;
+    padding: 3px;
+    background: $message-background;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 .site-nav .menu-icon svg path {
     fill: #ee7600;  //darkorange; //#a22; //Was: #151515;
 }
@@ -66,13 +76,31 @@ img[ src *= "open-media-player/badge.svg" ] {
     transition: $transition;
 }
 
+//[ href ^= javascript ] {outline:1px solid red}
+//[ role = button ] {outline: 1px solid green}
+
+#x-idc-comments-loading span,
+#x-idc-comments-loading,
 iframe {
     display: block;
+    font-size: 1.1em;
+    text-align: center;
+    min-height: 90px;
     margin: 1em auto;
     border: 6px solid #eee;
     border-radius: 5px;
-    background: #eee url(http://throbber.net/loader-large.gif) no-repeat center;
+    //background: url(http://throbber.net/loader-large.gif);
+    background: #eee url(/assets/loader-large.gif) no-repeat center;
+    background-size: contain;
 }
+#x-idc-comments-loading {
+    background-image: none;
+}
+#IDCommentsPostTitle,
+#idc-container {
+    display: none;
+}
+
 iframe[ src *= "books.google" ] {
     width: 500px;
     height: 500px;

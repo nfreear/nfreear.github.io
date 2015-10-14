@@ -11,7 +11,8 @@ ex_long_desc: > # this means to ignore newlines until "baseurl:"
 
   <i>
   <a href="http://nfreear.mit-license.org/"><img alt="MIT license"
-  src="https://img.shields.io/badge/license-MIT-blue.svg" title=
+  src="/assets/shields-io-license-MIT.svg"
+  data-src="https://img.shields.io/badge/license-MIT-blue.svg" title=
   "Code: source code snippets are released under an MIT license"></a>
 
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
@@ -30,10 +31,15 @@ github_username:  nfreear
 
 # Site setting extensions.
 
+ex_comments: true
+
 js_config:
   # Google Analytics.
   analytics_id: UA-8330079-6
-  comments: false
+  comment_via: IntenseDebate
+  comment_acct: "e7e6973336bc863b96ed224779c2629c"
+  comment_div: "x-idc-comments-wrap"
+  #"7a9708780eedbfa6976e905b93424255"
 
 # https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]
 date_fmt: "%-d %B %Y"

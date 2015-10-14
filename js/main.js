@@ -7,11 +7,17 @@
 
 jQuery(function ($) {
 
+  'use strict';
+
   var W = window
     , debug = W.location.search.match(/debug=1/)
     , D = W.console && debug
     , BLOG = $("#js-config").data()
     ;
+
+  BLOG.debug = debug;
+
+  $.NF_BLOG = BLOG;
 
   // Google Analytics.
   ga('create', BLOG.analytics_id, 'auto');

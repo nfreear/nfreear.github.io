@@ -59,9 +59,13 @@
 
 
 
+
+
 <div
  id="js-config"
 {% for cfg in site.js_config %} data-{{ cfg[0] }}={{ cfg[1] | jsonify }}{% endfor %}
+ data-post_title={{ page.title | jsonify }}
+ data-post_id={{ page.id | jsonify }}
 ></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -69,3 +73,8 @@
 <script src="http://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
 {% endif %}
 <script src="/js/main.js"></script>
+
+{% if site.ex_comments and page.excerpt %}
+<script src="/js/idc-comments-custom.js"></script>
+<!--<script src="//www.intensedebate.com/js/genericCommentWrapperV2.js"></script>-->
+{% endif %}

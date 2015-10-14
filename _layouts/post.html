@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{% assign is_post_page = true %}
+
 <div class="post">
 
   <header class="post-header">
@@ -14,5 +17,15 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+
+{% if site.ex_comments %}
+  <noscript>Sorry, comments require Javascript.</noscript>
+  <div id="x-idc-comments-loading">Loading comments ...<span></span></div>
+  <!--<div id="IDCommentsPostTitle">{{ page.title }}</div>-->
+  <div id="{{ site.js_config.comment_div }}"></div>
+{% else %}
+  <p class="comments-disabled">Comments disabled.</p>
+{% endif %}
 
 </div>
