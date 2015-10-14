@@ -48,7 +48,8 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.ex_long_desc }}</p>
+        {% capture cyear %}<abbr class="cy" title="Copyright &copy; 2009–{{ 'now' | date: "%Y" }}">&copy;</abbr>{% endcapture %}
+        <p class="text">{{ site.ex_long_desc | replace: "&copy;", cyear }}</p>
       </div>
     </div>
 

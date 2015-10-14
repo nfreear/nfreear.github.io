@@ -12,6 +12,12 @@
 
 a:focus { text-decoration: underline; }
 
+abbr {
+    display: inline-block;
+    padding: 0 2px;
+    border-bottom: 1px dotted gray;
+    cursor: help;
+}
 
 .site-nav .menu-icon svg path {
     fill: #ee7600;  //darkorange; //#a22; //Was: #151515;
@@ -65,6 +71,7 @@ iframe {
     margin: 1em auto;
     border: 6px solid #eee;
     border-radius: 5px;
+    background: #eee url(http://throbber.net/loader-large.gif) no-repeat center;
 }
 iframe[ src *= "books.google" ] {
     width: 500px;

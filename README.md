@@ -19,9 +19,12 @@ My legacy blog posts:
 * <http://freear.org.uk>
 
 
+See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
+
+
 ---
 
-© 2015 Nick Freear.
+© 2009-2015 Nick Freear.
 
 *  All content in `_posts` & other Markdown pages (`*.md`, `*.markdown`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -40,3 +43,4 @@ My legacy blog posts:
 [Prose.io]: http://prose.io/ "Edited via Prose.io"
 [prose-icon]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
 [GitHub pages]: https://pages.github.com/
+[tom]: https://github.com/mojombo/mojombo.github.io
