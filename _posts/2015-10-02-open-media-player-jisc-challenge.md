@@ -38,7 +38,7 @@ having a beautifully accessible player, that looks a bit "old" and clunky).
 We're excited about the potential for these innovations.
 Please show your support by voting on the Jisc Elevator web site.
 
-Also take some to look at the other great ideas people have submitted.
+Also take some time to look at the other great ideas people have submitted.
 
 Thank you!
 
