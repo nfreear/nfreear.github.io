@@ -60,5 +60,13 @@ ex_site_message: >
 ex_atbar: false
 
 
+exclude:
+  - Makefile
+  - ".htaccess"
+  - index.php
+  - _out/
+  - _bin/
+
+
 # Build settings
 markdown: kramdown

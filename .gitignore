@@ -3,3 +3,9 @@ _site
 
 *BAK*
 *copy*
+
+_out/*
+!_out/.htaccess
+
+
+# End.
