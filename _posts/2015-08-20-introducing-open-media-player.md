@@ -4,8 +4,8 @@ title:  "Introducing ... Open Media Player"
 date:   2015-08-20 15:23:00
 categories:
 tags:   accessibility   embed   Flash   HTML5   IET-OU   multimedia   oEmbed   OU   ouplayer   usability   video   WAI-ARIA
-x-source:
-  - http://freear.org.uk/content/introducing-open-media-player
+x-source: http://freear.org.uk/content/introducing-open-media-player
+x-other:
   - http://www.open.ac.uk/blogs/LTT_IET/2015/08/introducing-open-media-player/
   - http://cloudworks.ac.uk/tag/view/oEmbed
 x-search: https://google.co.uk/search?q="Open+Media+Player"

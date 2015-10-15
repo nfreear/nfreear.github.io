@@ -38,7 +38,7 @@ Example embed for HTML 4.01:
 In HTML5, the [`<applet>` element is obsolete][applet], not deprecated.
 So, we use the [generic `<object>` element][object]. Also, we need an alternative to
 the archive, code and codebase attributes. It took me a while to work out the solution,
-with the help of the [W3C validator][wc3] – we can use the `<param>` element.
+with the help of the [W3C validator][w3c] – we can use the `<param>` element.
 
 Now, the HTML5 code:
 
