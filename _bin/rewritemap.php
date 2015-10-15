@@ -57,9 +57,6 @@ $limit = 20;
         }
         $frontmatter = $doc->getConfig();
 
-        //$frontmatter = $parser->parse( $content );
-        //$has_frontmatter = preg_match( '@^\-\-\-\n((?<key>[\w\-]+): +(?<val>.+)\n)+\-\-\-\n@m', $content, $matches );
-
         if (! isset($frontmatter[ 'x-source' ])) {
             echo "#$idx. Skipping $path - no frontmatter" . PHP_EOL;
             break;
@@ -78,8 +75,6 @@ $limit = 20;
         $source = parse_url($frontmatter[ 'x-source' ]);
         $source_path = $source[ 'path' ];
 
-        //var_dump( $idx, $source_path, $dest_path );
-
         $rewrite_ar[ $source_path ] = $dest_path;
         $rewrite_map[] = "$source_path  $dest_path";
         $rewrite_rules[] = sprintf( REWRITE_RULE, $source_path, $dest_path );
@@ -93,12 +88,12 @@ $limit = 20;
     //$bytes = file_put_contents( '.htaccess-copy', implode( "\n", $rewrite_rules ));
     $bytes = write_php_file( $rewrite_ar );
 
-    fprintf( STDERR, "PHP file written:  %s (%d rewrite records)\n", PHP_OUT_FILE, count( $rewrite_ar ));
+    fprintf( STDERR, "PHP file written:  %s  (%d rewrite records)\n", PHP_OUT_FILE, count( $rewrite_ar ));
 
 
 
     function write_php_file( $rewrite_ar, $filename = PHP_OUT_FILE, $http_status = REDIRECT_STATUS) {
-        $base_url = get_base_url();
+        $default_url = get_base_url();
         $template = <<<EOT
 <?php
 /*
@@ -106,21 +101,21 @@ $limit = 20;
 */
 
 \$http_status = '$http_status';
-\$base_url = '$base_url';
+\$default_url = '$default_url';
 \$map = __MAP__;
 
 
     \$is_test = filter_input( INPUT_GET, 'test' );
-    \$host = filter_input( INPUT_SERVER, 'HTTP_HOST' );
-    \$path = filter_input( INPUT_SERVER, 'REDIRECT_URL' ); //REQUEST_URI
-    \$script = filter_input( INPUT_SERVER, 'SCRIPT_NAME' );
+    \$host = server_var( 'HTTP_HOST' );
+    \$path = server_var( 'REDIRECT_URL' ); //REQUEST_URI
+    \$script = server_var( 'SCRIPT_NAME' );
     \$root = str_replace( '/index.php', '', \$script );
     \$source = rtrim( str_replace( \$root, '', \$path ), '/' );
 
 
     if (isset( \$map[ \$source ]) || ! \$path) {
         if (! \$path) {
-            \$dest = \$base_url;
+            \$dest = \$default_url;
             \$source = '/';
         } else {
             \$dest = \$map[ \$source ];
@@ -129,6 +124,7 @@ $limit = 20;
 
         if (\$is_test) {
             echo "<pre>REDIRECT (test):\\n  \$source\\n>>\\n  \$dest\\n\\n(\$http_status)" . PHP_EOL;
+
         } else {
             header( \$http_status );
             header( 'Location: '. \$dest );
@@ -139,6 +135,12 @@ $limit = 20;
     header( 'HTTP/1.1 503 Service Unavailable' );
     var_dump( 'ERROR', \$path, \$root, \$source );
 
+
+    function server_var( \$key ) {
+        //Was: filter_input( INPUT_SERVER, \$key )
+        return isset(\$_SERVER[ \$key ]) ? \$_SERVER[ \$key ] : null;
+    }
+
 #End.
 
 EOT;
@@ -146,7 +148,6 @@ EOT;
              '__MAP__' => var_export( $rewrite_ar, true ),
              '__TIME__' => date( 'c' ),
          ));
-         //$php = sprintf( $template, var_export( $rewrite_ar, true ));
          $bytes = file_put_contents( $filename, $php );
          return $bytes;
     }
@@ -156,8 +157,6 @@ function get_base_url() {
     $config_file = './_config.yml';
     $content = file_get_contents( $config_file );
     $has_config = preg_match( '@\nurl: "?+(?P<url>.+?)"?\n@', $content, $matches );
-
-    //var_dump( $config_file, $matches);
 
     return $matches[ 'url' ];
 }
