@@ -20,7 +20,7 @@ ex_long_desc: > # this means to ignore newlines until "baseurl:"
   src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" title=
   "Content: released under a Creative Commons Attribution-ShareAlike 4.0 License"></a>
   </i>
-#excerpt_separator: "<!--more-->"
+excerpt_separator: "<!--more-->"
 #paginate: 2
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nick.freear.org.uk"
@@ -44,7 +44,7 @@ js_config:
   #"7a9708780eedbfa6976e905b93424255"
 
 # https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]
-date_fmt: "%-d %B %Y"
+date_format: "%-d %B %Y"
 
 ex_custom_nav:
   - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>

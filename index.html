@@ -9,14 +9,14 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {% capture date_format %}{{ site.date_fmt | default: "%b %-d, %Y" }}{% endcapture %}
-        <span class="post-meta">{{ page.date | date: date_format }}</span>
+        {% capture date_format %}{{ site.date_format | default: "%b %-d, %Y" }}{% endcapture %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         {% if site.ex_excerpt_truncate %}
-          <p>{{ post.excerpt | strip_html | truncatewords: site.ex_excerpt_truncate }}
+          <p>{{ post.excerpt | strip_html | truncatewords: site.ex_excerpt_truncate,"&hellip;" }}
           <a class="more" href="{{ post.url | prepend: site.baseurl }}">More<i class="sr-only"> on {{ post.title }}</i></a>
         {% endif %}
       </li>

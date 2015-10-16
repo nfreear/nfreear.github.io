@@ -34,7 +34,7 @@ noscript,
 }
 
 .post-list a.more:after {
-    content: "...";
+    content: "\2026";  //&hellip;
 }
 
 img[ src *= "open-media-player/badge.svg" ] {
