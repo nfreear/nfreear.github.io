@@ -15,8 +15,10 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p>{{ post.content | strip_html | truncate: 220 }}
-        <a class="more" href="{{ post.url | prepend: site.baseurl }}">More<i class="sr-only"> on {{ post.title }}</i></a>
+        {% if site.ex_excerpt_truncate %}
+          <p>{{ post.excerpt | strip_html | truncatewords: site.ex_excerpt_truncate }}
+          <a class="more" href="{{ post.url | prepend: site.baseurl }}">More<i class="sr-only"> on {{ post.title }}</i></a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

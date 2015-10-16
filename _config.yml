@@ -31,6 +31,8 @@ github_username:  nfreear
 
 # Site setting extensions.
 
+# 'truncatewords: 28' (Was: truncate: 220)
+ex_excerpt_truncate: 28
 ex_comments: true
 
 js_config:
