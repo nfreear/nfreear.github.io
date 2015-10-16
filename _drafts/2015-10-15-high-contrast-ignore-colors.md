@@ -1,8 +1,12 @@
 ---
 published: false
+layout: post
+title:  High contrast and ignore colours
+date:   2009-10-15 22:00:00
+categories:
+tags:   high contrast  ignore-color  accessibility  low vision  fixes  javascript  css
 ---
 
-## High contrast and ignore colours
 
 Recently, I've been doing some one accessibility fixes for a project I maintain - the [LACE Evidence Hub][]. I am also doing some accessibility evaluations of other sites.
 
@@ -31,10 +35,11 @@ While the first part of the fix is fairly generic, the second part is specific t
 
 
 
-
 [LACE Evidence Hub]: http://evidence.laceproject.eu
 [Open Media Player]: http://iet-ou.github.io/open-media-player
 [webaim]: http://webaim.org/articles/visual/lowvision "WebAIM - Web accessibility in mind"
+[useful]: http://ux.stackexchange.com/questions/27992/is-high-contrast-mode-really-useful
 [ignore-color.jquery.js]: https://gist.github.com/nfreear/c82581b4485cd303150d
+
 
 [End]: end

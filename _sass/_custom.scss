@@ -142,10 +142,20 @@ iframe:hover, iframe:focus, a.big-me:hover {
   padding-bottom: 75%;
 }
 
+.post-content a img {
+    outline: 2px solid #ccc;
+    outline-offset: 5px;
+}
 a:hover img {
     outline: 2px solid darkorange;
-    outline-offset: 4px;
+    outline-offset: 5px;
     transition: $transition;
+}
+
+img[ src *= flickr ] {
+    width: 85%;
+    display: block;
+    margin: 25px auto;
 }
 
 .site-footer .text i {
