@@ -2,13 +2,13 @@
 published: false
 layout: post
 title:  High contrast and ignore colours
-date:   2009-10-15 22:00:00
+date:   2015-10-15 22:00:00
 categories:
-tags:   high contrast  ignore-color  accessibility  low vision  fixes  javascript  css
+tags:   high-contrast  ignore-color  accessibility  low-vision  fixes  javascript  css
 ---
 
 
-Recently, I've been doing some one accessibility fixes for a project I maintain - the [LACE Evidence Hub][]. I am also doing some accessibility evaluations of other sites.
+Recently, I've been doing some accessibility fixes for a project I maintain - the [LACE Evidence Hub][]. I am also doing some accessibility evaluations of other sites.
 
 And so, I've been revisiting some work I did previously for [Open Media Player][] on fixing high-contrast related bugs and issues
 
