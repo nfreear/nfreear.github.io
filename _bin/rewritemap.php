@@ -1,8 +1,9 @@
 <?php
 <<<CONFIG
 packages:
-    - "theseer/directoryscanner: *"
-    - "vkbansal/frontmatter: *"
+    - "theseer/directoryscanner: ~1.3.1"
+    - "vkbansal/frontmatter: ~1.3.2"
+    # (symfony/yaml: 2.7.5)
     #- "devster/frontmatter: *"
 CONFIG;
 /**
@@ -12,7 +13,6 @@ CONFIG;
 *     Usage:  $  ../melody.phar run -vvv _bin/rewritemap.php
 *
 * @copyright Nick Freear, 15 October 2015.
-*
 * @link  https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewritemap
 */
 
@@ -22,6 +22,7 @@ use VKBansal\FrontMatter\Document;
 define( 'PHP_OUT_FILE', '_out/index.php' );
 define( 'REWRITE_RULE', 'RewriteRule  %s %s [R]');
 define( 'JEKYLL_POST_FILE_RE', '@^(?<yr>\d{4})-(?<mo>\d{2})-(?<dy>\d{2})-(?P<slug>[\w-]+)\.@' );
+define( 'YAML_MULTI_DOC_EXCEPT_RE', '@(^[-]{3}\n.+\n[-]{3}\n.+)([-]{3,})@ms' );
 define( 'REDIRECT_STATUS', 'HTTP/1.1 307 Temporary Redirect' );
 
 $limit = 20;
@@ -37,6 +38,7 @@ $limit = 20;
 
     $scanner = new \TheSeer\DirectoryScanner\DirectoryScanner;
     //$scanner->addExclude('./*');
+    $scanner->addExclude('./_drafts/*');
     $scanner->addInclude('*.md');
     $scanner->addInclude('*.markdown');
     $scanner->addInclude('./_posts/*');
@@ -47,7 +49,7 @@ $limit = 20;
         $content = file_get_contents( $path );
 
         // Try to prevent YAML exception - 'Multiple documents are not supported.'
-        $content = preg_replace( '@(^[-]{3}\n.+\n[-]{3}\n.+)([-]{3,})@ms', '$1\-\-\-', $content );
+        $content = preg_replace( YAML_MULTI_DOC_EXCEPT_RE, '$1\-\-\-', $content );
 
         try {
             $doc = Parser::parse( $content );
