@@ -1,0 +1,20 @@
+
+<div
+ id="js-config"
+{% for cfg in site.js_config %} data-{{ cfg[0] }}={{ cfg[1] | jsonify }}{% endfor %}
+ data-post_title={{ page.title | jsonify }}
+ data-post_id={{ page.id | jsonify }}
+ data-post_count="{{ site.posts | size | jsonify }}"
+ data-site_time={{ site.time | jsonify }}
+></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+{% if page.url != '/index.html' %}
+<script src="http://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
+{% endif %}
+<script src="/js/main.js"></script>
+
+{% if site.ex_comments and page.excerpt %}
+<script src="/js/idc-comments-custom.js"></script>
+{% comment %}<script src="//www.intensedebate.com/js/genericCommentWrapperV2.js"></script>{% endcomment %}
+{% endif %}
