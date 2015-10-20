@@ -3,7 +3,7 @@ layout: post
 title:  Nomensa’s open source Accessible Media Player – first look
 date:   2012-01-27 23:02:00
 categories:
-tags:   [ media player, opensource, review, video ]
+tags:   [ media player, open source, review, video ]
 x-source:  http://freear.org.uk/content/nomensa-accessible-media-player
 x-comments: 3
 x-comment-url: http://freear.org.uk/content/nomensa-accessible-media-player#comment-85
