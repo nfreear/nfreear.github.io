@@ -3,7 +3,7 @@ layout: post
 title:  oEmbed isn't dead – here's OU Embed!
 date:   2013-04-23 11:22:00
 categories:
-tags:   oembed  ou  ouplayer
+tags:   oembed  ou  ouplayer  IET-OU
 x-source: http://freear.org.uk/content/oembed-isnt-dead-heres-ou-embed
 
 x-slug: 2013-04-23-oembed-isnt-dead-heres-ou-embed

@@ -3,7 +3,11 @@ layout: post
 title:  SoLAR Flare workshop – LACE evidence hub accessibility
 date:   2015-10-09 15:57:00
 categories:
-tags:   accessibility  IET-OU   LACE  event  workshop
+tags:   accessibility  analytics  IET-OU   LACE  event  workshop
+x-type: event
+x-event-start: 2015-10-09 09:30 +0100
+x-note: Friday, 9 October 2015 from 09:30 to 16:30 (BST)
+x-event-url: https://eventbrite.co.uk/e/lace-solar-flare-2015-research-into-practice-tickets-17367324134
 ---
 
 
@@ -59,6 +63,9 @@ That's all from me today. Thanks for listening!
 
 [Slide 10](http://slideshare.net/laceproject/learning-analytics-lace-solar-flare-2015/10#!__EMBED_ME__)
 
+[LACE SoLAR Flare 2015 Delegate Pack][pack]
+
 
 [Extended talk, on YouTube.]: https://youtu.be/YC7NBEuCVUo#!__EMBED_ME__
 [visit]: http://evidence.laceproject.eu#!__BIG_ME__
+[pack]: http://www.laceproject.eu/blog/lace-solar-flare-2015-pack/

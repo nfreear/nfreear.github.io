@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Media Player – Jisc Accessible by Design challenge"
+title:  Open Media Player – Jisc Accessible by Design challenge
 date:   2015-10-02 13:19:00
 categories:
 tags:   accessibility  IET-OU   multimedia   oEmbed   OU   ouplayer   Jisc

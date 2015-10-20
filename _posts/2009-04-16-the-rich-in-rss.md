@@ -3,7 +3,7 @@ layout: post
 title:  The rich in RSS
 date:   2009-04-16 10:21:00
 categories:
-tags:   event  Google Calendar   RememberTheMilk  RSS  standards
+tags:   [ event, Google Calendar, RememberTheMilk, RSS, standards ]
 x-source:  http://freear.org.uk/content/rich-rss
 ---
 

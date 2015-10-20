@@ -3,7 +3,7 @@ layout: post
 title:  Creative Commons Licenses for software – just say "NO"
 date:   2011-03-25 21:52:00
 categories:
-tags:   creative commons   free software   opensource
+tags:   [ creative commons, free software, open source ]
 x-source:  http://freear.org.uk/content/creative-commons-licenses-software-just-say-no
 x-comments: 5
 x-comment-url: http://freear.org.uk/content/creative-commons-licenses-software-just-say-no#comment-53
