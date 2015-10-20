@@ -2,6 +2,9 @@
  * Custom CSS.
  */
 
+h1,h2,h3,h4,h5, .site-title {
+    color: #333;
+}
 
 /* Accessibility [a11y].
  */
@@ -101,6 +104,10 @@ iframe {
     display: none;
 }
 
+.no-js-local #x-idc-comments-loading span {
+    background: none;
+}
+
 iframe[ src *= "books.google" ] {
     width: 500px;
     height: 500px;
@@ -198,6 +205,21 @@ code {
     background-color: #f8f8ff;
     border-color: #ccc;
     padding: 5px;
+}
+
+
+/* IntenseDebate accessibility [Bug: #3][a11y]
+*/
+body #idc-container h3 {
+    font-size: 1.4em; //22px;
+}
+body #idc-container h3[ aria-level ] {
+    font-size: 1.8em;
+}
+body #idc-container textarea.idc-text_noresize {
+    font-size: 1.1em;
+    color: #111;
+    max-width: 99%;
 }
 
 /*
