@@ -2,10 +2,15 @@
  * CSE search.
  */
 
+.site-nav a[ href *= search ] {
+    display: none;
+}
+
 .wrapper > [ role = search ] {
     min-height: 24em;
     transition: all 1s;
 }
+
 
 .gsc-search-box-tools .gsc-search-box .gsc-input {
     font-size: 1.1em;
