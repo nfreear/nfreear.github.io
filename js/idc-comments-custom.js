@@ -3,6 +3,7 @@
 
   @link  http://www.intensedebate.com/js/genericCommentWrapperV2.js
   @copyright Nick Freear, 29 September-14 October 2015.
+  @license MIT
 */
 
 jQuery(function ($) {
@@ -15,6 +16,7 @@ jQuery(function ($) {
       "#idc-container #txtEmailNewThread": { type: "email", placeholder: "joe@example.org" },
       "#IDCommentsNewThreadCover h3:first": { id: "x-idc-heading-2" },
       "#idc-container textarea": { required: "required", placeholder: "Enter comment", "aria-labelledby": "x-idc-heading-2" },
+      "#idc-container h3:first": { "aria-level": 2 },
       "#idc-container": { role: "section", "aria-labelledby": "idc-commentcount_label"}
       //"#idc-commentcount_label": { role: "heading", "aria-level": 3 }
     }
@@ -46,6 +48,12 @@ jQuery(function ($) {
   $.each(params, function (key, value) {
     script_src += "&" + key + "=" + encodeURIComponent(value);
   });
+
+  if ('localhost' === W.location.hostname && ! BLOG.js_local) {
+    $("body").addClass("no-js-local");
+    W.console && console.log("Localhost – no comments!");
+    return;
+  }
 
   $("head").append('<script src="' + script_src + '"></script>');
 
