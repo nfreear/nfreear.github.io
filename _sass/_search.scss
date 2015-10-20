@@ -1,0 +1,26 @@
+/*!
+ * CSE search.
+ */
+
+.wrapper > [ role = search ] {
+    min-height: 24em;
+    transition: all 1s;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+    font-size: 1.1em;
+    color: #333;
+}
+body .gsc-input-box {
+    border: 1px solid #888;
+    border-radius: 4px;
+    height: 1.95em;
+}
+body .gsc-control-cse {
+    padding: 10px 5px;
+    border-radius: 6px;
+}
+.gsc-adBlock iframe {
+    border: none;
+    background: none;
+}
