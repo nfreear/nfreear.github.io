@@ -7,5 +7,7 @@ _site
 _out/*
 !_out/.htaccess
 
+blog.md
+
 
 # End.
