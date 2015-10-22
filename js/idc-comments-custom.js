@@ -17,8 +17,8 @@ jQuery(function ($) {
       "#IDCommentsNewThreadCover h3:first": { id: "x-idc-heading-2" },
       "#idc-container textarea": { required: "required", placeholder: "Enter comment", "aria-labelledby": "x-idc-heading-2" },
       "#idc-container h3:first": { "aria-level": 2 },
-      "#idc-container": { role: "section", "aria-labelledby": "idc-commentcount_label"}
-      //"#idc-commentcount_label": { role: "heading", "aria-level": 3 }
+      // "region" or nested "article"?
+      "#idc-container": { role: "region", "aria-labelledby": "idc-commentcount_label"}
     }
     , BLOG = $.NF_BLOG
     , $loader = $("#x-idc-comments-loading")
@@ -67,15 +67,13 @@ jQuery(function ($) {
     // 5. ..And, apply accessibility fixes.
     $.each(accessibility_fixes, function (sel, attr) {
         $(sel).attr(attr);
-
-        D && console.log(sel, attr);
     });
 
     // 6. Hide loading message, show comment HTML.
     $loader.hide("slow");
     $("#idc-container").show("slow");
 
-    D && console.log("comment.js: ", W.idcomments_post_id, W.idcomments_post_url, BLOG);
+    D && console.log("comment.js: ", accessibility_fixes, BLOG);
   });
 
 
