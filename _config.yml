@@ -48,6 +48,8 @@ js_config:
 # https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]
 date_format: "%-d %B %Y"
 
+ex_feed_limit: 30  # Default: 10;
+
 ex_custom_nav:
   - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>
   #- <a href="#">Test 2</a>
@@ -69,6 +71,7 @@ exclude:
   - Makefile
   - ".htaccess"
   - index.php
+  - blog.md
   - _out/
   - _bin/
 
