@@ -4,7 +4,7 @@ title:  High contrast and ignore colours
 x-created:  2015-10-15 22:00:00
 date:   2015-10-23 15:20:00 +0000
 categories:
-tags:   ignore-color  accessibility  low-vision  fixes  javascript  css
+tags:   ignore-color  accessibility  low-vision  fixes  javascript  css  ouplayer  LACE
 ---
 
 
@@ -38,14 +38,14 @@ either `ignore-color` or `no-ignore-color`. The Javascript is fairly lightweight
 the only cost is that the test is run [every 4-8 seconds][tag-int] via `setInterval()`.
 (As far as I know, there is no alternative -- ideally one would detect a Javascript event fired when the user changes their configuration.)
 
-Note, the `ignore-color` Javascript is based on [work by John Snyders][work].
+Note, the `ignore-color` Javascript is based on [work by John Snyders][snyders].
 
 While the first part of the fix is fairly generic, the second part is specific to each web site.
 The body-class set by the Javascript can be employed in CSS stylesheets, to take remedial actions.
 
 A lot of the CSS fixes will involve colours and colour combinations. Your initial reaction
-may be -- help! "I don't know what specific settings or high-contrast theme the user has
-chosen. So, how do I select safe colours?"
+may be -- “Help! I don't know what specific settings or high-contrast theme the user has
+chosen. So, how do I select safe colours?”
 
 The answer can be found in the use of [operating system styles][sitepoint].
 These are a set of pre-defined terms in CSS, that tell the browser to use your
@@ -62,7 +62,8 @@ note this is applied to SVG, hence the use of `stroke`:
 {% endhighlight %}
 
 `Highlight` is one of the pre-defined system styles, which produces the green
-Sankey diagram on the right of the first screen shot.
+bars in the Sankey diagram on the right of the first screen shot, in high contrast mode.
+In "normal" mode, the bars in the diagram are a light grey.
 
 [![Screen shot 1 - high contrast Sankey SVG][img-1]][slideshare]
 
@@ -74,11 +75,11 @@ Note, the `border-style` property must be `inset` to overcome a Firefox restrict
 /* Firefox requires "inset" in ignore-color mode for form fields. */
 .ignore-color input, .ignore-color textarea {
         border: 2px inset ButtonText;
-        box-shadow: none;
 }
 {% endhighlight %}
 
-And, here's a screen shot showing the result of the fix, on the right.
+And, here's a screen shot showing the result of the fix, again on the right.
+As you may be able to see, the edges of the form fields are more noticeable, after the fix.
 
 ![Screen shot 2 - ignore-colour form & video][img-2]
 
@@ -86,7 +87,9 @@ And, here's a screen shot showing the result of the fix, on the right.
 So there you have it.
 [Re-usable Javascript][js], and an example of [CSS stylesheet fixes][css].
 
-Now. Go experiment.
+Not, pretty, but pragmatic accessibility fixes for high contrast and ignore-colour settings.
+
+Now. Go experiment!
 
 
 
@@ -97,12 +100,12 @@ Now. Go experiment.
 [webaim]: http://webaim.org/articles/visual/lowvision "WebAIM - Web accessibility in mind"
 [useful]: http://ux.stackexchange.com/questions/27992/is-high-contrast-mode-really-useful
 
-[js]: https://gist.github.com/nfreear/c82581b4485cd303150d "ignore-color.jquery.js – License: MIT. On GitHub"
-[work]: http://hardlikesoftware.com/weblog/2009/11/04/css-sprites-vs-high-contrast-mode/
-    "CSS sprites vs. high contrast mode, November 4, 2009, by John Snyders (public domain)"
+[js]: https://gist.github.com/nfreear/c82581b4485cd303150d "ignore-color.jquery.js – on GitHub. License: MIT"
+[snyders]: http://hardlikesoftware.com/weblog/2009/11/04/css-sprites-vs-high-contrast-mode/
+    "CSS sprites vs. high contrast mode, November 4, 2009, by John Snyders (Code: public domain)"
 
 [css]: https://github.com/IET-OU/wp-iet-generic-plugins/blob/master/css/wp-eh-ignore-color.css#L19-L22
-    "wp-eh-ignore-color.css – on GitHub"
+    "wp-eh-ignore-color.css – on GitHub. License: GPL"
 [sys]: http://webdesign.about.com/od/colorcharts/l/blsystemcolors.htm
 [sitepoint]: http://www.sitepoint.com/css-system-styles/
     "How to Use Operating System Styles in CSS, by Craig Buckler, August 11, 2009"
@@ -115,6 +118,6 @@ Now. Go experiment.
     "Screen shot 2 – before and after the fix"
 
 [tag-X]: javascript:return%20false "You decide!"
-[tag-int]: #!tag "You decide the time interval! We try to strike a balance.."
+[tag-int]: #!tag "You decide the time interval! Try to strike a balance.."
 
 [End]: end

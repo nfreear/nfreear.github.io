@@ -3,7 +3,7 @@ layout: post
 title:  "Introducing ... Open Media Player"
 date:   2015-08-20 15:23:00
 categories:
-tags:   accessibility   embed   Flash   HTML5   IET-OU   multimedia   oEmbed   OU   ouplayer   usability   video   WAI-ARIA
+tags:   [ accessibility, Flash, HTML5, IET-OU, multimedia, oEmbed, OU, ouplayer, video, WAI-ARIA, "open source" ]
 x-source: http://freear.org.uk/content/introducing-open-media-player
 x-other:
   - http://www.open.ac.uk/blogs/LTT_IET/2015/08/introducing-open-media-player/
@@ -12,7 +12,10 @@ x-search: https://google.co.uk/search?q="Open+Media+Player"
 ---
 
 
-I'm very happy to announce that we have released Open Media Player (formerly called OU Media Player), as a free/open source project. It has been our intention for a while to make the code open source, and we were finally able to plan in the time to make it happen.
+I'm very happy to announce that we have released Open Media Player
+(formerly called OU Media Player), as a free/open source project.
+It has been our intention for a while to make the code open source,
+and we were finally able to plan in the time to make it happen.
 
 <!--more-->
 
@@ -32,7 +35,8 @@ We decided to open source because:
 
  5. Educational – help others learn from our best-practices and our mistakes.
 
-We've done a lot of work to make the Player straightforward to install, and hopefully understand. Installation via [Composer][packagist] is as simple as copying and pasting this at a terminal:
+We've done a lot of work to make the Player straightforward to install, and hopefully understand.
+installation via [Composer][packagist] is as simple as copying and pasting this at a terminal:
 
 ```
     composer create-project iet-ou/open-media-player --no-dev -sdev --prefer-dist

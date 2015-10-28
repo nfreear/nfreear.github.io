@@ -3,7 +3,7 @@ layout: post
 title:  OU Annotate
 date:   2012-04-04 21:37:00
 categories:
-tags:   bookmark  ou  social  tool
+tags:   bookmark  OU  social  tool
 x-source: http://freear.org.uk/content/ou-annotate
 x-comments: 1
 x-comment-url: http://freear.org.uk/content/ou-annotate#comment-499

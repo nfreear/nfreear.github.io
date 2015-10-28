@@ -71,9 +71,12 @@ exclude:
   - Makefile
   - ".htaccess"
   - index.php
-  - blog.md
+  - _posts/_blog.md
   - _out/
   - _bin/
+
+include:
+  - _pages
 
 
 # Build settings
