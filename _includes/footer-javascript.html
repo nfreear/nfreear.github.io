@@ -9,9 +9,13 @@
 ></div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-{% if page.url != '/index.html' %}
+{% case page.url %}
+{% when '/index.html' or '/tag/' or '/search/' %}
+<!--no-embed-->
+{% else %}
 <script src="http://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
-{% endif %}
+{% endcase %}
+<!--page.url: {{ page.url }} -->
 <script src="/js/main.js"></script>
 
 {% if site.ex_comments and page.excerpt %}
