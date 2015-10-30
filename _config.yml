@@ -41,8 +41,8 @@ js_config:
   # comment_acct was: "7a9708780eedbfa6976e905b93424255"
   comment_via: IntenseDebate
   comment_acct: "e7e6973336bc863b96ed224779c2629c"
-  comment_div: x-idc-comments-wrap
-  #js_local: 0
+  comment_div: comments  # Was: x-idc-comments-wrap;
+  #js_local: 1
 
 
 # https://github.com/Shopify/liquid/wiki/Liquid-for-Designers#standard-filters [ "%b %-d, %Y"  ]

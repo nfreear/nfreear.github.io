@@ -160,9 +160,12 @@ a:hover img {
 }
 
 img[ src *= flickr ] {
-    width: 85%;
+    width: 92%;
     display: block;
     margin: 25px auto;
+}
+.flickr-embed-frame {
+    display: none;
 }
 
 .site-footer .text i {
@@ -205,6 +208,20 @@ code {
     background-color: #f8f8ff;
     border-color: #ccc;
     padding: 5px;
+}
+p > code, li > code {
+    padding: 2px;
+    border-color: #ddd;
+    font-size: 1em;
+}
+
+.post-content table {
+    margin: 1em 0;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.post-content table td {
+    padding: 8px;
 }
 
 

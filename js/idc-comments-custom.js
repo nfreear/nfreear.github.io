@@ -25,6 +25,9 @@ jQuery(function ($) {
     , $wrapper = $("#" + BLOG.comment_div)
     , W = window
     , D = W.console && BLOG.debug
+    // "#IDComment1000836892"
+    , comment_hash_re = /(#IDComment(\d+))/
+    , m_hash = W.location.hash.match(comment_hash_re)
     , script_src = "//intensedebate.com/js/genericCommentWrapper2.php?"
 
     // 1. Comment configuration.
@@ -75,6 +78,18 @@ jQuery(function ($) {
 
     D && console.log("comment.js: ", accessibility_fixes, BLOG);
   });
+
+  // 7. 
+  if (m_hash) {
+    when_call(function () {
+      return $(m_hash[ 1 ]).length;
+    },
+    function () {
+      D && console.log("Comment-scroll: ", m_hash);
+      //$("#IDThread" + m_hash[ 2 ]).attr("tabindex", 0).focus();
+      $(m_hash[ 1 ]).attr({ tabindex: 0 }).focus();
+    });
+  }
 
 
   function when_call(when_true_FN, callback_FN, interval) {
