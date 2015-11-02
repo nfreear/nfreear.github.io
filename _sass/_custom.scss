@@ -163,9 +163,11 @@ a:hover img {
 }
 
 img[ src *= flickr ] {
-    width: 92%;
+    max-width: 92%;
+    max-height: 460px;
     display: block;
     margin: 25px auto;
+    border-radius: 5px;
 }
 .flickr-embed-frame {
     display: none;
