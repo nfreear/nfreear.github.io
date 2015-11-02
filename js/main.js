@@ -70,12 +70,17 @@ jQuery(function ($) {
     $link.replaceWith('<div class="frame-me"><iframe src="' + url + '"></iframe></div>');
   });
 
-  $("a[ href *= _BIG_ME_ ]").each(function () {
+  $("a[ href *= _ME_ ]").each(function () {
     var $link = $(this)
-      , url = $link.attr("href").replace(/\#\!.+/, "")
+      , url = $link.attr("href")
+      , m = url.match(/\#\!?__?((BIG|[A-Z]+)_ME)_/i)
+      , url_clean = url.replace(/\#\!.+/, "")
       , text = $link.html().replace(/\#\!.+/, "");
 
-    $link.addClass("big-me").attr("href", url);  //.html(text);
+    if (m) {
+      $link.addClass(m[ 1 ].toLowerCase() + " x-me").attr("href", url_clean);  //.html(text);
+    }
+    D && console.log("big-me: ", m);
   });
 
 

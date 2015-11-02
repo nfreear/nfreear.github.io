@@ -2,8 +2,9 @@
 layout: post
 title:  Open Media Player – Jisc Accessible by Design challenge
 date:   2015-10-02 13:19:00
+x-errata-data: 2 November 2015 11:44
 categories:
-tags:   accessibility  IET-OU   multimedia   oEmbed   OU   ouplayer   Jisc
+tags:   accessibility  IET-OU   multimedia   oEmbed  OU  ouplayer  Jisc  errata
 ---
 
 
@@ -14,7 +15,7 @@ innovations we'd like us to pursue, and Jisc's competition seems like a great ve
 
 <!--more-->
 
-[Video, on YouTube.][]
+[Video comment about the proposed accessibility-related features, on YouTube.][video]
 
 We're looking at two features. The first is _interactive synchronized transcripts_.
 This should be of benefit to those with hearing impairments, and a general audience.
@@ -44,14 +45,20 @@ Thank you!
 
 [![Vote! Jisc][jisc-icon]][jisc]
 
-
 [![Open Media Player][omp-icon]][omp]
 
 
-[Video, on YouTube.]: https://youtu.be/0rj_td9wwbI#_EMBED_ME_
+[Errata: pointed out by my colleague, Martyn Cooper
+"_...It is 180,000 students and 14% declare a disability_" -- thank you & apologies!][er]
+
+
+[video]: https://youtu.be/0rj_td9wwbI#_EMBED_ME_
 [video-pod]: http://podcast.open.ac.uk/pod/open-media-player#!c0370d88c0
 [omp]: http://iet-ou.github.io/open-media-player/
 [omp-icon]: http://iet-ou.github.io/open-media-player/badge.svg "Open Media Player"
 [jisc]: https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player
 [jisc-icon]: https://img.shields.io/badge/Jisc-vote_%E2%9C%93-ff6d00.svg
   "Vote for us in the Jisc Accessible by Design challenge"
+
+[er]: https://facebook.com/natalie.eggleston/posts/10152960557061887?comment_id=10152960576271887#!_BORDER_ME_
+    "Correction by Martyn Cooper, 16 October 2015, on Facebook"

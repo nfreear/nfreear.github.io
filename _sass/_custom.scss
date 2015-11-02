@@ -53,12 +53,15 @@ img[ src *= "open-media-player/badge.svg" ] {
     width: 96px; height: 24px; // x 1.2;
 }
 
-.big-me {
-    display: block;
+.big_me {
     text-align: center;
     font-size: 1.3em;
-    padding: 7px 0;
-    margin: 1em 0;
+}
+.x-me {
+    display: block;
+    padding: 7px; //7px 0;
+    //margin: 1.2em 0;
+    margin: 23px 0;
     background: $message-background;
     border: 2px solid #ddd;
     border-radius: 6px;
@@ -66,14 +69,14 @@ img[ src *= "open-media-player/badge.svg" ] {
     em {
         display: inline-block;
         margin-left: 3px;
-        font-style: normal;
+        //font-style: normal;
         border-bottom: 2px solid transparent;
     }
 }
-.big-me:hover {
+.x-me:hover {
     text-decoration: none;
 }
-.big-me:hover em {
+.x-me:hover em {
     //text-decoration: underline;
     border-color: gray;
     transition: $transition;
@@ -112,7 +115,7 @@ iframe[ src *= "books.google" ] {
     width: 500px;
     height: 500px;
 }
-iframe:hover, iframe:focus, a.big-me:hover {
+iframe:hover, iframe:focus, a.x-me:hover {
     border-color: #ff6d00;  // darkorange;
     transition: $transition;
 }
