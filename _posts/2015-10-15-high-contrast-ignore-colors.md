@@ -27,9 +27,11 @@ Under such settings, background images used on buttons and elsewhere will disapp
 
 Obviously, it's better to consider this situation upfront, and take care how background images and other styling is used. However, if you find that you need to fix a site after the fact, is there anything you can do?
 
-Yes!
+Why ... yes!
 
 This accessibility fix comprises two parts.
+
+## The Javascript
 
 This is one of the rare cases where we can detect how the user has set up their computer. First, the small Javascript script, [ignore-color.jquery.js][js], can be employed. It runs a test periodically by creating a hidden HTML element, setting its background colour, then detecting if the specified colour is still in use. If the user has used any sort of high contrast or "ignore-colour" setting in the operating system or browser, then the assigned colour will not be used -- the test will "fail".
 
@@ -39,6 +41,8 @@ the only cost is that the test is run [every 4-8 seconds][tag-int] via `setInter
 (As far as I know, there is no alternative -- ideally one would detect a Javascript event fired when the user changes their configuration.)
 
 Note, the `ignore-color` Javascript is based on [work by John Snyders][snyders].
+
+## The styles
 
 While the first part of the fix is fairly generic, the second part is specific to each web site.
 The body-class set by the Javascript can be employed in CSS stylesheets, to take remedial actions.

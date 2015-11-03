@@ -37,7 +37,7 @@ standard dependency-manager for PHP, [Composer][], in my next project.
 This was the [LACE Evidence Hub][LACE-EH], for Doug Clow and Rebecca Ferguson.
 
 The LACE Evidence Hub was also built on WordPress, and grew in part out of the work
-on the OER Research Hub. Part of what helped me decide on Composer, was [this 2013 post][]
+on the OER Research Hub. Discoveries that helped me decide on Composer were [this 2013 post][],
 and the discovery of the [WordPress Packagist][] repository.
 
 
@@ -62,7 +62,7 @@ Here's a short JSON example:
 
 Here is a [longer example][ex-2]:
 
-{% highlight json %}
+{% highlight json linenos %}
 "require": {
     "php": ">=5.3.3",
     "fancyguy/webroot-installer": "1.1.0",
@@ -88,7 +88,7 @@ Some things worth noting:
 1. The package `../google-universal-analytics` is always required;
 2. Their are two optional WordPress versions, which can override the _default_ version (4.1);
 3. Almost all the `suggestions` use a precise version constraint -- this is safer!
-4.
+4. x
 
 
 ..
