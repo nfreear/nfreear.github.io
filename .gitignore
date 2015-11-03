@@ -4,8 +4,8 @@ _site
 *BAK*
 *copy*
 
-_out/*
-!_out/.htaccess
+_out/
+#!_out/.htaccess
 
 blog.md
 

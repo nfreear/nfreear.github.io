@@ -5,6 +5,9 @@
 
 default: serve
 
+help:
+	# Targets: serve draft rewrite count
+
 serve:
 	jekyll serve
 
