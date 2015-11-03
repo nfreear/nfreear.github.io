@@ -10,7 +10,7 @@ jQuery(function ($) {
   'use strict';
 
   var W = window
-    , debug = W.location.search.match(/debug=1/)
+    , debug = W.location.search.match(/debug=1/) // /debug=([1-9])/
     , D = W.console && debug
     , BLOG = $("#js-config").data()
     ;
@@ -58,8 +58,16 @@ jQuery(function ($) {
   */
   $.fn.oembed && $("a[ href *= _EMBED_ME_ ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
     oupodcast: { rgb: "omp-purple" },
-    youtube: { rgb: "omp-orange" },
-    debug: debug ? 2 : 0
+    youtube: { rgb: "omp-orange" }
+  },
+  function (data, undefined) {
+    // Clean up Flickr embeds :(.
+    if ("Flickr" === data.provider_name) {
+      data.code = data.code.replace(/<\/div><div.+/, "</div>"); //.replace(/<script.+/, "");
+    }
+    D && console.log("onEmbed: ", data, undefined);
+
+    $.fn.oembed.insertCode(this, "replace", data);
   });
 
 
