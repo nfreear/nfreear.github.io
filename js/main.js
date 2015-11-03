@@ -53,6 +53,13 @@ jQuery(function ($) {
     ev.preventDefault();
   });
 
+  // Add per-paragraph/ chunk navigation.
+  $("article p, article li, .highlight").each(function (cn, elem) {
+    if (! elem.id) { //$el[ 0 ].id
+      elem.id = "p-" + (cn + 1);
+    }
+  })
+
 
   /* oEmbed / Open Media Player ..
   */
