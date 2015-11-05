@@ -19,7 +19,18 @@ jQuery(function ($) {
 
   $.NF_BLOG = BLOG;
 
-  // Google Analytics.
+
+  /* Search redirect.
+  */
+  if ('/' === W.location.pathname && W.location.href.match(/[\?&]q=\w+/)) {
+    D && console.log("Redirect:", W.location);
+    W.location = '/search/' + W.location.search;
+    return;
+  }
+
+
+  /* Google Analytics.
+  */
   ga('create', BLOG.analytics_id, 'auto');
   ga('send', 'pageview');
 

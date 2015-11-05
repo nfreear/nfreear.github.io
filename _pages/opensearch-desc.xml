@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /opensearch.xml
+x-created: 2015-11-03
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>{{ site.title | xml_escape }} search</ShortName>
+  <Description>Content search for {{ site.title | xml_escape }}.</Description>
+  <Contact>nfreear@yahoo.co.uk</Contact>
+  <Url type="text/html"
+       template="{{ site.url }}{{ site.baseurl }}/search/?q={searchTerms}&amp;page={startPage}"/>
+{% comment %}<Url type="application/rss+xml"
+       template="http://freear.org.uk/opensearch/node/{searchTerms}?page={startPage}"/>{% endcomment %}
+  <LongName>Content search for {{ site.title | xml_escape }}.</LongName>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>0</AdultContent>
+  <Language>en</Language>
+</OpenSearchDescription>
