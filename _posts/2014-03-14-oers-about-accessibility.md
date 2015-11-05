@@ -27,7 +27,7 @@ Please feel free to tell me about resources that you've found useful!
 
 ### Dive Into Accessibility
 
-* URL: http://diveintoaccessibility.info
+* URL: <http://diveintoaccessibility.info>
 * Type: book, print + online
 * Copyright: Copyright © 2002 Mark Pilgrim
 * License: GNU FDL | <http://gnu.org/copyleft/fdl.html> |
