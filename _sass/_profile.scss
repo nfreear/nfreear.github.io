@@ -1,0 +1,89 @@
+/*! Profile CSS.
+*/
+
+
+@mixin icon ($domain, $favicon) {
+
+    & [ href *= "#{$domain}" ] {
+        background-image: url($favicon);
+    }
+}
+
+
+.XX-site-nav a[ href *= profile ] {
+    //display: none;
+}
+
+
+.pg-profile {
+
+    ul:nth-of-type( 1 ) {
+        margin: 1.7em 10px;
+        list-style: none;
+    }
+
+    ul:nth-of-type( 1 ) a[ href *= ":" ] {
+        padding-left: 30px;  // Was: 24px;
+        background-repeat: no-repeat;
+        background-position: left;
+        //background-size: 16px 16px;
+        background-size: 18px 18px;
+    }
+
+    li {
+        margin: 2px 0;
+    }
+
+  @include icon( "open.ac.uk", "http://www3.open.ac.uk/favicon.ico" );
+  @include icon( "cloudworks.ac.uk", "http://cloudworks.ac.uk/themes/cloudworks/favicon.ico" );
+
+  //[href*="open.ac.uk"] {background-image:url(http://www3.open.ac.uk/favicon.ico)} // http://openlearn.open.ac.uk/favicon.ico ;
+  //[href*="cloudworks.ac.uk"] {background-image:url(http://cloudworks.ac.uk/themes/cloudworks/favicon.ico)}
+
+  @include icon( "facebook.com", "https://www.facebook.com/favicon.ico" );
+  @include icon( "linkedin.com", "https://www.linkedin.com/favicon.ico" );
+  @include icon( "google.com"  , "https://www.google.com/favicon.ico" );
+  @include icon( "s.google.com", "https://plus.google.com/favicon.ico"); // plus., profiles.
+
+  @include icon( "twitter.com", "https://twitter.com/favicon.ico" );
+  @include icon( "yahoo.co"   , "https://www.yahoo.com/favicon.ico" );
+  @include icon( "delicious.com", "https://delicious.com/favicon.ico" );
+
+  @include icon( "scoop.it"   , "https://www.scoop.it/resources/img/favicon.ico" ); // http://scoop.it/favicon.ico ;
+  @include icon( "slideshare.net", "https://www.slideshare.net/favicon.ico" );
+  @include icon( "youtube.com", "https://www.youtube.com/favicon.ico" );
+  @include icon( "flickr.com" , "https://www.flickr.com/favicon.ico" );
+
+  @include icon( "github.com", "https://github.com/favicon.ico" );
+  @include icon( "bitbucket.org", "https://bitbucket.org/favicon.ico" );
+  //@include icon( "ohloh.net", "http://www.ohloh.net/favicon.ico" );
+  @include icon( "openhub.net", "https://www.openhub.net/favicon.ico" );
+  @include icon( "scraperwiki.com", "https://scraperwiki.com/favicon.ico" );
+
+  @include icon( "moodle.org", "https://moodle.org/error/favicon.ico" );
+  //Was: https://moodle.org/theme/image.php/moodleorgcleaned_moodleorg/theme/1436262404/favicons/org/favicon.ico // http://moodle.org/theme/moodleofficial/pix/favicon.ico ;
+  @include icon( "ERROR_gawds.org", "http://www.gawds.org/favicon.ico" ); // XX.
+  @include icon( "mozdev.org", "http://mozdev.org/favicon.ico" );
+
+  @include icon( "gravatar.com", "https://en.gravatar.com/favicon.ico" );
+  @include icon( "cuwebd.ning", "http://cuwebd.ning.com/favicon.ico" );
+
+  @include icon( "openlibrary.org", "https://openlibrary.org/favicon.ico" );
+  @include icon( "librarything.com", "http://www.librarything.com/favicon.ico" );
+
+  @include icon( "orcid.org", "https://orcid.org/favicon.ico" );
+
+  @include icon( "drupal.org", "http://drupal.org/favicon.ico" );
+  @include icon( "wordpress.", "https://en.wordpress.com/favicon.ico" );
+
+  @include icon( "packtpub.com", "https://www.packtpub.com/favicon.ico" );
+
+
+    p > a[ href ] {
+        background-image: none;
+    }
+
+    p {
+        margin-bottom: $spacing-unit / 1.5;
+    }
+}
