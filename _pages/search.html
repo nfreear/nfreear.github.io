@@ -12,7 +12,8 @@ x-created:   2015-10-21
 
 
   <script>
-    (function() {
+  (function(L) {
+    if (L.search.match(/[\?&]q=\w+/)) {
       var cx = '001222343498871500969:-u73i2qfu2s';
       var gcse = document.createElement('script');
       gcse.type = 'text/javascript';
@@ -21,9 +22,14 @@ x-created:   2015-10-21
           '//cse.google.com/cse.js?cx=' + cx;
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(gcse, s);
-    })();
+    }
+    //ELSE: see 'main.js'
+  })(window.location);
   </script>
-  <gcse:search><p id="x-cse-loading"> Search loading ... </p></gcse:search>
+  <gcse:search><form><p id="x-cse-loading"> Search loading ... </p></form></gcse:search>
 
+
+
+  <p id="plugin"></p>
 
 </div>

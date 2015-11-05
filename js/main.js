@@ -1,4 +1,16 @@
 
+
+/* Search redirect.
+*/
+(function (W, L) {
+  if ('/' === L.pathname && L.href.match(/[\?&]q=\w+/)) {
+    W.location = '/search/' + L.search;
+    W.console && console.log("Redirect", L);
+    //throw [ "Redirect", L ];
+  }
+}(window, window.location));
+
+
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -18,15 +30,6 @@ jQuery(function ($) {
   BLOG.debug = debug;
 
   $.NF_BLOG = BLOG;
-
-
-  /* Search redirect.
-  */
-  if ('/' === W.location.pathname && W.location.href.match(/[\?&]q=\w+/)) {
-    D && console.log("Redirect:", W.location);
-    W.location = '/search/' + W.location.search;
-    return;
-  }
 
 
   /* Google Analytics.
@@ -49,6 +52,29 @@ jQuery(function ($) {
 
     //ev.preventDefault();
   });
+
+
+  if (! W.location.search.match(/\?q=\w+/)) {
+    $("#x-cse-loading").replaceWith(
+      '<input name="q" id="gsc-i-id1" type="search" placeholder="Google custom search" required><button>Search</button>'
+    );
+    $("body").addClass("search-empty");
+  }
+
+  /* Browser search plugin button - Firefox 2+ and IE 7+, OpenSearch.
+  */
+  var $plugin = $("#plugin")
+    , $search = $("link[ rel = search ]");
+  if (W.external && ("AddSearchProvider" in W.external) && $plugin.length) {
+    var $btn = $('<a role="button">Add browser search plugin</a>')
+      .attr("href", $search.attr("href"))
+      .on("click", function () {
+        D && console.log("Search plugin:", $search.attr("href"));
+        W.external.AddSearchProvider($search.attr("href"));
+        return false;
+    });
+    $plugin.append($btn);
+  }
 
 
   /* Accessibility fixes.

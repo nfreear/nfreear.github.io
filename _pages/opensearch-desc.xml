@@ -5,7 +5,7 @@ x-created: 2015-11-03
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>{{ site.title | xml_escape }} search</ShortName>
+  <ShortName>{{ site.title | xml_escape }}</ShortName>
   <Description>Content search for {{ site.title | xml_escape }}.</Description>
   <Contact>nfreear@yahoo.co.uk</Contact>
   <Url type="text/html"

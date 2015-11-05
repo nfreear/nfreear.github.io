@@ -2,8 +2,19 @@
  * CSE search.
  */
 
-.XX-site-nav a[ href *= search ] {
-    //display: none;
+::-webkit-input-placeholder {
+    color: gray;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+a[ href *= "opensearch.xml" ] {
+    display: inline-block;
+    margin: 2em 0;
+    padding: 2px 8px;
+    background: #f4f4f4;
+    border: 1px solid #aaa;
+    border-radius: 5px;
 }
 
 .wrapper > [ role = search ] {
@@ -11,9 +22,9 @@
     transition: all 1s;
 }
 
-
+.search-empty input, .search-empty button,
 .gsc-search-box-tools .gsc-search-box .gsc-input {
-    font-size: 1.1em;
+    font-size: 1.07em;
     color: #333;
 }
 body .gsc-input-box {
@@ -44,4 +55,12 @@ body .gsc-tabHeader.gsc-tabhInactive {
 
 .gsc-input-box .gsst_a .gscb_a {
     color: navy;
+}
+
+.search-empty input {
+  min-width: 78%;
+  max-width: 92%;
+  padding: 2px;
+  border-radius: 4px;
+  margin-right: 4px;
 }
