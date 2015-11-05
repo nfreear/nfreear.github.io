@@ -2,8 +2,8 @@
  * CSE search.
  */
 
-.site-nav a[ href *= search ] {
-    display: none;
+.XX-site-nav a[ href *= search ] {
+    //display: none;
 }
 
 .wrapper > [ role = search ] {
@@ -22,10 +22,26 @@ body .gsc-input-box {
     height: 1.95em;
 }
 body .gsc-control-cse {
-    padding: 10px 5px;
+    //background: #fbfbfb;
+    background: transparent;
+    padding: 10px 6px;
+    border-color: #ccc;
     border-radius: 6px;
 }
 .gsc-adBlock iframe {
     border: none;
     background: none;
+}
+
+body .gsc-webResult.gsc-results,
+body .gsc-webResult.gsc-result {
+    //background: #fefefe;
+    background: transparent;
+}
+body .gsc-tabHeader.gsc-tabhInactive {
+    background: #f0f0f0;
+}
+
+.gsc-input-box .gsst_a .gscb_a {
+    color: navy;
 }

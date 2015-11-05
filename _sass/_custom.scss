@@ -12,6 +12,16 @@ h1,h2,h3,h4,h5, .site-title {
     position: absolute;
     top: -1000px;
 }
+a.sr-only:focus {
+    top: 2px;
+    left: 0;
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 0;
+    border: 2px solid darkorange;
+    border-radius: 5px;
+    background: #f8f8f8;
+}
 
 a:focus { text-decoration: underline; }
 
@@ -114,6 +124,12 @@ iframe {
 iframe[ src *= "books.google" ] {
     width: 500px;
     height: 500px;
+}
+iframe[ src *= openhub ] {
+    background: none;
+    border-width: 1px;
+    width: 346px;
+    height: 210px;
 }
 iframe:hover, iframe:focus, a.x-me:hover {
     border-color: #ff6d00;  // darkorange;
