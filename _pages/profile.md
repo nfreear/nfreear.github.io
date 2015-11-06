@@ -1,5 +1,4 @@
 ---
-published: false
 layout: page
 title:  Profiles
 permalink: /profile.html
@@ -9,7 +8,7 @@ x-created:   2015-11-04
 ---
 
 
-You can find me all over the Web ...:
+You can find me all over the Web &hellip; :
 
 * [Profile at The Open University](http://iet.open.ac.uk/people/n.d.freear "Hello")
 * [Facebook](https://facebook.com/nickfreear)

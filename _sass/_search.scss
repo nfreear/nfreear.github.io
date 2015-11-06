@@ -3,18 +3,25 @@
  */
 
 ::-webkit-input-placeholder {
-    color: gray;
+    //color: gray;
+    color: #666;
+    font-size: 13px;
+    padding-top: 3px;
+}
+::-moz-placeholder {  // Firefox 19+
+    color: #444;
     font-size: 13px;
     padding-top: 3px;
 }
 
 a[ href *= "opensearch.xml" ] {
     display: inline-block;
-    margin: 2em 0;
+    margin: 2.4em 0;
     padding: 2px 8px;
-    background: #f4f4f4;
+    background: #f8f8f8;
+    color: navy;
     border: 1px solid #aaa;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .wrapper > [ role = search ] {
@@ -61,6 +68,6 @@ body .gsc-tabHeader.gsc-tabhInactive {
   min-width: 78%;
   max-width: 92%;
   padding: 2px;
-  border-radius: 4px;
+  border-radius: 3px;
   margin-right: 4px;
 }

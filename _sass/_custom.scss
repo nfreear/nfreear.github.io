@@ -23,7 +23,10 @@ a.sr-only:focus {
     background: #f8f8f8;
 }
 
-a:focus { text-decoration: underline; }
+body a:focus {
+    text-decoration: underline;
+    color: navy;
+}
 
 abbr {
     display: inline-block;

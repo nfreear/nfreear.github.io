@@ -13,19 +13,22 @@ Recently, I've been doing some accessibility fixes for a project I maintain
 -- the [LACE Evidence Hub][] ([I talked about it][talk]).
 I am also doing some accessibility evaluations of other sites.
 
-And so, I've been revisiting some work I did previously for [Open Media Player][] on fixing high-contrast related bugs and issues
+And so, I've been revisiting some work I did previously for [Open Media Player][]
+on fixing high-contrast related bugs and issues
 
 <!--more-->
 
 Before we get into the meat of the post, I'll recap why high contrast and ignore colour settings matter.
 People with low vision use a [number of techniques to read text and web sites][webaim].
-They may use a screen magnifier, or zoom in with their browser. And, those users who struggle to perceive contrast, may employ the high contrast settings built into operating systems including Windows.
+They may use a screen magnifier, or zoom in with their browser.
+And, those users who struggle to perceive contrast, may employ the high contrast settings built into operating systems including Windows.
 Or, they may set their browsers to ignore the colours and styles specified by a web site.
 
+Under such settings, background images used on buttons and elsewhere will disappear, and subtle borders which help to demarcate regions of a page can become invisible.
+Suddenly, an apparently beautiful page becomes much harder to comprehend!
 
-Under such settings, background images used on buttons and elsewhere will disappear, and subtle borders which help to demarcate regions of a page can become invisible. Suddenly, an apparently beautiful page becomes much harder to comprehend!
-
-Obviously, it's better to consider this situation upfront, and take care how background images and other styling is used. However, if you find that you need to fix a site after the fact, is there anything you can do?
+Obviously, it's better to consider this situation upfront, and take care how background images and other styling is used.
+However, if you find that you need to fix a site after the fact, is there anything you can do?
 
 Why ... yes!
 
@@ -33,7 +36,12 @@ This accessibility fix comprises two parts.
 
 ## The Javascript
 
-This is one of the rare cases where we can detect how the user has set up their computer. First, the small Javascript script, [ignore-color.jquery.js][js], can be employed. It runs a test periodically by creating a hidden HTML element, setting its background colour, then detecting if the specified colour is still in use. If the user has used any sort of high contrast or "ignore-colour" setting in the operating system or browser, then the assigned colour will not be used -- the test will "fail".
+This is one of the rare cases where we can detect how the user has set up their computer.
+First, the small Javascript script, [ignore-color.jquery.js][js], can be employed.
+It runs a test periodically by creating a hidden HTML element, setting its
+background colour, then detecting if the specified colour is still in use.
+If the user has used any sort of high contrast or "ignore-colour" setting in the operating
+system or browser, then the assigned colour will not be used -- the test will "fail".
 
 The Javascript uses the result of the test to set a class on the `<body>` of the web page --
 either `ignore-color` or `no-ignore-color`. The Javascript is fairly lightweight --
@@ -98,7 +106,8 @@ Now. Go experiment!
 
 
 [LACE Evidence Hub]: http://evidence.laceproject.eu
-[talk]: /2015/10/09/laceflare-workshop-lace-accessibility.html
+[talk-x]: /2015/10/09/laceflare-workshop-lace-accessibility.html
+[talk]: {% post_url 2015-10-09-laceflare-workshop-lace-accessibility %}
 [slideshare]: http://slideshare.net/laceproject/learning-analytics-lace-solar-flare-2015/11
 [Open Media Player]: http://iet-ou.github.io/open-media-player
 [webaim]: http://webaim.org/articles/visual/lowvision "WebAIM - Web accessibility in mind"
@@ -123,5 +132,6 @@ Now. Go experiment!
 
 [tag-X]: javascript:return%20false "You decide!"
 [tag-int]: #!tag "You decide the time interval! Try to strike a balance.."
+
 
 [End]: end

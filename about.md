@@ -19,6 +19,8 @@ I live in Milton Keynes with my wife and daughter, and do some cycling, kayaking
 
 <!-- Find me on: ... -->
 
+* [My social media profiles](/profile.html).
+
 
 [iet]: http://iet.open.ac.uk/
 [The Open University]: http://www.open.ac.uk/
