@@ -4,7 +4,7 @@ title:  Composer-suggest, JuxtaLearn, LACE & Open Media Player
 x-created: 2015-10-25 13:51:00 +0000
 date:   2015-11-04 17:15:00 +0000
 categories:
-tags:   php  composer  LACE  JuxtaLearn  ouplayer  plugin
+tags:   php  composer  LACE  JuxtaLearn  ouplayer  plugin  wordpress
 ---
 
 
@@ -14,7 +14,7 @@ for the sort of experimentation required in research projects (indeed, many soft
 
 Way back in November 2013, I was working for [Gill Clough][] on the
 [Tricky Topic tool][ttt], for the [JuxtaLearn][] European funded project.
-Initial work for the tool was done by Martin Hawksey, and built on WordPress.
+Initial work for the tool was done by [Martin Hawksey][], and built on WordPress.
 When I took over, I decided to use [Git submodules][] to manage the dependencies on
 WordPress, third-party plugins, and custom plugins being developed for the project.
 
@@ -27,7 +27,7 @@ You can [see what this looks like on GitHub][github-1] in the first screen-shot 
 Some potential benefits to note about Git submodules -- you can see the dependencies,
 and their Git SHA-1 sums directly in GitHub, as the above screen shot shows.
 However, as anyone who has tried submodules tends to realise, their are a [number][]
-of [drawbacks][d].
+of [drawbacks][yust].
 
 There are [alternatives][alt], built to work fairly closely with Git.
 However, these would all require evaluation, and would probably prove difficult
@@ -37,7 +37,7 @@ standard dependency-manager for PHP, [Composer][], in my next project.
 This was the [LACE Evidence Hub][LACE-EH], for [Rebecca Ferguson][] and [Doug Clow][].
 
 The LACE Evidence Hub was also built on WordPress, and grew in part out of the work
-on the OER Research Hub. Discoveries that helped me decide on Composer were [this 2013 post][],
+on the [OER Research Hub][]. Discoveries that helped me decide on Composer were [this 2013 post][],
 and the [WordPress Packagist][] repository.
 
 A requirement that became apparent, during the work for LACE, and later
@@ -141,6 +141,8 @@ All this within a conventional Composer-based workflow.
 [Gill Clough]: https://twitter.com/gillclough
 [Doug Clow]: https://twitter.com/dougclow
 [Rebecca Ferguson]: https://twitter.com/R3beccaF
+[Martin Hawksey]: https://mashe.hawksey.info/2013/10/building-an-evidence-hub-plugin-for-wordpress/
+[OER Research Hub]: http://oerresearchhub.org/ "OER Research Hub: open educational resources"
 [ttt]: http://trickytopic.juxtalearn.net/ "JuxtaLearn Tricky Topic tool"
 [JuxtaLearn]: http://juxtalearn.eu/
 [Open Media Player]: http://iet-ou.github.io/open-media-player/
@@ -148,7 +150,7 @@ All this within a conventional Composer-based workflow.
 [github-1]: https://github.com/IET-OU/oer-evidence-hub-org/tree/juxtalearn "JuxtaLearn branch on GitHub, November 2013 – November 2014."
 [number]: https://startpage.com/do/search?query=Git+submodules+disadvantages
 [alt]: http://blogs.atlassian.com/2013/05/alternatives-to-git-submodule-git-subtree/ "By Nicola Paolucci, May 16, 2013"
-[d]: http://codingkilledthecat.wordpress.com/2012/04/28/why-your-company-shouldnt-use-git-submodules/
+[yust]: http://codingkilledthecat.wordpress.com/2012/04/28/why-your-company-shouldnt-use-git-submodules/
     "By Amber Yust, April 28, 2012"
 [LACE-EH]: http://evidence.laceproject.eu/
 

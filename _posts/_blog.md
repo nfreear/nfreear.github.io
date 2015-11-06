@@ -18,14 +18,14 @@ Page views for one year.
 * ...
 * [ ] 13. `/Site                           ` -- 44; (page)
 * [ ] 16. `/contact                        ` -- 41; (page)
-* [ ] 17. `browser-search-plugins          ` -- 40;
+* [x] 17. `browser-search-plugins          ` -- 40;
 * [x] 18. `my-accessibility-top-10-dos..   ` -- 40;
 * [ ] 19. `/Event                          ` -- 40; (~page)
 * [x] 20. `e-access15-conference-part-2    ` -- 39;
 * [ ] 21. `introducing-open-media-player   ` -- 36;
 * ...
 * [ ] 25. `ou-player-why-codeigniter       ` -- 28;
-* [ ] 26. `track-oer-and-capret-one-year   ` -- 28;
+* [x] 26. `track-oer-and-capret-one-year   ` -- 28;
 * [ ] 27. `extending-piwik-track-oer       ` -- 24;
 * [ ] 28. `ou-media-player-2014-release    ` -- 24;
 * [x] 29. `moodle4-9-book                  ` -- 21;
