@@ -1,27 +1,76 @@
 ---
-published: false
-
+#published: false
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-09-29 21:44:20
+title:  Welcome to my new Jekyll-powered blog!
+date:   2015-11-07 10:22:00
+x-created: 2015-09-29 21:44:20
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+Welcome to my re-developed blog!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+My [original blog][], started in [April 2009][] is built on [Drupal, a PHP-based CMS][drupal].
+Drupal was an obvious choice at the time, as I'd started using it for [projects at work][olnet].
+(The Open University was and still is a heavy user of Drupal.)
+Building the blog gave me practice developing and configuring the platform.
+In six and a bit years, I've published [80 odd blog posts][80].
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[Photo of Stickle Tarn, Langdale, Lake District](https://flickr.com/photos/nfreear/16989343378#!_EMBED_ME_)
+
+
+However, recently I've not written as much, the design is looking tired,
+and I was way behind on security updates (_no longer_).
+My options looked like:
+
+1. A _WordPress.com_-hosted blog;
+2. Self-hosting a WordPress-based blog (_yes, I like WordPress_).
+
+Option 1 is safer, while option 2 offers more scope for experimentation.
+However, neither necessarily appealed a lot, particularly as I now tend to write
+in [Markdown][], then convert when I publish.
+
+I had come across [Jekyll][] and [GitHub Pages][] via my recent work for
+[Open Media Player][]. Then I read [Dave Cole's 2012 post on CMS-free websites][cole].
+
+His arguments and back-to-basics approach makes a lot of sense.
+I can't pretend that I need to think about performance for my blog too much(!),
+but who knows when a post might get a lot of traffic via Twitter and social media.
+
+Some of the key benefits for me are:
+
+1. Security -- I don't need to think about patching the application layer
+(PHP + WordPress or whatever) -- there is none, and the hosting provider (GitHub pages)
+takes care of the server layer (OS + web server, etc.) and build tools (Ruby + Jekyll);
+2. Backup / archive -- content isn't locked away in a database;
+instead it's in Git (Markdown + YAML frontmatter creates a type of document-oriented database);
+3. I don't need to learn Ruby to use Jekyll (though I may later);
+4. I can experiment, focussing on front-end features.
+And, the code is in Git straight away (in Drupal I tended to add code to custom blocks -- _bad, bad!_)
+
+My main area of concern is using third-party commenting tools, and any
+usability and accessibility implications
+(I hope to talk soon about why I looked at Disqus, but chose IntenseDebate for now).
+
+I've been gradually [importing][] my [archive][], and I'm enjoying writing new posts.
+
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+
+[Markdown]: https://daringfireball.net/projects/markdown/
+[cole]: https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/ "by Dave Cole, 2012"
+[original blog]: http://freear.org.uk/
+[April 2009]: {% post_url 2009-04-16-the-rich-in-rss %}
+[drupal]: https://drupal.org/
+[olnet]:  http://olnet.org/
+[80]: https://google.com/search?q=site%3Ahttp%3A//freear.org.uk/content
+    "'About 82 results', says Google. (Not bad, huh? Not that I'm counting ...)"
+[GitHub Pages]: https://pages.github.com/
+[Open Media Player]: http://iet-ou.github.io/open-media-player
+[importing]: https://github.com/nfreear/nfreear.github.io/issues/2
+[archive]: https://github.com/nfreear/nfreear.github.io/blob/master/_posts/_blog.md "Analytics"
+
+[End]: end
