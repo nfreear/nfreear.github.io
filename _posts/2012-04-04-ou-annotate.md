@@ -5,8 +5,12 @@ date:   2012-04-04 21:37:00
 categories:
 tags:   bookmark  OU  social  tool
 x-source: http://freear.org.uk/content/ou-annotate
-x-comments: 1
-x-comment-url: http://freear.org.uk/content/ou-annotate#comment-499
+x-comment-count: 1
+x-comments:
+  - id: 499
+    by: Amanda (not verified) | Fri, 27/07/2012 - 09:22
+    subject: Is this something like Social Bookmarking Sites?
+    text: I didn't actually get the purpose of OU Annotate? Is it meant for social bookmarking?
 ---
 
 

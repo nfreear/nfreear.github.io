@@ -5,11 +5,11 @@ date:   2011-05-06 21:25:00
 categories:
 tags:   browser  CloudEngine  cloudworks  JIME  OU  plugin  search
 x-source: http://freear.org.uk/content/browser-search-plugins
-x-comments: 1
-x-comment-url: http://freear.org.uk/content/browser-search-plugins#comment-72
-x-comment-text: >
-  by sabbi (not verified) | Wed, 28/12/2011 - 10:57
-  I am really impressed by this blog. I have always found it informative and updated
+x-comment-count: 1
+x-comments:
+  - id: 72
+    by: sabbi (not verified) | Wed, 28/12/2011 - 10:57
+    text: I am really impressed by this blog. I have always found it informative and updated
 ---
 
 

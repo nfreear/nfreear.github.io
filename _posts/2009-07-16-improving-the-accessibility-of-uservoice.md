@@ -4,8 +4,35 @@ title:  Improving the accessibility of UserVoice
 date:   2009-07-16 12:01:00
 categories:
 tags:   accessibility  feedback  javascript  uservoice
-x-source:  http://freear.org.uk/content/improving-accessibility-uservoice#
-x-comments:  4
+x-source:  http://freear.org.uk/content/improving-accessibility-uservoice
+x-comment-count: 4
+x-comments:
+  - id: 3
+    by: Scott Rutherford <http://www.uservoice.com> (not verified) | Sat, 18/07/2009 - 17:25
+    subject: This is now fixed!
+    text: >
+      Hi Nick,
+
+      I believe we have now fixed this issue, thanks for bringing it to our attention. Are you still having issues with the main site in Firefox? If so, do you think you could send more information on it to support?
+
+      Thanks, Scott Rutherford, CTO Uservoice
+  - id: 4
+    by: nick | Thu, 23/07/2009 - 17:13
+    subject: "Re: This is now fixed - partly!"
+    text: >
+      Hi Scott,
+
+      First, thank you for popping by and taking the time to react positively. (I can confirm that the site works fine in Firefox 3.) ...
+  - id: 5
+    by: Joshua Rudd (not verified) | Thu, 10/09/2009 - 06:29
+    text: >
+      Nick -
+
+      Thanks again for the feedback. We've recently implemented some other accessibility improvements on our feedback sites, and are looking back at these recommendations again. I think the way we may approach "Point C" is to provide two links for screen readers: 1) for the javascript popup and 2) a direct link to the feedback site.
+
+      Regarding "Point B", I'm not sure this provides a lot of help because once the user clicks on the modal dialogue the tab is no longer active or in focus.
+
+      Joshua Rudd, UX, UserVoice.com
 ---
 
 

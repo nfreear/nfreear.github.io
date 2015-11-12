@@ -5,7 +5,35 @@ date:   2009-09-07 08:21:00
 categories:
 tags:   accessibility  embed  Flash
 x-source: http://freear.org.uk/content/flash-wmode-considered-harmful
-x-comments: 6
+x-comment-count: 6
+x-comments:
+  - id: 9
+    by: antrix (not verified) | Wed, 21/10/2009 - 03:35
+    subject: Regarding oohEmbed
+    text: >
+      Hi.
+
+      Just found your post while looking through the referral logs of oohembed.com!
+      I am no accessibility expert so I am definitely looking forward to your patches to oohembed regarding this wmode issue.
+
+      Would the patch just amount to stripping the wmode parameter out of the embed code?
+      If so, I can apply the patch myself one of these days.
+  - id: 12
+    by: nick | Mon, 01/02/2010 - 11:57
+    subject: 1 line patch for Moodle etc.
+    text: >
+      Hi antricx,
+
+      First, thanks for popping by, and apologies for not responding sooner.
+
+      Yes to your question, the patch just involves removing the "wmode" parameter - I haven't yet created patches for oohembed etc.
+
+      However, I've just created one for Moodle (a project I'm more familiar with).
+      And I've been spreading the word where possible ;)
+
+      Yours,
+
+      Nick
 ---
 
 

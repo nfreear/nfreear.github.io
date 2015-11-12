@@ -5,12 +5,23 @@ date:   2011-03-25 21:52:00
 categories:
 tags:   [ creative commons, free software, open source ]
 x-source:  http://freear.org.uk/content/creative-commons-licenses-software-just-say-no
-x-comments: 5
-x-comment-url: http://freear.org.uk/content/creative-commons-licenses-software-just-say-no#comment-53
+x-comment-count: 5
+x-comments:
+  - id: 53
+    by: Mike Linksvayer <http://gondwanaland.com/mlog> (not verified) | Thu, 31/03/2011 - 04:23
+    subject: Make Your Open Source Software GPL-Compatible. Or Else.
+    text: The best essay germane to this topic is <http://www.dwheeler.com/essays/gpl-compatible.html>
+  - id: 55
+    by: nick | Wed, 13/04/2011 - 10:26
+    text: >
+      Hi Mike,
+      Thank you for the link. I read this a while back and forgot to include it!
+      ...
+      A few further thoughts which occur: ...
 ---
 
 
-Two point before I start:
+Two points before I start:
 
 1. I'm not a lawyer, so this blog post does not constitute legal advice.
 If you need help, contact a lawyer who specializes in software and content licensing. I accept no liability...

@@ -5,6 +5,11 @@ date:   2012-10-25 14:34:00
 categories:
 tags:   accessibility
 x-source:  http://freear.org.uk/content/my-accessibility-top-10-dos-and-donts
+x-comment-count: 1
+x-comments:
+  - id: 1152
+    by: Mbah Solikun (not verified) | Fri, 21/12/2012 - 07:23
+    text: Hello, I truly enjoyed reading your post. I found your site from Bing. Will bookmark to return later. Thanks! jasa social media
 ---
 
 
