@@ -63,7 +63,7 @@ jQuery(function ($) {
 
   /* Browser search plugin button - Firefox 2+ and IE 7+, OpenSearch.
   */
-  var $plugin = $("#plugin")
+  var $plugin = $("[role = search] #plugin")
     , $search = $("link[ rel = search ]");
   if (W.external && ("AddSearchProvider" in W.external) && $plugin.length) {
     var $btn = $('<a role="button">Add browser search plugin</a>')

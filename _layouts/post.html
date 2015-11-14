@@ -12,7 +12,7 @@ layout: default
       {% capture date_format %}{{ site.date_format | default: "%b %-d, %Y" }}{% endcapture %}
       {{ page.date | date: date_format }}
       {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-      {% if page.x-source %} • <a href="{{ page.x-source }}" rel=nofollow title="Original post – comments: {{ page.x-comments | default: "0" }}">legacy</a>{% endif %}
+      {% if page.x-source %} • <a href="{{ page.x-source }}" rel=nofollow title="Original post – comments: {{ page.x-comment-cnt | default: "0" }}">legacy</a>{% endif %}
     </p>
   </header>
 

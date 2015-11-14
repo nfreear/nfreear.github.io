@@ -21,4 +21,8 @@ rewrite:
 count:
 	@echo "Count of posts: " && ls _posts/ | wc -l
 
+browse:
+	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome http://localhost:4000/
+
+
 #End.
