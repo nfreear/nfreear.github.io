@@ -3,7 +3,7 @@
 # The "rewrite" target requires PHP & Melody (http://melody.sensiolabs.org)
 #
 
-default: serve
+default: draft
 
 help:
 	# Targets: serve draft rewrite count

@@ -1,10 +1,11 @@
 
-## Analytics for 1 year :– 19 Oct 2014 – 19 Oct 2015.
+## Analytics for 1 year
 
-Page views for one year.
+* Google Analytics:  19 Oct 2014 – 19 Oct 2015.
+* Page views for one year.
 
 
-* [ ] 1. `/ (home)           ` -- 1134 (22.2%);
+* [x] 1. `/ (home)           ` -- 1134 (22.2%);
 * [x] 2. `embed-scratch-applet-html5       ` -- 919 (17.99%);
 * [x] 3. `creative-commons-licenses-software-just-say-no ` -- 768 (15%);
 * [x] 4. `5-steps-being-oembed-provider    ` -- 225;
@@ -36,10 +37,10 @@ Page views for one year.
 * [ ] 36. `open-source-software-and-clas   ` -- 17;
 * [ ] 37. `bsa-national-conference-2012    ` -- 14;
 * [ ] 41. `cloudworks-api-rationale-and-.. ` -- 12;
-* [ ] 42. `kings-speech-portrays-stammer.. ` -- 12;
+* [x] 42. `kings-speech-portrays-stammer.. ` -- 12;
 * [ ] 43. `ou-media-player-project         ` -- 12;
 * ...
-* [ ] 46. `malt-wiki-personalization-moc.. ` -- 10.
+* [x] 46. `malt-wiki-personalization-moc.. ` -- 10.
 * [ ] 49. `ou-disability-conference-2012   ` -- 8;
 
 ...
@@ -59,18 +60,18 @@ Page views for one year.
 * [ ] 114. `learn-about-fair-2012-learn-about-discuss-and-discover?destination=node/77` -- 2 (0.04%)
 * [ ] 115. `multimedia-accessibility-–-malt-wiki-and-services-alpha` -- 2;
 * [ ] 116. `obama-china-inundation-google-opportunity-not-threat` -- 2;
-* [ ] 117. `open-source-ou     ` -- 2;
+* [ ] 117. `open-source-ou     ` -- 2; **
 * [ ] 118. `ou-embed-proposal  ` -- 2;
 * [ ] 119. `secrets-our-living-planet-openlearn-and-ispot` -- 2;
 * [x] 120. `sometimes-i-s-start-stutter ` -- 2;
-* [ ] 121. `travis-teamwork-hook        ` -- 2;
+* [ ] 121. `travis-teamwork-hook        ` -- 2; **
 * [ ] 122. `vibrant-colours-islamic-art-and-architecture` -- 2;
 * [ ] 123. `writeup-rnib-techshare-conference-2009` --2(0.04%)
 
 ...
 
 * [ ] 191. `/category/tags/uk   ` -- 1 (0.02%);
-* [ ] 192. `accessibility-pattern-1-use-buttons-javascript-actions-not-images` -- 1;
+* [ ] 192. `accessibility-pattern-1-use-buttons-javascript-actions-not-images` -- 1; **
 * [ ] 193. `china-2010          ` -- 1;
 * [ ] 194. `e-access09-e-affordance-2010` -- 1;
 * [ ] 195. `http-header-test    ` -- 1;
