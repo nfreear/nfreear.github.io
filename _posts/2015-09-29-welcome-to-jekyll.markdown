@@ -20,7 +20,7 @@ In six and a bit years, I've published [80 odd blog posts][80].
 [Photo of Stickle Tarn, Langdale, Lake District](https://flickr.com/photos/nfreear/16989343378#!_EMBED_ME_)
 
 
-However, recently I've not written as much, the design is looking tired,
+However, recently I've not written as much, the design was looking tired,
 and I was way behind on security updates (_no longer_).
 My options looked like:
 
@@ -41,19 +41,30 @@ but who knows when a post might get a lot of traffic via Twitter and social medi
 Some of the key benefits for me are:
 
 1. Security -- I don't need to think about patching the application layer
-(PHP + WordPress or whatever) -- there is none, and the hosting provider (GitHub pages)
-takes care of the server layer (OS + web server, etc.) and build tools (Ruby + Jekyll);
+(_PHP + WordPress_ or whatever) -- there is none, and the hosting provider (GitHub pages)
+takes care of the server layer (_OS + web_ server, etc.) and build tools (Ruby + Jekyll);
 2. Backup / archive -- content isn't locked away in a database;
-instead it's in Git (Markdown + YAML frontmatter creates a type of document-oriented database);
+instead it's in Git (_Markdown + YAML frontmatter creates a type of document-oriented database_);
 3. I don't need to learn Ruby to use Jekyll (though I may later);
 4. I can experiment, focussing on front-end features.
 And, the code is in Git straight away (in Drupal I tended to add code to custom blocks -- _bad, bad!_)
 
 My main area of concern is using third-party commenting tools, and any
 usability and accessibility implications
-(I hope to talk soon about why I looked at Disqus, but chose IntenseDebate for now).
+(I hope to talk soon about why I looked at Disqus, but chose [IntenseDebate][] for now).
 
 I've been gradually [importing][] my [archive][], and I'm enjoying writing new posts.
+
+
+## Technology
+
+Here is a quick rundown of some of the technologies and components:
+
+* Ruby and [Jekyll][] to convert and copy the site source into static HTML + CSS + Javascript;
+* [jQuery-oEmbed][] for most of the embedded images, videos and similar ([plugin][]);
+* [IntenseDebate][] for commenting;
+* jQuery for various functionality, including [accessibility fixes][js];
+* Other accessibility fixes are [in the HTML templates][a11y].
 
 
 [jekyll]:      http://jekyllrb.com
@@ -72,5 +83,12 @@ I've been gradually [importing][] my [archive][], and I'm enjoying writing new p
 [Open Media Player]: http://iet-ou.github.io/open-media-player
 [importing]: https://github.com/nfreear/nfreear.github.io/issues/2
 [archive]: https://github.com/nfreear/nfreear.github.io/blob/master/_posts/_blog.md "Analytics"
+
+[jQuery-oEmbed]: https://code.google.com/p/jquery-oembed/ "Project"
+[plugin]: https://embed.open.ac.uk/scripts/jquery.oembed.js "Javascript plugin"
+[IntenseDebate]: https://intensedebate.com/
+[js]: https://github.com/nfreear/nfreear.github.io/blob/master/js/main.js#L80-L91
+[a11y]: https://github.com/nfreear/nfreear.github.io/issues/1
+
 
 [End]: end

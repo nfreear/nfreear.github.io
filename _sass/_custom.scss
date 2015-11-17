@@ -217,10 +217,18 @@ img[ src *= flickr ] {
     transition: .7s;
 }
 
-.site-nav #toolbar-launch,
+.site-nav .page-link:not(:first-child),
+.site-nav a.atbar-launch,
 .site-nav .ex-custom-nav > * {
     display: inline-block;
-    margin-left: 14px;
+    //Was: margin-left: 20px;
+    margin-left: 11px;
+}
+
+a.atbar-launch img {
+    //img, orig: 93 x 38 px;
+    //img: 82 x 33.5 px;
+    width: 82px;
 }
 
 

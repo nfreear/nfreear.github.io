@@ -51,7 +51,9 @@ date_format: "%-d %B %Y"
 ex_feed_limit: 100  # Default: 10;
 
 ex_custom_nav:
-  - <a href="http://freear.org.uk/" title="My legacy blog">Freear.org.uk</a>
+  - <a href="http://freear.org.uk/moodle/" title="Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide, by Nick Freear">Moodle book</a>
+  - <a href="http://accessify.wikia.com/wiki/Accessify_Wiki" title="Working together to fix accessibility on the Web, one site at a time">Accessify Wiki</a>
+  - <a href="http://freear.org.uk/" title="My legacy blog, Freear.org.uk">Legacy</a>
   #- <a href="#">Test 2</a>
 
 #ex_site_message: Hello world! Just a <a href="#">test</a>!
