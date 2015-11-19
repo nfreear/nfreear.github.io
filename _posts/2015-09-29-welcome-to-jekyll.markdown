@@ -1,10 +1,10 @@
 ---
-#published: false
 layout: post
 title:  Welcome to my new Jekyll-powered blog!
 date:   2015-11-07 10:22:00
 x-created: 2015-09-29 21:44:20
-categories: jekyll update
+#categories: jekyll update
+tags:  jekyll  drupal  wordpress
 ---
 
 
@@ -61,6 +61,7 @@ I've been gradually [importing][] my [archive][], and I'm enjoying writing new p
 Here is a quick rundown of some of the technologies and components:
 
 * Ruby and [Jekyll][] to convert and copy the site source into static HTML + CSS + Javascript;
+* Authoring posts via [Prose.io][];
 * [jQuery-oEmbed][] for most of the embedded images, videos and similar ([plugin][]);
 * [IntenseDebate][] for commenting;
 * jQuery for various functionality, including [accessibility fixes][js];
@@ -84,6 +85,7 @@ Here is a quick rundown of some of the technologies and components:
 [importing]: https://github.com/nfreear/nfreear.github.io/issues/2
 [archive]: https://github.com/nfreear/nfreear.github.io/blob/master/_posts/_blog.md "Analytics"
 
+[Prose.io]: http://prose.io/ "Proseio — I use it sometimes ;)"
 [jQuery-oEmbed]: https://code.google.com/p/jquery-oembed/ "Project"
 [plugin]: https://embed.open.ac.uk/scripts/jquery.oembed.js "Javascript plugin"
 [IntenseDebate]: https://intensedebate.com/
