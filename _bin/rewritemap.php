@@ -60,8 +60,8 @@ $limit = 20;
         $frontmatter = $doc->getConfig();
 
         if (! isset($frontmatter[ 'x-source' ])) {
-            echo "#$idx. Skipping $path - no frontmatter" . PHP_EOL;
-            break;
+            echo "#$idx. Skipping $path - no frontmatter / x-source" . PHP_EOL;
+            continue;  //WAS: break;
         }
         if (isset($frontmatter[ 'permalink' ])) {
             $dest_path = $base_url . $frontmatter[ 'permalink' ];
@@ -104,6 +104,7 @@ $limit = 20;
 
 \$http_status = '$http_status';
 \$default_url = '$default_url';
+\$map_count = __COUNT__;
 \$map = __MAP__;
 
 
@@ -148,6 +149,7 @@ $limit = 20;
 EOT;
          $php = strtr( $template, array(
              '__MAP__' => var_export( $rewrite_ar, true ),
+             '__COUNT__' => count( $rewrite_ar ),
              '__TIME__' => date( 'c' ),
          ));
          $bytes = file_put_contents( $filename, $php );

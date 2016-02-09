@@ -136,6 +136,15 @@ jQuery(function ($) {
   });
 
 
+  /* Code-block line-numbers.
+  */
+  $("pre code").each(function (pidx, pre) {
+    $(pre).find(".lineno").each(function (lidx, line) {
+      $(line).attr("id", "L" + (pidx + 1) + "-" + (lidx + 1))
+    });
+  });
+
+
   D && console.log("main.js", debug, BLOG);
 
 });

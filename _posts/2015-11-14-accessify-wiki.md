@@ -2,7 +2,8 @@
 published: false
 layout: post
 title:  Accessify Wiki
-date:   2015-11-14 20:40:00
+date:   2016-01-06 17:30:00
+x-created: 2015-11-14 20:40:00
 categories:
 tags:   accessibility  WAI-ARIA  javascript
 ---
@@ -13,15 +14,36 @@ This post is lo-o-oong overdue!
 I started development on the prototype Accessify Wiki on [14 April 2013][] and paused work on 1 June 2014.
 And really, its high time I tried to explain just what it's for and how it works...
 
+
 ## Raison d'être
 
+Accessibility guidelines and technical standards, outreach and education,
+and partnership with those who develop web sites and services that contain accessibility problems.
+These are all good, valuable approaches to tackling Web accessibility.
+However, there are times when these efforts don't produce the desired result.
+
+A web site owner may be willing to fix accessibility problems, but want to
+put the issues into the next re-design in 6 months time.
+A site owner may simply prove unresponsive, but end-users still need to use the service in question.
+Or, a developer may wish to use a third-party library, recognises that it contains issues,
+but doesn't have time to collaborate on fixing the library in their current project
+(this last issue is one that I face as a developer on fast-paced research projects).
+
+We can summarize these potential problems as:
+
+* Lack of _willingness_,
+* _Timeliness_,
+* _Dependency_ on third-party libraries and services,
+
+Given the challenges, I've been looking for a creative, pragmatic solution that
+would build on and compliment the existing approaches to fixing accessibility on the Web.
 
 [![Accessify Wiki-Fix the Web lifecycle, V2 October 2013][img-1]][img-1-pg]
 
 
 ## Anatomy of a fix
 
-Suppose we have the following snippet of HTML on a page -- an image that when
+Suppose we have the following snippet of HTML on a page — an image that when
 pressed using a mouse closes a dialog box within the page, via Javascript.
 
 ### HTML before
@@ -33,19 +55,8 @@ pressed using a mouse closes a dialog box within the page, via Javascript.
 {% endhighlight %}
 
 
-There are various accessibility issues, so here is an imaginary fix,
+There are various accessibility issues with the above HTML snippet, so below is an imaginary fix,
 written in [YAML][] on the Accessify Wiki.
-
-Line one defines a `_CONFIG_` object, with two required entries, `include` and `test_urls`.
-`include` contains one or more URL patterns (_glob_ syntax), specifying
-the set of pages on which these fix(es) should be applied.
-`test_urls` defines one or more URLs to specific pages that can be used to test the fixes.
-
-Line 7 contains a _selector_ as used in CSS stylesheets, jQuery and other contexts.
-In this case it says, select images whose `src` attribute contains the text string `close-button`.
-Lines 8--10 define three attributes that need to be added to the selected elments:
-`tabindex`, `role` and `alt` (_ALT-ernative text_), and there respective values.
-
 
 ### The fix
 {% highlight yaml linenos %}
@@ -65,12 +76,25 @@ img[ src *= close-button ]:
 {% endhighlight %}
 
 
+[Line one](#L2-1) defines a `_CONFIG_` object, with two required entries, `include` and `test_urls`.
+`include` contains one or more URL patterns (_glob_ syntax), specifying
+the set of pages on which these fix(es) should be applied.
+`test_urls` defines one or more URLs to specific pages that can be used to test the fixes.
+
+[Line 7](#L2-7) contains a _selector_ as used in CSS stylesheets, jQuery and other contexts.
+In this case it says, select images whose `src` attribute contains the text string `close-button`.
+Lines 8–10 define three attributes that need to be added to the selected HTML elments:
+`tabindex`, `role` and `alt` (_ALT-ernative text_), and there respective values.
+
+
+
 Note, as [the fix is written in YAML][p], we can dispense with most (almost all), of the
 quote characters used in JSON, making the result more readable.
 
+
 ### HTML after
 
-When the fix is injected via Javascript, it results in the following HTML:
+When the fix is [injected via Javascript](#anatomy-of-a-system), it results in the following HTML:
 
 
 {% highlight html linenos %}
@@ -88,10 +112,12 @@ When the fix is injected via Javascript, it results in the following HTML:
 * The `alt` attribute describes to the user what action will be taken by pressing the button.
 
 Our image that looks like a button, now _feels_ like a button
-(or as [WCAG 2.0][] says, it is "_perceivable, operable, usable_ and _robust_" -- _POUR_).
+(or as [WCAG 2.0][] says, it is "_perceivable, operable, usable_ and _robust_" — _POUR_).
 
 Fix complete!
 
+
+## Anatomy of a system
 
 [![Accessify Wiki structure, part 1 -- the browser.][img-2]][img-2-pg]
 
@@ -116,8 +142,10 @@ Fix complete!
 
 [img-1]: https://docs.google.com/drawings/d/11cQ211LU3FDXaJIak1gSoidz6cDNYs0UCZO46Qestg8/pub?w=403&h=326
 [img-1-pg]: https://docs.google.com/drawings/d/11cQ211LU3FDXaJIak1gSoidz6cDNYs0UCZO46Qestg8/#
+    "Accessify Wiki-Fix the Web lifecycle, V2 October 2013"
 [img-2]: https://docs.google.com/drawings/d/1ehhQDOYQpzTrEb_BeelVIBuP4Kov746jc5TPJm2RWio/pub?w=388&h=295
 [img-2-pg]: https://docs.google.com/drawings/d/1ehhQDOYQpzTrEb_BeelVIBuP4Kov746jc5TPJm2RWio/#
+    "Accessify Wiki structure, part 1 — the browser."
 
 
 [End]: end
