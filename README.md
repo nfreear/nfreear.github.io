@@ -1,6 +1,7 @@
 
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
+[![Blog posts][blog-icon]][blog]
 
 # nfreear.github.io
 
@@ -24,7 +25,7 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 
 ---
 
-© 2009-2015 Nick Freear.
+© 2009-2016 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -42,5 +43,7 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 [jekyll-icon]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
 [Prose.io]: http://prose.io/ "Edited via Prose.io"
 [prose-icon]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
+[blog-icon]:  http://nick.freear.org.uk/badge.svg
+[blog]: http://nick.freear.org.uk/
 [GitHub pages]: https://pages.github.com/
 [tom]: https://github.com/mojombo/mojombo.github.io
