@@ -2,6 +2,7 @@
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
+[![@nfreear on Twitter][twit-icon]][twitter]
 
 # nfreear.github.io
 
@@ -43,7 +44,9 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 [jekyll-icon]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
 [Prose.io]: http://prose.io/ "Edited via Prose.io"
 [prose-icon]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
+[blog]: http://nick.freear.org.uk
 [blog-icon]:  http://nick.freear.org.uk/badge.svg
-[blog]: http://nick.freear.org.uk/
+[twitter]: https://twitter.com/nfreear "@nfreear on Twitter"
+[twit-icon]: https://img.shields.io/twitter/follow/nfreear.svg?style=social
 [GitHub pages]: https://pages.github.com/
 [tom]: https://github.com/mojombo/mojombo.github.io
