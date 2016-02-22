@@ -2,13 +2,13 @@
 layout:    null
 permalink: /badge.svg
 title:     NN posts
-date:      2016-02-14 09:44
+x-created: 2016-02-14 09:44
 x-icon:    https://img.shields.io/badge/posts-99-blue.svg
 x-nav-class: sr-only
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="20">
 {% assign post_count = site.posts | size %}
-<title>{{ page.title | replace: 'NN', post_count }} — {{ site.title | strip_html }}</title>
+<title>{{ page.title | replace: 'NN', post_count }} (badge)</title>
 <linearGradient id="b" x2="0" y2="100%">
   <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
 </linearGradient>

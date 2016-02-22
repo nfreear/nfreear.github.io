@@ -34,6 +34,7 @@ github_username:  nfreear
 # 'truncatewords: 28' (Was: truncate: 220)
 ex_excerpt_truncate: 28
 ex_comments: true
+ex_bodyclass: tribute
 
 js_config:
   # Google Analytics.

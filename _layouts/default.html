@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="{% if page.excerpt %} is-post-page {% else %} not-post-page {% endif %}">
+  <body class="{% if page.excerpt %} is-post-page {% else %} not-post-page {% endif %} {{ site.ex_bodyclass }}">
 
     {% include header.html %}
 
