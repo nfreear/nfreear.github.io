@@ -6,7 +6,7 @@
 default: draft
 
 help:
-	# Targets: serve draft rewrite count
+	# Targets: serve draft rewrite count find q={ KEYWORD }
 
 serve:
 	jekyll serve
@@ -24,5 +24,11 @@ count:
 browse:
 	/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome http://localhost:4000/
 
+find:
+	@echo q = $q
+	find _posts -type f -name "*$q*"
+
+edit:
+	@find _posts -type f -name "*$q*" | atom
 
 #End.
