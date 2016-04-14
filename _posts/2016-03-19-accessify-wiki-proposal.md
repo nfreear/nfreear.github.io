@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title:  Accessify Wiki: Proposal
+title:  "Accessify Wiki: Proposal"
 x-orig-title:  Proposal
 date:   2016-01-06 17:30:00
 x-created:  16:32, 3 June 2013
