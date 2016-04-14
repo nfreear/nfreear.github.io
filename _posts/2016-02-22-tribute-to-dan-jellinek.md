@@ -55,7 +55,7 @@ _In memory of Dan … Dan Jellinek 1968 — 2015._
 [Dumfries and Galloway]: http://www.dumgal.gov.uk/ "Dumfries and Galloway Council"
 
 [book]: http://amazon.co.uk/People-Power-users-guide-democracy-ebook/dp/B00CQ1DJAE/
-    "People Power: A user's guide to democracy, by Dan Jellinek (2013)"
+    "People Power: A user's guide to democracy, by Dan Jellinek (2013) (Corgi/Randomhouse…)"
 [book-img-0]: http://ecx.images-amazon.com/images/I/41R21NS42GL._SX319_BO1,204,203,200_.jpg
 [book-img]: http://www.randomhouse.com.au/content/cache/140x210/titles/9780552167864.jpg
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  High contrast and ignore colours
+x-updated:  2016-04-05 21:35:00
 x-created:  2015-10-15 22:00:00
 date:   2015-10-23 15:20:00 +0000
 categories:
@@ -10,11 +11,11 @@ tags:   ignore-color  accessibility  low-vision  fixes  javascript  css  ouplaye
 
 
 Recently, I've been doing some accessibility fixes for a project I maintain
--- the [LACE Evidence Hub][] ([I talked about it][talk]).
+— the [LACE Evidence Hub][] ([I talked about it][talk]).
 I am also doing some accessibility evaluations of other sites.
 
 And so, I've been revisiting some work I did previously for [Open Media Player][]
-on fixing high-contrast related bugs and issues
+on fixing high-contrast related bugs and issues.
 
 <!--more-->
 
@@ -32,7 +33,7 @@ However, if you find that you need to fix a site after the fact, is there anythi
 
 Why ... yes!
 
-This accessibility fix comprises two parts.
+This accessibility fix comprises [<ins>three</ins>][update]<del>two</del> parts.
 
 ## The Javascript
 
@@ -103,8 +104,20 @@ Not, pretty, but pragmatic accessibility fixes for high contrast and ignore-colo
 
 Now. Go experiment!
 
+---
+
+## Update
+
+> Update, 5 April 2016. I propose that there are actually three components:
+>
+> 1. The [Javascript detailed above](#the-javascript), generic to any Web site;
+> 2. A generic CSS stylesheet that is applicable to any site —
+  this would reset borders on form input fields, and include other fixes;
+> 3. CSS styles that are specific to a particular web site —
+  examples of some [specific styles are above](#the-styles).
 
 
+[update]: #update "See update"
 [LACE Evidence Hub]: http://evidence.laceproject.eu
 [talk-x]: /2015/10/09/laceflare-workshop-lace-accessibility.html
 [talk]: {% post_url 2015-10-09-laceflare-workshop-lace-accessibility %}

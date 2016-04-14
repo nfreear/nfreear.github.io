@@ -50,7 +50,7 @@ pressed using a mouse closes a dialog box within the page, via Javascript.
 {% highlight html linenos %}
 <img
   src="close-button.png"
-  onclick="closeDialog();"
+  onclick="closeDialog()"
 />
 {% endhighlight %}
 
@@ -100,7 +100,7 @@ When the fix is [injected via Javascript](#anatomy-of-a-system), it results in t
 {% highlight html linenos %}
 <img
   src="close-button.png"
-  onclick="closeDialog();"
+  onclick="closeDialog()"
   tabindex="0"
   role="button"
   alt="Close dialog"
@@ -115,6 +115,15 @@ Our image that looks like a button, now _feels_ like a button
 (or as [WCAG 2.0][] says, it is "_perceivable, operable, usable_ and _robust_" — _POUR_).
 
 Fix complete!
+
+And, to stress the fix has been implemented without access to the server hosting this example page.
+It is implemented via a third-party service, and integrated into the page on a per-user basis, via an add-on, browser extension or similar technology, within the user's browser.
+
+In future posts I'll discuss the anatomy of the Accessify Wiki software system,
+and the relationship of Accessify Wiki to so-called _accessibility middleware_.
+
+
+----
 
 
 ## Anatomy of a system
