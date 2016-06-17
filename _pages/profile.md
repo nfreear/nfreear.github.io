@@ -17,6 +17,8 @@ You can find me all over the Web &hellip; :
 * [Google Scholar][scholar]
 * [Twitter: @nfreear](https://twitter.com/nfreear)
 * [Twitter: @AccessifyWiki](https://twitter.com/AccessifyWiki)
+* [Pinboard: ndf](https://pinboard.in/u:ndf)
+<!--* [Delicious: nfreear](http://del.icio.us/nfreear)-->
 * [Email: Nfreear at Yahoo.co.uk](mailto:Nfreear+@+yahoo.co.uk)
 * [LibraryThing](https://librarything.com/catalog/Nicholas.Freear)
 * [OpenLibrary](https://openlibrary.org/people/nfreear)
@@ -26,6 +28,8 @@ You can find me all over the Web &hellip; :
 * [Flickr](https://flickr.com/photos/nfreear)
 * [GitHub](https://github.com/nfreear)
 * [Bitbucket](https://bitbucket.org/nfreear)
+* [Packagist: nfreear](https://packagist.org/packages/nfreear/)
+* [Travis-CI: nfreear](https://travis-ci.org/nfreear) and [IET-OU](https://travis-ci.org/IET-OU)
 * [ScraperWiki](https://scraperwiki.com/profiles/nfreear)
 * [Yahoo! Pipes][pipes]
 * [Mycroft](http://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")

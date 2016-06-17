@@ -47,7 +47,8 @@
 
   @include icon( "twitter.com", "https://twitter.com/favicon.ico" );
   @include icon( "yahoo.co"   , "https://www.yahoo.com/favicon.ico" );
-  @include icon( "delicious.com", "https://delicious.com/favicon.ico" );
+  //@include icon( "delicious.com", "https://delicious.com/favicon.ico" );
+  @include icon( "pinboard.in", "https://pinboard.in/favicon.ico");
 
   @include icon( "scoop.it"   , "https://www.scoop.it/resources/img/favicon.ico" ); // http://scoop.it/favicon.ico ;
   @include icon( "slideshare.net", "https://www.slideshare.net/favicon.ico" );
@@ -56,6 +57,8 @@
 
   @include icon( "github.com", "https://github.com/favicon.ico" );
   @include icon( "bitbucket.org", "https://bitbucket.org/favicon.ico" );
+  @include icon( "packagist.org", "https://packagist.org/favicon.ico?v=1465471909");
+  @include icon( "travis-ci.org", "https://cdn.travis-ci.org/images/favicon-662edf026745110e8203d8cf38d1d325.png");
   //@include icon( "ohloh.net", "http://www.ohloh.net/favicon.ico" );
   @include icon( "openhub.net", "https://www.openhub.net/favicon.ico" );
   @include icon( "scraperwiki.com", "https://scraperwiki.com/favicon.ico" );
