@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% assign is_post_page = true %}
+{% assign slug = page.path | replace: '.md', '' | replace: '.html', '' %}
+{% assign git_url = '/%X/master/%s' | replace: '%s', page.path | prepend: site.x-github-url %}
 
 <div class="post" role="article">
 
@@ -13,6 +15,7 @@ layout: default
       {{ page.date | date: date_format }}
       {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
       {% if page.x-source %} • <a href="{{ page.x-source }}" rel=nofollow title="Original post – comments: {{ page.x-comment-cnt | default: "0" }}">legacy</a>{% endif %}
+      • <a href="{{ git_url | replace: '%X', 'blob' }}" title="On GitHub">post source<i class="sr-only"> on GitHub</i></a></span>
     </p>
   </header>
 

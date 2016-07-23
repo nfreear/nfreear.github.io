@@ -1,6 +1,4 @@
 # https://pages.github.com/versions/
-# https://docs.travis-ci.com/user/languages/ruby
-# https://github.com/jekyll/jekyll
 # https://jekyllrb.com/docs/continuous-integration/
 
 language: ruby
@@ -20,10 +18,9 @@ before_script:
   - make npm-install
 
 script:
-  - jekyll --version
+  - bundle exec jekyll --version
   - grunt
-  # Was: - bundle exec jekyll build
-  - jekyll build
+  - bundle exec jekyll build
   # http://localhost:4000
 
 after_script:
