@@ -6,6 +6,12 @@ h1,h2,h3,h4,h5, .site-title {
     color: #333;
 }
 
+.post-content {
+    li {
+        margin-bottom: 5px; //$spacing-unit; //30px;
+    }
+}
+
 /* Accessibility [a11y].
  */
 .sr-only {

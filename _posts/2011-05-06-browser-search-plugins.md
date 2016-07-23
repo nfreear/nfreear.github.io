@@ -77,12 +77,12 @@ For Internet Explorer and to make the plugin more visible consider some Javascri
 This is a jQuery script to detect if the browser supports OpenSearch-based plugins.
 It adds a `<button>`` on the page corresponding to each search <link>.
 
-
+{% comment %}
 {% gist nfreear/959786 %}
 
 <!-- file-drupal-block_search-plugin-buttons-jquery-js -->
 <!--{% gist parkr/931c1c8d465a04042403 %}-->
-
+{% endcomment %}
 
 There is an [OpenSearch plugin for Drupal][drupal], and the snippet above can be
 used directly in a custom Drupal block -- see the buttons at the bottom of this page.
