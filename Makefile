@@ -31,4 +31,8 @@ find:
 edit:
 	@find _posts -type f -name "*$q*" | atom
 
+npm-install:
+	npm install grunt-cli -g
+	npm install grunt grunt-exec grunt-contrib-jshint grunt-contrib-sass
+
 #End.

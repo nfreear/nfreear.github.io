@@ -24,7 +24,7 @@ jQuery(function ($) {
     , $loader = $("#x-idc-comments-loading")
     , $wrapper = $("#" + BLOG.comment_div)
     , W = window
-    , D = W.console && BLOG.debug
+    , console = W.console
     // "#IDComment1000836892"
     , comment_hash_re = /(#IDComment(\d+))/
     , m_hash = W.location.hash.match(comment_hash_re)
@@ -43,7 +43,7 @@ jQuery(function ($) {
 
   // 2. Check if HTML containers exist.
   if (! $loader.length || ! $wrapper.length) {
-    W.console && console.log("Warning: no comments wrapper found.");
+    console.info("Warning: no comments wrapper found.");
     return;
   }
 
@@ -54,7 +54,7 @@ jQuery(function ($) {
 
   if ('localhost' === W.location.hostname && ! BLOG.js_local) {
     $("body").addClass("no-js-local");
-    W.console && console.log("Localhost – no comments!");
+    console.info("Localhost – no comments!");
     return;
   }
 
@@ -76,16 +76,16 @@ jQuery(function ($) {
     $loader.hide("slow");
     $("#idc-container").show("slow");
 
-    D && console.log("comment.js: ", accessibility_fixes, BLOG);
+    console.debug("comment.js: ", accessibility_fixes, BLOG);
   });
 
-  // 7. 
+  // 7.
   if (m_hash) {
     when_call(function () {
       return $(m_hash[ 1 ]).length;
     },
     function () {
-      D && console.log("Comment-scroll: ", m_hash);
+      console.debug("Comment-scroll: ", m_hash);
       //$("#IDThread" + m_hash[ 2 ]).attr("tabindex", 0).focus();
       $(m_hash[ 1 ]).attr({ tabindex: 0 }).focus();
     });
@@ -93,9 +93,9 @@ jQuery(function ($) {
 
 
   function when_call(when_true_FN, callback_FN, interval) {
-    var int_id = setInterval(function () {
+    var int_id = W.setInterval(function () {
       if (when_true_FN()) {
-        clearInterval(int_id);
+        W.clearInterval(int_id);
         callback_FN();
       }
     }, interval || 250); // Milliseconds.

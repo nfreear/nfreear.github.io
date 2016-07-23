@@ -1,8 +1,10 @@
 
+[![Build status: Travis-CI][travis-icon]][travis-ci]
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
 [![@nfreear on Twitter][twit-icon]][twitter]
+
 
 # nfreear.github.io
 
@@ -50,3 +52,5 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 [twit-icon]: https://img.shields.io/twitter/follow/nfreear.svg?style=social
 [GitHub pages]: https://pages.github.com/
 [tom]: https://github.com/mojombo/mojombo.github.io
+[travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg
+[travis-ci]: https://travis-ci.org/nfreear/nfreear.github.io "Build status – Travis-CI"

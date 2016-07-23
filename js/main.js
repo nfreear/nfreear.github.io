@@ -5,17 +5,17 @@
 (function (W, L) {
   if ('/' === L.pathname && L.href.match(/[\?&]q=\w+/)) {
     W.location = '/search/' + L.search;
-    W.console && console.log("Redirect", L);
+    if (W.console) { W.console.log("Redirect", L); }
     //throw [ "Redirect", L ];
   }
 }(window, window.location));
 
-
+/* jshint -W069 *//* jshint -W030 *//* jshint -W033 */
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
+})(window,window.document,'script','//www.google-analytics.com/analytics.js','ga');
+/* jshint +W069 *//* jshint +W030 *//* jshint +W033 */
 
 jQuery(function ($) {
 
@@ -23,7 +23,6 @@ jQuery(function ($) {
 
   var W = window
     , debug = W.location.search.match(/debug=1/) // /debug=([1-9])/
-    , D = W.console && debug
     , BLOG = $("#js-config").data()
     ;
 
@@ -31,12 +30,22 @@ jQuery(function ($) {
 
   $.NF_BLOG = BLOG;
 
+  if (! W.console || ! debug) {
+    W.console = {
+      debug:function () {},
+      info: function () {}
+    };
+  } else if (! W.console) {
+    W.console = {
+      info: function () {}
+    };
+  }
+  var console = W.console;
 
   /* Google Analytics.
   */
   ga('create', BLOG.analytics_id, 'auto');
   ga('send', 'pageview');
-
 
   // Event tracking: https://developers.google.com/analytics/devguides/collection/analyticsjs/events
   $("a").on("click", function (ev) {
@@ -47,7 +56,7 @@ jQuery(function ($) {
     if (url.match(/^https?:/)) {
       ga('send', 'event', 'link', 'click', text +' '+ url);
 
-      D && console.log("Track extern link click:", text, url);
+      console.debug("Track extern link click:", text, url);
     }
 
     //ev.preventDefault();
@@ -69,7 +78,7 @@ jQuery(function ($) {
     var $btn = $('<a role="button">Add browser search plugin</a>')
       .attr("href", $search.attr("href"))
       .on("click", function () {
-        D && console.log("Search plugin:", $search.attr("href"));
+        console.debug("Search plugin:", $search.attr("href"));
         W.external.AddSearchProvider($search.attr("href"));
         return false;
     });
@@ -95,21 +104,24 @@ jQuery(function ($) {
     if (! elem.id) { //$el[ 0 ].id
       elem.id = "p-" + (cn + 1);
     }
-  })
+  });
 
 
   /* oEmbed / Open Media Player ..
   */
-  $.fn.oembed && $("a[ href *= _EMBED_ME_ ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
+  /*$.fn.oembed &&*/ $("a[ href *= _EMBED_ME_ ], a[ href *= '.ac.uk/pod/' ]").oembed(null, {
     oupodcast: { rgb: "omp-purple" },
     youtube: { rgb: "omp-orange" }
   },
   function (data, undefined) {
+    var m_title = data.html.match(/(title="[^"]+")/)
+      , at_title = m_title ? m_title[ 1 ] : null;
     // Clean up Flickr embeds :(.
     if ("Flickr" === data.provider_name) {
       data.code = data.code.replace(/<\/div><div.+/, "</div>"); //.replace(/<script.+/, "");
+      data.code = data.code.replace(/href/, at_title + " href");
     }
-    D && console.log("onEmbed: ", data, undefined);
+    console.debug("onEmbed: ", data, undefined);
 
     $.fn.oembed.insertCode(this, "replace", data);
   });
@@ -132,7 +144,7 @@ jQuery(function ($) {
     if (m) {
       $link.addClass(m[ 1 ].toLowerCase() + " x-me").attr("href", url_clean);  //.html(text);
     }
-    D && console.log("big-me: ", m);
+    console.debug("big-me: ", m);
   });
 
 
@@ -140,11 +152,10 @@ jQuery(function ($) {
   */
   $("pre code").each(function (pidx, pre) {
     $(pre).find(".lineno").each(function (lidx, line) {
-      $(line).attr("id", "L" + (pidx + 1) + "-" + (lidx + 1))
+      $(line).attr("id", "L" + (pidx + 1) + "-" + (lidx + 1));
     });
   });
 
 
-  D && console.log("main.js", debug, BLOG);
-
+  console.debug("main.js", debug, BLOG);
 });

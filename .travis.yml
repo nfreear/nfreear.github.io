@@ -1,0 +1,35 @@
+# https://pages.github.com/versions/
+# https://docs.travis-ci.com/user/languages/ruby
+# https://github.com/jekyll/jekyll
+
+language: ruby
+rvm:
+  - &ruby3 2.1.8
+
+git:
+  depth: 8
+
+bundler_args: --without benchmark:site:development
+cache: bundler
+sudo: false
+
+before_script:
+  # Was: - bundle update
+  - gem install github-pages
+  - make npm-install
+
+script:
+  - jekyll --version
+  - grunt
+  # Was: - bundle exec jekyll build
+  - jekyll build
+  # http://localhost:4000
+
+after_script:
+  - grunt exec:count
+
+notifications:
+  webhooks:
+    #- http://iet-embed-acct.open.ac.uk/dev/travis-hook/
+
+#End.
