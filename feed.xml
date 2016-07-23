@@ -11,6 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    <language>en-GB</language>
     {% assign limit = 10 %}
     <!--limit: {{ limit }}-->
     {% for post in site.posts limit: limit %}

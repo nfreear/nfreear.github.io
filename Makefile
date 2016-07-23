@@ -33,6 +33,7 @@ edit:
 
 npm-install:
 	npm install grunt-cli -g
-	npm install grunt grunt-exec grunt-contrib-jshint grunt-contrib-sass
+	npm install grunt grunt-exec grunt-contrib-jshint
+	#npm install grunt-contrib-sass
 
 #End.

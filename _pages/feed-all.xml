@@ -12,7 +12,7 @@ x-created: 2015-03-03
     <atom:link href="{{ "/feed-all.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <language>en</language>
+    <language>en-GB</language>
     <sy:updatePeriod>hourly</sy:updatePeriod>
 	  <sy:updateFrequency>2</sy:updateFrequency>
     <generator>Jekyll v{{ jekyll.version }}</generator>

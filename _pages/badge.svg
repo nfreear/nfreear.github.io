@@ -6,7 +6,7 @@ x-created: 2016-02-14 09:44
 x-icon:    https://img.shields.io/badge/posts-99-blue.svg
 x-nav-class: sr-only
 ---
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20" xml:lang="en">
 {% assign post_count = site.posts | size %}
 <title>{{ page.title | replace: 'NN', post_count }} (badge)</title>
 <linearGradient id="b" x2="0" y2="100%">

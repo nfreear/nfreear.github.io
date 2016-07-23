@@ -5,7 +5,7 @@ description: Accessibility, e-learning, internationalization, web dev, Moodle an
 ex_long_desc: > # this means to ignore newlines until "baseurl:"
   This is an experiment!
   I’m rebooting my blog using GitHub pages & Jekyll.
-  <a href="https://github.com/nfreear/nfreear.github.io">(source)</a>
+  <a href="https://github.com/nfreear/nfreear.github.io">(site source)</a>
   <br>
   The blog archive is at <a href="http://freear.org.uk">Freear.org.uk</a> &bull; &copy;Nick Freear.
 
@@ -28,6 +28,7 @@ url: "http://nick.freear.org.uk"
 twitter_username: nfreear
 github_username:  nfreear
 
+x-github-url: https://github.com/nfreear/nfreear.github.io
 
 # Site setting extensions.
 
@@ -72,11 +73,15 @@ ex_atbar: true
 exclude:
   #- _drafts/do-not-delete.txt
   - Makefile
+  - Gemfile
+  - Gruntfile.js
   - ".htaccess"
   - index.php
   - _posts/_blog.md
   - _out/
   - _bin/
+  - node_modules/
+  - vendor
 
 include:
   - _pages
