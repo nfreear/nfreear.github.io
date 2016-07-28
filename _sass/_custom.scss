@@ -181,7 +181,7 @@ iframe:hover, iframe:focus, a.x-me:hover {
     outline: 2px solid #ccc;
     outline-offset: 5px;
     display: block;
-    margin: 1em auto;
+    margin: 1.3em auto;
     border-radius: 4px;
 }
 a:hover img {
@@ -199,6 +199,10 @@ img[ src *= flickr ] {
 }
 .XX-flickr-embed-frame {
 //  display: none;
+}
+.post-content a [ src *= _MEDIUM_ ] {
+    width: 65%;
+    margin: 1.8em auto;
 }
 
 .site-footer .text i {
