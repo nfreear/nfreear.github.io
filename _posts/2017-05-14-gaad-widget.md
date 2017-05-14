@@ -17,11 +17,14 @@ The widget requires zero configuration by default:
 ```html
 <div id="id-gaad"></div>
 
-<script src="https://cdn.rawgit.com/nfreear/gaad-widget/1.0-alpha/build/GAAD.widget.js"></script>
+<script src="https://cdn.rawgit.com/nfreear/gaad-widget/1.0-beta/build/GAAD.widget.js"></script>
 ```
 
 It can be [configured][usage], and already features basic [translation][].
 Do give it a try, and vote for new features via the [wishlist][].
+
+It is compatible with all modern browsers, and with Internet Explorer 10-11
+([MSIE 9 is a work-in-progress][ie]).
 
 And, it's [open source][MIT] ;).
 
@@ -37,6 +40,7 @@ Happy GAAD!
 [usage]: https://github.com/nfreear/gaad-widget/blob/master/README.md#usage
 [translation]: https://github.com/nfreear/gaad-widget/blob/master/README.md#translation
 [wishlist]: https://github.com/nfreear/gaad-widget/issues/2#!-Wishlist
+[ie]: https://github.com/nfreear/gaad-widget/issues/3#!-MSIE-9-11
 [Datejs]: https://github.com/datejs/Datejs
 [RawGit]: https://rawgit.com/
 [MIT]: https://nfreear.mit-license.org/ "MIT License"
