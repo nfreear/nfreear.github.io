@@ -8,12 +8,14 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/nfreear/gaad-widget/1.0-alpha/build/GAAD.widget.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 {% case page.url %}
 {% when '/index.html' or '/tag/' or '/search/' %}
 <!--no-embed-->
 {% else %}
-<script src="http://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
+<script src="https://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
 {% endcase %}
 <!--page.url: {{ page.url }} -->
 <script src="/js/main.js"></script>
