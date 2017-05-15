@@ -1,22 +1,23 @@
 ---
 layout: post
-title:  gaad-widget
+title:  GAAD-widget
 date:   2017-05-14 07:55
-tags:   accessibility
+tags:   [ accessibility, "open source" ]
 ---
+
 
 This Thursday, [Global Accessibility Awareness Day (GAAD)][gaad], is a great
 opportunity to talk to your colleagues about digital access and inclusion,
 and to learn about how to help those with different disabilities and needs.
 
-To help promote and celebrate [Global Accessibility Awareness Day (GAAD)][gaad],
+To help promote and celebrate the day,
 I've come up with the automated banner-link you see above.
 
-Please give it [a try][try], and [give me feedback][bug]!
+Please [give it a try][try], and [give me feedback][bug]!
 
 Global Accessibility Awareness Day happens on the third Thursday of May each year.
 The widget automatically appears 10 days before, and disappears 5 days after (_configurable_).
-It shows the correct date each year - all thanks to [Datejs][].
+It shows the correct date each year — all thanks to [Datejs][].
 
 The widget requires zero configuration by default.
 Here are the _two lines_ to include on your site (thanks [RawGit][]):
@@ -34,21 +35,21 @@ It is compatible with [all modern browsers, and with Internet Explorer 9-11][ie]
 
 And, it's [open source][MIT] ;).
 
-Happy GAAD!
-
+Happy [GAAD][]!
 
 
 
 [GAAD]: http://globalaccessibilityawarenessday.org/?utm_source=github&utm_campaign=gaad-widget
 [@gbla11yday]: https://twitter.com/gbla11yday
-[@nfreear]: https://twitter.com/nfreear
+[@nfreear]: https://twitter.com/nfreear "Twitter: @nfreear"
+[blog]: http://nick.freear.org.uk/2017/05/14/gaad-widget.html
 [try]: https://github.com/nfreear/gaad-widget "Try 'gaad-widget'"
 [bug]: https://github.com/nfreear/gaad-widget/issues "Give feedback and report issues"
-[usage]: https://github.com/nfreear/gaad-widget/blob/master/README.md#usage "Usage"
-[translation]: https://github.com/nfreear/gaad-widget/blob/master/README.md#translation
+[usage]: https://github.com/nfreear/gaad-widget#usage "Usage"
+[translation]: https://github.com/nfreear/gaad-widget#translation "Translation"
 [wishlist]: https://github.com/nfreear/gaad-widget/issues/2#!-Wishlist "Wishlist"
 [ie]: https://github.com/nfreear/gaad-widget/issues/3#!-MSIE-9-11 "Browser compatibility"
 [Datejs]: https://github.com/datejs/Datejs
 [RawGit]: https://rawgit.com/
     "Content delivery network (CDN); serves Git files with the correct mime-type."
-[MIT]: https://nfreear.mit-license.org/ "MIT License"
+[MIT]: https://github.com/nfreear/gaad-widget#license "MIT License"
