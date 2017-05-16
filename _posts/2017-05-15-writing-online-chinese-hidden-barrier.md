@@ -79,16 +79,16 @@ Note, there is also an [Android app][play], that I haven't yet used.
 
 ## More
 
-* [Zhou Youguang, father of Pinyin, Dies at 111][Zhou-Youguang-obit]
+* [Zhou Youguang, father of Pinyin, Dies at 111][zhou-youguang-obit]
 
 
 [pinyin]: https://en.wikipedia.org/wiki/Pinyin
 [search]: https://google.com/search?q=How+do+you+type+in+Chinese?
-[beijing]: https://translate.google.com/?source=osdd#auto/zh-CN/Beijing
-[beijing-r]: https://translate.google.com/?source=osdd#auto/en/%E5%8C%97%E4%BA%AC
+[beijing]: https://translate.google.com/?source=osdd#auto/zh-CN/Beijing "Google Translate — 'Beijing'"
+[beijing-r]: https://translate.google.com/?source=osdd#auto/en/%E5%8C%97%E4%BA%AC "Google Translate"
 [gg-hand]: https://google.com/inputtools/services/features/handwriting.html
 [gg-faq]: https://support.google.com/faqs/faq/6188721?hl=en
-[gg-trans]: https://translate.google.com/?source=osdd#en/en/Hi
+[gg-trans]: https://translate.google.com/?source=osdd#en/en/Hi "Google Translate — english"
 [chrome-ext]: https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab
 [play]: https://play.google.com/store/apps/details?id=com.google.android.apps.handwriting.ime&hl=en_GB
 
@@ -100,19 +100,20 @@ Note, there is also an [Android app][play], that I haven't yet used.
 [img-1]: https://www.google.com/inputtools/images/features/handwriting.png
 [zhuyin]: https://commons.wikimedia.org/wiki/File:Zhuyin_keybd_layout_w_pinyin_-w-.svg
 [dajia]: https://commons.wikimedia.org/wiki/File:Dajia-shuo-Putonghua-2817.jpg
-    "Chinese characters annotated with pinyin"
+  "Chinese characters annotated with pinyin — 'Da jia qing shuo pu tong hua...', Wikimedia."
 [dajia-img]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Dajia-shuo-Putonghua-2817.jpg/640px-Dajia-shuo-Putonghua-2817.jpg
 [tones]: https://commons.wikimedia.org/wiki/File:Pinyin_accents.svg
 
 [flickr-size]: https://flickr.com/services/api/misc.urls.html
 [g-hand-ico]: https://flickr.com/photos/nfreear/34296737840 "Handwriting icon, on Google Translate"
 [g-hand-ico-img]: https://c1.staticflickr.com/5/4167/34296737840_bcd615585f_n.jpg
-[g-hand-i-can]: https://www.flickr.com/photos/nfreear/34681375455 "Handwriting - 'I can say here to you'"
+[g-hand-i-can]: https://flickr.com/photos/nfreear/34681375455
+  "Chinese handwriting — 'I can say here to you', on Google Translate"
 [g-hand-i-can-img]: https://c1.staticflickr.com/5/4194/34681375455_7071fd4b1f_c.jpg
 [g-hand-youtube]: https://flickr.com/photos/nfreear/34296744260 "Handwriting input for YouTube search"
 [g-hand-youtube-img]: https://c1.staticflickr.com/5/4189/34296744260_8bd1b32c9c_c.jpg
 
-[Zhou-Youguang-obit]: https://www.nytimes.com/2017/01/14/world/asia/zhou-youguang-who-made-writing-chinese-as-simple-as-abc-dies-at-111.html?_r=0
-    "'Zhou Youguang, Who Made Writing Chinese as Simple as ABC, Dies at 111 - 点击查看本文中文版''"
+[zhou-youguang-obit]: https://nytimes.com/2017/01/14/world/asia/zhou-youguang-who-made-writing-chinese-as-simple-as-abc-dies-at-111.html
+  "'Zhou Youguang, Who Made Writing Chinese as Simple as ABC, Dies at 111 - 点击查看本文中文版', January 2017."
 
 [end]: //End.
