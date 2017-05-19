@@ -25,7 +25,7 @@ Here are the _two lines_ to include on your site (thanks [RawGit][]):
 ```html
 <div id="id-gaad"></div>
 
-<script src="https://cdn.rawgit.com/nfreear/gaad-widget/1.0-beta.2/build/GAAD.widget.js"></script>
+<script src="https://cdn.rawgit.com/nfreear/gaad-widget/2.0-beta/build/GAAD.widget.js"></script>
 ```
 
 It can be [configured][usage], and already features basic [translation][].

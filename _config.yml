@@ -38,7 +38,7 @@ ex_comments: true
 ex_bodyclass: tribute
 
 x_jquery_version: 2.2.4
-x_gaad_version: 9ab601c5 # Was: 1.0-beta.2
+x_gaad_version: 2.0-beta  # Was: 9ab601c5, 1.0-beta.2
 
 js_config:
   # Google Analytics.
@@ -79,6 +79,8 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - ".htaccess"
+  - LICENSE.MD
+  - README.md
   - index.php
   - _posts/_blog.md
   - _out/
