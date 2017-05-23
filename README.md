@@ -41,7 +41,7 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 [cc-icon-lg]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [cc-icon]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "Content: Creative Commons License CC-BY-SA"
-[MIT License]: https://nfreear.mit-license.org/
+[MIT License]: https://nfreear.mit-license.org/2009-2017#!-blog
 [mit-icon]: https://img.shields.io/badge/license-MIT-blue.svg "Code: MIT License"
 [Jekyll]: http://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
 [jekyll-icon]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
