@@ -5,7 +5,7 @@ categories: research
 title:  "PhD: Automated Visual Inspection for the Quality Control of Pad Printing"
 date:   2001-12-01 12:00:00
 x-created: 2015-12-03 17:05
-tags:   PhD  thesis
+tags:   archive  PhD  thesis
 x-url:  http://etheses.bham.ac.uk/890/
 x-gdoc: https://docs.google.com/document/d/1F59mVj4Xi2RkB2x_X_g0vYPaO8V2QzjYQmflgyAd7UM#
 ---
@@ -43,7 +43,7 @@ Ultraviolet-cured inks with improved printability were developed.
 The image normalisation/ error-signalling stage in inspection was proven
 in isolation, as was the pattern recognition system.
 
-
+---
 
 To Matt and my parents,
 your support is everything...
@@ -82,7 +82,7 @@ Birmingham, Maastricht, Philips, Marabu, Lego, Tampoprint, machine vision,
 visual inspection, quality control, pad printing, tampo-graphic.
 
 
-Total word count: 41087 (8 ch.) / Pages: 202
+* Total word count:  41087 (8 chapters) / Pages: 202.
 
 
 

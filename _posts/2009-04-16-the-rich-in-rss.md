@@ -25,6 +25,7 @@ they do is markup (or not) the data for the event (start date, location etc.) in
 HTML, in [RSS][] or [Atom][]. So, for RememberTheMilk we have,
 
 
+```xml
 {% highlight xml %}
 <entry>
   ...
@@ -37,11 +38,11 @@ HTML, in [RSS][] or [Atom][]. So, for RememberTheMilk we have,
         <span class="rtm_due_value">none</span></div>
     ...
 {% endhighlight %}
-
+```
 
 And for Google Calendar,
 
-
+```xml
 {% highlight xml %}
 <entry xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.google.com/calendar/feeds/d4 ... </id>
@@ -55,6 +56,7 @@ And for Google Calendar,
   <author><name>Sam ...</name></author>
 ...
 {% endhighlight %}
+```
 
 
 ![Remember The Milk][rtm-img] ![Google Calendar][g-calendar-img]

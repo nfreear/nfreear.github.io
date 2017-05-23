@@ -2,7 +2,7 @@
 published: false
 layout: post
 categories: research
-x-author: Guangyu Yang Freear
+author: Guangyu Yang Freear
 title:  "A Study of Cross-Cultural Decision-Making Styles: Is Cognitive Mapping an Effective Methodology for Data Analysis?"
 date:   2015-06-28 12:00:00
 x-date-deposited: 22 Jul 2016 09:28

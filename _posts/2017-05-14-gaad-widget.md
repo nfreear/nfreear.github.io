@@ -2,7 +2,7 @@
 layout: post
 title:  GAAD-widget
 date:   2017-05-14 07:55
-tags:   [ accessibility, "open source" ]
+tags:   [ accessibility, "open source", event ]
 ---
 
 

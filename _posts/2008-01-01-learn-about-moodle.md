@@ -4,7 +4,7 @@ layout: post
 author: Will Woods, Nick Freear
 title:  Learn about Moodle
 date:   2008-01-01 12:00:00
-tags:   OU  Moodle
+tags:   archive  OU  Moodle
 x-pdf:  http://www.open.ac.uk/validate/documents/059-ai-learn-about-moodle.pdf
 ---
 
