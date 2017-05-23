@@ -24,3 +24,7 @@
 <script src="/js/idc-comments-custom.js"></script>
 {% comment %}<script src="//www.intensedebate.com/js/genericCommentWrapperV2.js"></script>{% endcomment %}
 {% endif %}
+
+{% if page.x-footer-script %}
+<script src="{{ page.x-footer-script }}"></script>
+{% endif %}

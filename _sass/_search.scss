@@ -29,7 +29,7 @@ a[ href *= "opensearch.xml" ] {
     transition: all 1s;
 }
 
-.search-empty input, .search-empty button,
+.search-empty input[ type = search ], .search-empty button,
 .gsc-search-box-tools .gsc-search-box .gsc-input {
     font-size: 1.07em;
     color: #333;
@@ -64,7 +64,7 @@ body .gsc-tabHeader.gsc-tabhInactive {
     color: navy;
 }
 
-.search-empty input {
+.search-empty input[ type = search ] {
   min-width: 78%;
   max-width: 92%;
   padding: 2px;
