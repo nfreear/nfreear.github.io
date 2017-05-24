@@ -8,7 +8,9 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
+{% if site.x_gaad_version %}
 <script src="https://cdn.rawgit.com/nfreear/gaad-widget/{{ site.x_gaad_version }}/build/GAAD.widget.js"></script>
+{% endif %}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.x_jquery_version }}/jquery.min.js"></script>
 {% case page.url %}
@@ -27,4 +29,8 @@
 
 {% if page.x-footer-script %}
 <script src="{{ page.x-footer-script }}"></script>
+{% endif %}
+
+{% if site.x_black_ribbon %}
+<script>console.log('{{ site.x_black_ribbon }}')</script>
 {% endif %}

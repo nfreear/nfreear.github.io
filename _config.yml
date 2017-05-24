@@ -38,7 +38,8 @@ ex_comments: true
 ex_bodyclass: tribute
 
 x_jquery_version: 2.2.4
-x_gaad_version: 2.0-beta  # Was: 9ab601c5, 1.0-beta.2
+# x_gaad_version: 2.0-beta  # Was: 9ab601c5, 1.0-beta.2
+x_black_ribbon: My thoughts are with the victims of the Manchester attack, 22 May 2017.
 
 js_config:
   # Google Analytics.
