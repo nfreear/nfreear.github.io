@@ -31,7 +31,7 @@ Press `Sign` to get started:
 
 <div
   id="id-sign-machine"
-  data-sign-machine='{ "initial": "Hi. I&apos;m sign-machine", "dev": 0 }'
+  data-sign-machine='{ "initial": "Hi. I&apos;m sign-machine.", "dev": 0 }'
   >[ sign-machine requires Javascript. Is it disabled in your browser? ]</div>
 
 
