@@ -2,6 +2,11 @@
 
   <div class="wrapper">
 
+    {% if site.x_black_ribbon %}
+    <img alt="{{ site.x_black_ribbon }}" class="black-ribbon left" src=
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Black_Ribbon.svg/26px-Black_Ribbon.svg.png" />
+    {% endif %}
+
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav" role="navigation">
@@ -37,11 +42,6 @@
  jf.src='https://core.atbar.org/atbar/en/latest/atbar.min.js';
  jf.type='text/javascript';jf.id='ToolBar';d.getElementsByTagName('head')[0].appendChild(jf);})();"
         ><img src="https://core.atbar.org/resources/img/launcher.png" alt="ATbar"></a>
-        {% endif %}
-
-        {% if site.x_black_ribbon %}
-        <img alt="{{ site.x_black_ribbon }}" class="black-ribbon" src=
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Black_Ribbon.svg/32px-Black_Ribbon.svg.png" />
         {% endif %}
 
       </div>
