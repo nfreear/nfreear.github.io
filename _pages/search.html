@@ -12,22 +12,21 @@ x-created:   2015-10-21
 
 
   <script>
-  (function(L) {
+  (function (document, L) {
     if (L.search.match(/[\?&]q=\w+/)) {
       var cx = '001222343498871500969:-u73i2qfu2s';
       var gcse = document.createElement('script');
       gcse.type = 'text/javascript';
       gcse.async = true;
-      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-          '//cse.google.com/cse.js?cx=' + cx;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
       var s = document.getElementsByTagName('script')[0];
       s.parentNode.insertBefore(gcse, s);
     }
     //ELSE: see 'main.js'
-  })(window.location);
+  })(window.document, window.location);
   </script>
-  <gcse:search><form><p id="x-cse-loading"> Search loading ... </p></form></gcse:search>
 
+  <gcse:search><form><p id="x-cse-loading"> Search loading ... </p></form></gcse:search>
 
 
   <p id="plugin"></p>
