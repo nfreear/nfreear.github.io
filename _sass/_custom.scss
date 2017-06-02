@@ -5,7 +5,7 @@
 .site-header .black-ribbon.left {
   display: inline-block;
   float: left;
-  margin: 6px 5px 0 0;
+  margin: 8px 5px 0 0;
 }
 
 h1,h2,h3,h4,h5, .site-title {
@@ -84,7 +84,12 @@ img[ src *= "open-media-player/badge.svg" ] {
 
 .big_me {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.35em;
+}
+.redirect {
+    background: #f8f8f8;
+    padding: 1.4em 0;
+    margin: 0;
 }
 .x-me {
     display: block;
@@ -230,11 +235,12 @@ img[ src *= flickr ] {
     padding: .6em 0;
     background: $message-background;
     border-bottom: 1px solid #ccc;
-}
-.ex-site-message:hover {
-    background: #fff3f3;
-    border-color: #999;
-    transition: .7s;
+
+    &:hover {
+        background: #fff3f3;
+        border-color: #999;
+        transition: .7s;
+    }
 }
 
 .site-nav .page-link:not(:first-child),
@@ -279,6 +285,39 @@ p > code, li > code {
     padding: 8px;
 }
 
+.post-content {
+    input,
+    button {
+        font-size: 1.05em;
+        padding: 3px 12px;
+    }
+    button {
+        cursor: pointer;
+        margin-right: 8px;
+
+        i {
+            font-style: normal;
+        }
+    }
+    input/*#id-simple-speak */ {
+        min-width: 18em;
+        text-align: center;
+    }
+    input[ type = submit ] {
+        min-width: auto;
+    }
+    form {
+        margin: 1em 0;
+    }
+}
+
+.post-content .demo {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin: 1.2em 0;
+    padding: .7em;
+}
 
 /* IntenseDebate accessibility [Bug: #3][a11y]
 */
