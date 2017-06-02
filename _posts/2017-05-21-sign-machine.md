@@ -3,7 +3,7 @@
 layout: post
 title:  Sign-machine rebooted
 date:   2017-05-22 17:23
-tags:   accessibility
+tags:   accessibility  javascript  e-learning
 ## permalink: /sm/
 x-footer-script: https://cdn.rawgit.com/nfreear/sign-machine/2.0-alpha/src/sign-machine.js
 ## x-footer-script: https://rawgit.com/nfreear/sign-machine/2.x/src/sign-machine.js

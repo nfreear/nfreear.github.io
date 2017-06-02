@@ -119,6 +119,25 @@ References . . . . . . . . . . . . . 65
 
 ---
 
+## Chapter 1  Introduction
+
+The project was chosen because it provided the opportunity to undertake
+product design involving ergonomics and statistical research, fields which were new to me.
+There was scope for original inventions: though a lot of items have been
+designed specifically for older people, the market is still relatively
+new and there were thought to be difficult tasks for which no aids or helpful devices existed.
+The prospect of hands-on original design was what attracted me.
+Finally, there was the chance to actually build the end-product and
+possibly help a significant part of the population.
+
+. . .
+
+## Chapter 5  Conclusion
+
+. . .
+
+Page 54.
+
 . . .
 
 ---
@@ -129,8 +148,6 @@ References . . . . . . . . . . . . . 65
 * 4 appendices,
 * 69 pages, including References,
 * 7 pages of front-matter.
-
-
 
 
 ---

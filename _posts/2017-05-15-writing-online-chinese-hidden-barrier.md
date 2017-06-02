@@ -2,7 +2,7 @@
 layout: post
 title:  Writing online in Chinese, a hidden barrier
 date:   2017-05-15 17:23
-tags:   accessibility  gerontology  china
+tags:   accessibility  gerontology  China
 ---
 
 
