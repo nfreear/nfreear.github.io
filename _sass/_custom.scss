@@ -160,6 +160,11 @@ iframe:hover, iframe:focus, a.x-me:hover {
     transition: $transition;
 }
 
+.simple-speak-ifr {
+    border-width: 2px;
+    overflow: hidden;
+    padding: 2px;
+}
 
 /* Open Media Player embeds / Bootstrap embeds.
 */
