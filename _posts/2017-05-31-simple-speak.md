@@ -4,13 +4,16 @@ title:  Simple-speak, voiceFamily
 date:   2017-06-13 21:00
 x-created:   2017-05-31 19:00
 tags:   accessibility  javascript  e-learning
+og-desc: With the evolution of HTML5 and the Web Speech API, it's the ideal time to develop an easy to integrate Javascript library - enter 'simple-speak'.
+og-image: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/style/simple-speak.png
+og-image-alt: simple-speak widget embedded on a web-page.
 x-footer-script: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/build/simple-speak.js
 x-embed-url:  https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/htm/?embed;
 x-get-voices: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/test/get-voices.html
 ---
 
 
-I've been continuing with the burst of activity that lead to the [gaad-widget][],
+I've been continuing with the burst of activity that led to the [gaad-widget][],
 and a re-booted [sign-machine][].
 _(In the case of `sign-machine`, it was desirable to produce a quick prototype, then judge the reaction, if any.)_
 
@@ -23,7 +26,7 @@ Unfortunately, the web services that it relies on seem to no longer be avilable,
 and it has languished. <!-- .. I haven't had the time to maintain that plugin -->
 
 I'm happy to say that the Web has moved on since then.
-With the evolution of HTML5, we now have a the [Web Speech API][w3c],
+With the evolution of HTML5, we now have the [Web Speech API][w3c],
 implemented in [most modern browsers][caniuse].
 So, it's the ideal time to develop an easy to integrate Javascript wrapper
 around the API — enter [simple-speak][npm].
@@ -53,7 +56,7 @@ Here's an example in Spanish:
 
 <div class="demo">
 
-<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" scrolling="no" src=
+<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" src=
   "{{ page.x-embed-url }}lang=es-ES;q={{ 'Buenos días. ¿cómo estás?' | cgi_escape | replace: '+', '%20' }}"
 ></iframe>
 
@@ -69,7 +72,7 @@ And, the source code for the above example:
 
 Here's a Mandarin Chinese synthesiser, in an `<iframe>`:
 
-<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" scrolling="no" src=
+<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" src=
   "{{ page.x-embed-url }}lang=zh-CN;q={{ '你好阿姨' | cgi_escape | replace: '+', '%20' }}"
 ></iframe>
 
@@ -156,12 +159,6 @@ And, please feedback via the [comments](#comments), to [@nfreear on Twitter][], 
 [trend-3c]: https://www.w3counter.com/trends
 
 [x-github]: https://github.com/nfreear/simple-speak/blob/master/build/simple-speak.js
-[x-footer-script-1]: https://cdn.rawgit.com/nfreear/simple-speak/1.0-alpha/build/simple-speak.js
-[x-footer-script-0]: https://rawgit.com/nfreear/simple-speak/master/build/simple-speak.js
-
-[x-footer-script-2]: https://cdn.rawgit.com/nfreear/simple-speak/6f5b6042/build/simple-speak.js
-[x-embed-url]:  https://cdn.rawgit.com/nfreear/simple-speak/6f5b6042/htm/?embed=1&
-[x-get-voices]: https://cdn.rawgit.com/nfreear/simple-speak/6f5b6042/test/get-voices.html
 
 [tts-icon]: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/style/text-to-speech-icon.svg
 [icon-tts-src]: https://thenounproject.com/search/?q=speech%20synthesis&i=357035 "tts"

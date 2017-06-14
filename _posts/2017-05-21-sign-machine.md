@@ -9,6 +9,10 @@ x-footer-script: https://cdn.rawgit.com/nfreear/sign-machine/2.0-alpha/src/sign-
 ## x-footer-script: https://rawgit.com/nfreear/sign-machine/2.x/src/sign-machine.js
 ## x-footer-script: http://localhost:8888/sign-machine/src/sign-machine.js
 ## <meta name="robots" content="noindex,nofollow" />
+
+og-desc: A Javascript to embed sign-language animations — finger spell your text. Currently it supports British Sign Language.
+og-image: https://c1.staticflickr.com/5/4202/33989105994_cf11c09d5d_n.jpg
+og-image-alt: The sign-machine widget embedded on a web-page.
 ---
 
 

@@ -1,4 +1,6 @@
 #
+# Makefile | © 2015-2017 Nick Freear | License: MIT.
+#
 # The default, serve & draft targets require Ruby & Jekyll.
 # The "rewrite" target requires PHP & Melody (http://melody.sensiolabs.org)
 #
@@ -28,12 +30,15 @@ find:
 	@echo q = $q
 	find _posts -type f -name "*$q*"
 
+unpublished:
+	grep 'published: false' _posts/*
+
 edit:
 	@find _posts -type f -name "*$q*" | atom
 
 npm-install:
 	npm install grunt-cli -g
-	npm install grunt grunt-exec grunt-contrib-jshint
+	npm i grunt grunt-exec grunt-contrib-jshint semistandard
 	#npm install grunt-contrib-sass
 
 #End.

@@ -3,6 +3,9 @@ layout: post
 title:  GAAD-widget
 date:   2017-05-14 07:55
 tags:   [ accessibility, "open source", event ]
+og-desc: To help promote and celebrate Global Accessibility Awareness Day (GAAD), I’ve come up with an Javascripted banner-link.
+og-image: https://cdn.rawgit.com/nfreear/gaad-widget/2.0-beta/style/GAAD.widget.png
+og-image-alt: GAAD-widget embedded on a web-page.
 ---
 
 

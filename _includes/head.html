@@ -1,12 +1,17 @@
-<head>
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% comment %}{% include head-redirect.html %}{% endcomment %}
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="google-site-verification" content="aQpZHJpekYdSfnJK75V3ptYoHd8vGpFhfs90_lVGqoE" />
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} {% unless page.title %}| {{ site.description | strip_html | truncate: 160 }}{% endunless %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords: site.ex_excerpt_truncate }}{% else %}{{ site.description | strip_html }}{% endif %}">
+
+  {% include meta.html %}
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
