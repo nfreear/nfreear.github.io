@@ -56,7 +56,7 @@ Here's an example in Spanish:
 
 <div class="demo">
 
-<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" src=
+<iframe class="simple-speak-ifr" title="simple-speak" src=
   "{{ page.x-embed-url }}lang=es-ES;q={{ 'Buenos días. ¿cómo estás?' | cgi_escape | replace: '+', '%20' }}"
 ></iframe>
 
@@ -72,7 +72,7 @@ And, the source code for the above example:
 
 Here's a Mandarin Chinese synthesiser, in an `<iframe>`:
 
-<iframe class="simple-speak-ifr" title="simple-speak" width="99%" height="75" src=
+<iframe class="simple-speak-ifr" title="simple-speak" src=
   "{{ page.x-embed-url }}lang=zh-CN;q={{ '你好阿姨' | cgi_escape | replace: '+', '%20' }}"
 ></iframe>
 
@@ -120,6 +120,24 @@ Some possible use cases for `simple-speak`:
 
 Go play!
 And, please feedback via the [comments](#comments), to [@nfreear on Twitter][], and [on Facebook][].
+
+## Update
+
+### Spell me
+
+15 June 2017 ~ I'm working on a spelling mode. It's not yet released. Here's a preview:
+
+<iframe class="simple-speak-ifr" aria-label="Speech synthesis" src=
+  "https://cdn.rawgit.com/nfreear/simple-speak/8ff790ba/htm/?embed;mode=spell;rate=0.7;q=Spell%20me!"
+></iframe>
+
+The HTML `<iframe>` source for the above spelling widget (`mode=spell`):
+
+```html
+<iframe class="simple-speak-ifr" aria-label="Speech synthesis" src=
+  "https://cdn.rawgit.com/nfreear/simple-speak/8ff790ba/htm/?embed;mode=spell;rate=0.7;q=Spell%20me!"
+></iframe>
+```
 
 
 <!--

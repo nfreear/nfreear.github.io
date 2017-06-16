@@ -130,7 +130,7 @@ iframe {
     border: 6px solid #eee;
     border-radius: 5px;
     //background: url(http://throbber.net/loader-large.gif);
-    background: #eee url(/assets/loader-large.gif) no-repeat center;
+    background: #f6f6f6 url(/assets/loader-large.gif) no-repeat center;
     background-size: contain;
 }
 #x-idc-comments-loading {
@@ -164,7 +164,7 @@ iframe:hover, iframe:focus, a.x-me:hover {
     border-width: 2px;
     height: 75px;
     overflow: hidden;
-    padding: 2px;
+    padding: 1px;
     width: 99%;
 }
 
