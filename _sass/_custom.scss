@@ -119,6 +119,7 @@ img[ src *= "open-media-player/badge.svg" ] {
 //[ href ^= javascript ] {outline:1px solid red}
 //[ role = button ] {outline: 1px solid green}
 
+.ajax-loader,
 #x-idc-comments-loading span,
 #x-idc-comments-loading,
 iframe {
@@ -139,6 +140,10 @@ iframe {
 #IDCommentsPostTitle,
 #idc-container {
     display: none;
+}
+
+.ajax-loader {
+  border: 1px solid #ddd;
 }
 
 .no-js-local #x-idc-comments-loading span {

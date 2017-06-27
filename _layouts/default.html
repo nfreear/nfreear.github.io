@@ -9,13 +9,17 @@
     <div class="page-content" role="main">
       <div class="wrapper">
 
-        <div id="id-gaad"></div>
+        <div id="id-gaad-widget"></div>
 
         {{ content }}
       </div>
     </div>
 
+  {% unless page.x-redirect-url %}
+
     {% include footer.html %}
     {% include footer-javascript.html %}
+
+  {% endunless %}
   </body>
 </html>

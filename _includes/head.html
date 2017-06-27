@@ -23,4 +23,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="search" href="{{ "/opensearch.xml" | prepend: site.baseurl | prepend: site.url }}" type="application/opensearchdescription+xml" title="{{ site.title }} search" />
+
+  {% if page.x-style-url %}
+  <link href="{{ page.x-style-url }}" rel="stylesheet"/>
+  {% endif %}
+  {% if page.x-style %}
+  <style>{{ page.x-style }}</style>
+  {% endif %}
 </head>

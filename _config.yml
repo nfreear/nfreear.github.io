@@ -37,8 +37,8 @@ ex_excerpt_truncate: 28
 ex_comments: true
 ex_bodyclass: tribute
 
-x_jquery_version: 2.2.4
-x_gaad_version: 5c686519  # Was: 2.0-beta,
+# x_jquery_version: 2.2.4
+# x_gaad_version: 5c686519  # Was: 2.0-beta,
 # x_black_ribbon: My thoughts are with the victims of the Manchester attack, 22 May 2017.
 
 js_config:
