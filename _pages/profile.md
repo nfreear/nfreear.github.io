@@ -5,12 +5,13 @@ permalink: /profile.html
 x-source:  http://freear.org.uk/nick#!_ul.profile
 x-nav-class: sr-only
 x-created:   2015-11-04
+x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-widget.min.js
 ---
 
 
 You can find me all over the Web &hellip; :
 
-* [Profile at The Open University](http://iet.open.ac.uk/people/n.d.freear "OU profile")
+* [Profile at The Open University](http://www.open.ac.uk/people/ndf42 "OU profile")
 * [Facebook](https://facebook.com/nickfreear)
 * [LinkedIn](https://linkedin.com/pub/nicholas-freear/40/781/b11)
 * [Google+](https://profiles.google.com/n.d.freear#112441018708933635212)
@@ -28,13 +29,15 @@ You can find me all over the Web &hellip; :
 * [Flickr](https://flickr.com/photos/nfreear)
 * [GitHub](https://github.com/nfreear)
 * [Bitbucket](https://bitbucket.org/nfreear)
+* [NPM: @nfreear](https://npmjs.com/~nfreear)
 * [Packagist: nfreear](https://packagist.org/packages/nfreear/)
 * [Travis-CI: nfreear](https://travis-ci.org/nfreear) and [IET-OU](https://travis-ci.org/IET-OU)
-* [ScraperWiki](https://scraperwiki.com/profiles/nfreear)
+* [ScraperWiki](https://classic.scraperwiki.com/profiles/nfreear/)
 * [Yahoo! Pipes][pipes]
 * [Mycroft](http://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
 * [Cloudworks](http://cloudworks.ac.uk/user/view/1040)
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
+* [Libraries.io](https://libraries.io/github/nfreear/projects)
 * [Open HUB](https://openhub.net/accounts/nfreear "Formerly called 'Ohloh'")
 * [Gravatar](https://en.gravatar.com/maltable)
 * [Member of the Guild of Accessible Web Designers][gawds]
@@ -54,10 +57,16 @@ You can find me all over the Web &hellip; :
 [Statistics for Open Media Player, on Open HUB][fr-oh-omp]
 
 
+<div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
+
+
+[iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
 [scholar]: https://scholar.google.com/scholar?as_q=&as_sauthors=%22N+Freear%22&as_sdt=1.&as_sdts=5
-[pipes]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
+[pipes-X]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
     "Read only - may be slow! (Yahoo Pipes)"
+[pipes]: https://web.archive.org/web/20160408134939/http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
+    "Archive.org copy - Yahoo Pipes"
 [gawds]: https://web.archive.org/web/20111104032019/http://www.gawds.org/showmember.php?memberid=2424#!_ARCHIVE_
     "Original link broken (GAWDS)"
 [book]: https://packtpub.com/moodle-2-for-teaching-4-9-year-olds-beginners-guide/book?ref=freear.org.uk
