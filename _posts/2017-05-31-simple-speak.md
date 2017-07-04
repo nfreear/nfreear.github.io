@@ -3,13 +3,14 @@ layout: post
 title:  Simple-speak, voiceFamily
 date:   2017-06-13 21:00
 x-created:   2017-05-31 19:00
-tags:   accessibility  javascript  e-learning
+tags:   NPM  accessibility  javascript  e-learning
 og-desc: With the evolution of HTML5 and the Web Speech API, it's the ideal time to develop an easy to integrate Javascript library - enter 'simple-speak'.
-og-image: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/style/simple-speak.png
+og-image: https://c1.staticflickr.com/5/4012/34870007024_e189009037_b.jpg
+og-image-00: https://unpkg.co/simple-speak@1.2.0-beta/style/simple-speak.png
 og-image-alt: simple-speak widget embedded on a web-page.
-x-footer-script: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/build/simple-speak.js
-x-embed-url:  https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/htm/?embed;
-x-get-voices: https://cdn.rawgit.com/nfreear/simple-speak/1.2-beta/test/get-voices.html
+x-footer-script: https://unpkg.co/simple-speak@1.3.0-beta#._.js
+x-embed-url:  https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/embed/?
+x-get-voices: https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/test/get-voices.html
 ---
 
 
@@ -40,12 +41,13 @@ around the API — enter [simple-speak][npm].
 
 </div>
 
-It can be embedded on a page with 3 lines of HTML — including jQuery (thanks to [RawGit][]):
+It can be embedded on a page with 3 lines of HTML — including jQuery
+(thanks to [unpkg][] and [RawGit][]):
 
 ```html
 <div id="id-simple-speak"> Hello. I'm simple-speak. </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.co/jquery@2.2.4/dist/jquery.min.js"></script>
 <script src="{{ page.x-footer-script }}"></script>
 ```
 
@@ -125,17 +127,20 @@ And, please feedback via the [comments](#comments), to [@nfreear on Twitter][], 
 
 ### Spell me
 
-15 June 2017 ~ I'm working on a spelling mode. It's not yet released. Here's a preview:
+15 June 2017 ~ I'm working on a spelling mode &hellip; <!-- It's not yet released, but here's a cheeky preview: -->
+
+1 July 2017 ~ version [1.3.0 (beta) is released][rel].
+It features a spelling mode, and triggers a custom message each time it starts to speak a phrase:
 
 <iframe class="simple-speak-ifr" aria-label="Speech synthesis" src=
-  "https://cdn.rawgit.com/nfreear/simple-speak/8ff790ba/htm/?embed;mode=spell;rate=0.7;q=Spell%20me!"
+  "{{ page.x-embed-url }}mode=spell;rate=0.9&q=Spell%20me!"
 ></iframe>
 
-The HTML `<iframe>` source for the above spelling widget (`mode=spell`):
+Here's the HTML `<iframe>` source for the above spelling widget (`mode=spell`):
 
 ```html
 <iframe class="simple-speak-ifr" aria-label="Speech synthesis" src=
-  "https://cdn.rawgit.com/nfreear/simple-speak/8ff790ba/htm/?embed;mode=spell;rate=0.7;q=Spell%20me!"
+  "{{ page.x-embed-url }}mode=spell;rate=0.9&q=Spell%20me!"
 ></iframe>
 ```
 
@@ -151,10 +156,12 @@ The HTML `<iframe>` source for the above spelling widget (`mode=spell`):
 
 [npm]: https://npmjs.com/package/simple-speak
 [GitHub]: https://github.com/nfreear/simple-speak
+[rel]: http://github.com/nfreear/simple-speak/releases "Release notes / changelog"
 [gh-mdl]: https://github.com/nfreear/moodle-filter_simplespeak "GitHub"
 [mdl-p]: https://moodle.org/plugins/view.php?plugin=filter_simplespeak "Moodle plugins page"
 [RawGit]: https://rawgit.com/
-  "RawGit serves Git files with the correct mime-type; it provides a content delivery network (CDN)."
+  "Content delivery network (CDN); serves Git files with the correct mime-type."
+[unpkg]: https://unpkg.com/ "unpkg is a fast content delivery network for everything on npm."
 [WebAnywhere]: http://webinsight.cs.washington.edu/papers/webanywhere-html/
   "'WebAnywhere: A Screen Reader On-the-Go' (2008) Bigham, Prince and Ladner, University of Washington."
 [gs-wa]: https://scholar.google.com/scholar?q=WebAnywhere%3A+A+Screen+Reader+On-the-Go&

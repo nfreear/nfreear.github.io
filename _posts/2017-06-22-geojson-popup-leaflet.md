@@ -10,8 +10,8 @@ og-image: https://c1.staticflickr.com/5/4266/35188676900_b385b4ec42_z.jpg
 ## og-image: https://c1.staticflickr.com/5/4253/35188195970_8e2fa3dd1e_z.jpg
 og-image-alt: Example map harnessing 'geojson-popup' Javascript.
 ## x-footer-script-DEV: https://rawgit.com/nfreear/popup-geojson-map/master/src/popup-geojson-map.js
-x-footer-script: https://unpkg.com/geojson-popup@2.0.0-beta#._.js
-x-style-url: https://unpkg.com/leaflet@1.0.3/dist/leaflet.css
+x-footer-script: https://unpkg.co/geojson-popup@2.0.0-beta#._.js
+x-style-url: https://unpkg.co/leaflet@1.0.3/dist/leaflet.css
 x-style: '.map{ min-height: 340px; } .leaflet-popup-content{ margin: 11px; } .leaflet-popup-content-wrapper{ border-radius: 6px; } .map h2{ font-size: 1.5em; }'
 ## x-style: '.map{ min-height: 300px; width: 110%; } .leaflet-popup-content{ margin: 11px; } .leaflet-popup-content-wrapper{ border-radius: 6px; } .map h2{ font-size: 1.5em; } h2,p {margin:0}'
 ---
@@ -66,8 +66,8 @@ The map is produced from the following components ...
 4.. Lastly, Javascript includes for Leaflet, and `geojson-popup`:
 
 ```html
-<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-<script src="https://unpkg.com/geojson-popup@2.0.0-beta#._.js"></script>
+<script src="https://unpkg.co/leaflet@1.0.3/dist/leaflet.js"></script>
+<script src="https://unpkg.co/geojson-popup@2.0.0-beta#._.js"></script>
 ```
 
 The template contains placeholders like `<%= audio_url %>`.
