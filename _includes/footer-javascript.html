@@ -8,10 +8,10 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
-<script src="https://unpkg.co/gaad-widget@{{ site.x_gaad_version | default: '3.1.0-beta' }}#._.js"></script>
+<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '3.1.0-beta' }}#._.js"></script>
 {% if site.x_gaad_version %} {% endif %}
 
-<script src="https://unpkg.co/jquery@{{ site.x_jquery_version | default: '2.2.4' }}/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/jquery@{{ site.x_jquery_version | default: '2.2.4' }}/dist/jquery.min.js"></script>
 {% comment %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.x_jquery_version }}/jquery.min.js"></script>{% endcomment %}
 {% case page.url %}
 {% when '/index.html' or '/tag/' or '/search/' %}

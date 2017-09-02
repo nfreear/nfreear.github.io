@@ -6,9 +6,9 @@ x-created:   2017-05-31 19:00
 tags:   NPM  accessibility  javascript  e-learning
 og-desc: With the evolution of HTML5 and the Web Speech API, it's the ideal time to develop an easy to integrate Javascript library - enter 'simple-speak'.
 og-image: https://c1.staticflickr.com/5/4012/34870007024_e189009037_b.jpg
-og-image-00: https://unpkg.co/simple-speak@1.2.0-beta/style/simple-speak.png
+og-image-00: https://unpkg.com/simple-speak@1.2.0-beta/style/simple-speak.png
 og-image-alt: simple-speak widget embedded on a web-page.
-x-footer-script: https://unpkg.co/simple-speak@1.3.0-beta#._.js
+x-footer-script: https://unpkg.com/simple-speak@1.3.0-beta#._.js
 x-embed-url:  https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/embed/?
 x-get-voices: https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/test/get-voices.html
 ---
@@ -47,7 +47,7 @@ It can be embedded on a page with 3 lines of HTML — including jQuery
 ```html
 <div id="id-simple-speak"> Hello. I'm simple-speak. </div>
 
-<script src="https://unpkg.co/jquery@2.2.4/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <script src="{{ page.x-footer-script }}"></script>
 ```
 

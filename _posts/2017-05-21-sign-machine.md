@@ -4,8 +4,8 @@ title:  Sign-machine rebooted
 date:   2017-05-22 17:23
 tags:   NPM  accessibility  javascript  e-learning
 ## permalink: /sm/
-x-footer-script: https://unpkg.co/sign-machine@2.1.0-beta/src/sign-machine.js
-x-footer-script-01: https://unpkg.co/sign-machine@2.1.0-beta#._.js
+x-footer-script: https://unpkg.com/sign-machine@2.1.0-beta/src/sign-machine.js
+x-footer-script-01: https://unpkg.com/sign-machine@2.1.0-beta#._.js
 og-desc: A Javascript to embed sign-language animations — finger spell your text. Currently it supports British Sign Language.
 og-image: https://c1.staticflickr.com/5/4202/33989105994_cf11c09d5d_n.jpg
 og-image-alt: The sign-machine widget embedded on a web-page.
@@ -45,7 +45,7 @@ It can be embedded on a site with just three lines of HTML — the snippet uses 
 ```html
 <div id="id-sign-machine"> Javascript is required. </div>
 
-<script src="https://unpkg.co/jquery@2.2.4/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <script src="{{ page.x-footer-script }}"></script>
 ```
 

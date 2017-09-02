@@ -5,7 +5,7 @@ date:   2017-05-14 07:55
 tags:   [ NPM, accessibility, "open source", event, javascript ]
 og-desc: To help promote and celebrate Global Accessibility Awareness Day (GAAD), I’ve come up with an Javascripted banner-link.
 og-image: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
-og-image-00: https://unpkg.co/gaad-widget@3.1.0-beta/style/gaad-widget.png
+og-image-00: https://unpkg.com/gaad-widget@3.1.0-beta/style/gaad-widget.png
 og-image-alt: GAAD-widget embedded on a web-page.
 ---
 
@@ -29,7 +29,7 @@ Here are the _two lines_ to include on your site (thanks [unpkg][] and [RawGit][
 ```html
 <div id="id-gaad-widget"></div>
 
-<script src="https://unpkg.co/gaad-widget@3.1.0-beta#._.js"></script>
+<script src="https://unpkg.com/gaad-widget@3.1.0-beta#._.js"></script>
 ```
 
 It can be [configured][usage], and already features basic [translation][].
