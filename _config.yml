@@ -92,6 +92,17 @@ exclude:
 include:
   - _pages
 
+# https://wiki.mozilla.org/Security/Guidelines/Web_Security
+webrick:
+  headers:
+    X-NDF: 1
+    # C-S-P-: ... ?!
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: sameorigin
+    X-XSS-Protection: 1
+    Referrer-Policy: same-origin
+    Content-Language: en
+    Content-Script-Type: text/javascript; charset=utf-8
 
 # Build settings
 markdown: kramdown
