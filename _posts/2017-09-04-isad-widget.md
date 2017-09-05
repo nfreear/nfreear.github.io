@@ -4,8 +4,8 @@ title:  ISAD-widget
 date:   2017-09-04 18:00
 tags:   [ NPM, accessibility, "open source", event, javascript ]
 og-desc: To help promote and celebrate International Stuttering Awareness Day (ISAD), I’ve come up with an Javascripted banner-link.
-# og-image: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
-og-image-00: https://unpkg.com/isad-widget@1.0.1-beta/style/isad-widget.jpg
+# og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
+og-image: https://unpkg.com/isad-widget@1.0.1-beta/style/isad-widget.jpg
 og-image-alt: ISAD-widget embedded on a web-page.
 ---
 
