@@ -5,6 +5,12 @@
 # The "rewrite" target requires PHP & Melody (http://melody.sensiolabs.org)
 #
 
+POST_DATE=`date +%Y-%m-%d`
+# POST_DATE=`date +%Y-%m-%d-%H.%M.%S`
+POST_FILE=_posts/$(POST_DATE)-edit-me.md
+TEMPLATE=_drafts/2017-09-15-template.md
+
+
 default: draft
 
 help:
@@ -40,5 +46,12 @@ npm-install:
 	npm install grunt-cli -g
 	npm i grunt grunt-exec grunt-contrib-jshint semistandard
 	#npm install grunt-contrib-sass
+
+new-post:
+	cp $(TEMPLATE) $(POST_FILE)
+	atom $(POST_FILE)
+	#/usr/bin/open -a "/Applications/Google Chrome.app" 'http://google.com/'
+	open -a "/Applications/Google Chrome.app" 'http://127.0.0.1:4000/'
+	make draft
 
 #End.
