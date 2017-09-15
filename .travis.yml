@@ -12,7 +12,12 @@ bundler_args: --without benchmark:site:development
 cache: bundler
 sudo: false
 
-before_script:
+before_install:
+  - nvm install v4.4
+  - npm install npm -g
+  - npm --version
+
+install:
   #- bundle install
   #- gem install github-pages
   - make npm-install

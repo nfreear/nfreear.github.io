@@ -1,11 +1,11 @@
 /*!
-  Nfreear blog task-runner | © 2016 NDF.
+  Nfreear blog task-runner | © 2016 Nick Freear | License: MIT.
 */
 
 module.exports = function (grunt) {
 	'use strict';
 
-	grunt.log.subhead('Running X build and tests...');
+	grunt.log.subhead('Running Nfreear build and tests...');
 
 	grunt.initConfig({
 		dir:  '_posts',
@@ -16,6 +16,8 @@ module.exports = function (grunt) {
 			serve: 'jekyll serve',
 			gem: 'gem install github-pages',
 			grep: runIf('grep', '! grep -r Config themes/applaud'),
+			semistandard: 'node_modules/.bin/semistandard js/*.js',
+			sfix: runIf('sfix', 'node_modules/.bin/semistandard --fix js/*.js'),
 			rewrite: '../melody.phar run -vvv _bin/rewritemap.php && php -l _out/index.php'
 		},
 
@@ -27,13 +29,13 @@ module.exports = function (grunt) {
 				curly: true,
 				eqeqeq: true,
 				futurehostile: true,
-				laxcomma: true,
+				//laxcomma: true,
 				undef: true,
 				// https://github.com/jshint/jshint/blob/master/src/messages.js#L80
 				//'-W033': true,    // Ignore Missing semicolon;
 				//'-W030': true,    // Ignore Expected an assignment or function call and instead saw an expression;
 				//'-W069': true,    // Ignore {a} is better written in dot notation;
-				globals: { jQuery: false, window: false, ga: false }
+				globals: { window: false }
 			},
 			blog: [ 'js/*.js', '!js/intensedebate/*' ],
 			grunt: {
@@ -42,7 +44,8 @@ module.exports = function (grunt) {
 			}
 		},
 		yamllint: {
-			travis:  '.travis.yml'
+			config: '_config.yml',
+			travis: '.travis.yml'
 		},
 		// https://npmjs.com/package/grunt-link-checker
 		// https://github.com/cgiffard/node-simplecrawler#configuration
@@ -57,7 +60,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-exec');
 	//grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', [ 'jshint' ]);
+	grunt.registerTask('default', [ 'jshint', 'exec:semistandard' ]);
 
 
 	/* ------------------------------------------------------------------- */

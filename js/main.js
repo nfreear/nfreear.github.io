@@ -98,6 +98,14 @@ window.jQuery(function ($) {
     ev.preventDefault();
   });
 
+  setTimeout(function () {
+    $('.gsc-input a.gsst_a').attr({
+      role: 'button',
+      title: 'Delete search',
+      'aria-label': 'Delete search'
+    });
+  }, 3000);
+
   // Add per-paragraph/ chunk navigation.
   $('article p, article li, .highlight').each(function (cn, elem) {
     if (!elem.id) { // $el[ 0 ].id
@@ -107,7 +115,7 @@ window.jQuery(function ($) {
 
   /* oEmbed / Open Media Player ..
   */
-  /* $.fn.oembed && */ $('a[ href *= _EMBED_ME_ ], a[ href *= ".ac.uk/pod/" ]').oembed(null, {
+  $.fn.oembed && $('a[ href *= _EMBED_ME_ ], a[ href *= ".ac.uk/pod/" ]').oembed(null, {
     oupodcast: { rgb: 'omp-purple' },
     youtube: { rgb: 'omp-orange' }
   },

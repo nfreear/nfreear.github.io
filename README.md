@@ -3,6 +3,7 @@
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
+[![Blog up][up-icon]][blog]
 [![@nfreear on Twitter][twit-icon]][twitter]
 
 
@@ -24,6 +25,9 @@ My legacy blog posts:
 
 
 See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
+
+
+## Useful icons ~ 👄👅 💓🇫🇷.🇨🇳⌚️📅 🍺🐞 !
 
 
 ---
@@ -55,3 +59,5 @@ See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 [tom]: https://github.com/mojombo/mojombo.github.io
 [travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg
 [travis-ci]: https://travis-ci.org/nfreear/nfreear.github.io "Build status – Travis-CI"
+
+[up-icon]: https://img.shields.io/website-up-down-green-red/http/nick.freear.org.uk.svg?label=Blog

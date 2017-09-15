@@ -1,9 +1,14 @@
+*.html
+*.txt
+/*.svg
+
 _site
 .sass-cache
 node_modules/*
 
 *BAK*
 *copy*
+*edit-me*
 
 _out/
 #!_out/.htaccess
