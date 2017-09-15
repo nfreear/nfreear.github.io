@@ -1,5 +1,5 @@
 ---
-## published: false
+x-csp-disable: true
 layout: post
 title:  Rich GeoJSON popups for Leaflet
 date:   2017-06-27 21:55
