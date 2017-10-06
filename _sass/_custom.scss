@@ -55,6 +55,14 @@ abbr {
     cursor: help;
 }
 
+.comment-ifr {
+  background: transparent;
+  border: 1px solid #eee;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+}
+
 noscript,
 .comments-disabled {
     font-size: $small-font-size;

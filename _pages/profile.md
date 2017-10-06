@@ -12,7 +12,7 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 You can find me all over the Web &hellip; :
 
 * [Profile at The Open University](http://www.open.ac.uk/people/ndf42 "OU profile")
-* [Facebook](https://facebook.com/nickfreear)
+* [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/pub/nicholas-freear/40/781/b11)
 * [Google+](https://profiles.google.com/n.d.freear#112441018708933635212)
 * [Google Scholar][scholar]

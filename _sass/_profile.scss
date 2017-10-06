@@ -41,6 +41,7 @@
   //[href*="cloudworks.ac.uk"] {background-image:url(http://cloudworks.ac.uk/themes/cloudworks/favicon.ico)}
 
   @include icon( "facebook.com", "https://www.facebook.com/favicon.ico" );
+  @include icon( "fb.com", "https://www.facebook.com/favicon.ico" );
   @include icon( "linkedin.com", "https://www.linkedin.com/favicon.ico" );
   @include icon( "google.com"  , "https://www.google.com/favicon.ico" );
   @include icon( "s.google.com", "https://plus.google.com/favicon.ico"); // plus., profiles.
