@@ -1,3 +1,4 @@
+# DEPRECATED.
 #
 # Makefile | © 2015-2017 Nick Freear | License: MIT.
 #

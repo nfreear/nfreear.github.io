@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "nfreear.github.io",
+  "version": "1.0.0",
+  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-exec": "^1.0.0",
+    "semistandard": "^11.0.0"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "draft": "jekyll serve --drafts --unpublished --future",
+    "start": "jekyll serve",
+    "version": "bundle exec jekyll --version",
+    "fix": "semistandard --fix",
+    "test": "grunt && semistandard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfreear/nfreear.github.io.git"
+  },
+  "author": "Nick Freear (@nfreear)",
+  "license": "MIT",
+  "homepage": "http://nick.freear.org.uk/",
+  "semistandard": {
+    "ignore": [
+      "Gruntfile.js",
+      "js/intensedebate"
+    ]
+  }
+}

@@ -16,7 +16,7 @@ module.exports = function (grunt) {
 			serve: 'jekyll serve',
 			gem: 'gem install github-pages',
 			grep: runIf('grep', '! grep -r Config themes/applaud'),
-			semistandard: 'node_modules/.bin/semistandard js/*.js',
+			semistandard: '# node_modules/.bin/semistandard js/*.js',
 			sfix: runIf('sfix', 'node_modules/.bin/semistandard --fix js/*.js'),
 			rewrite: '../melody.phar run -vvv _bin/rewritemap.php && php -l _out/index.php'
 		},

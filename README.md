@@ -27,6 +27,13 @@ My legacy blog posts:
 See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 
 
+## Install .. Test
+
+```sh
+npm install && npm test
+npm start
+```
+
 ## Useful icons ~ 👄👅 💓🇫🇷.🇨🇳⌚️📅 🍺🐞 !
 
 

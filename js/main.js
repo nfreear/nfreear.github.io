@@ -32,7 +32,7 @@ window.jQuery(function ($) {
     W.console = {
       debug: function () {},
       warn: function () {},
-      log:  function () {},
+      log: function () {},
       info: function () {}
     };
   } else if (!W.console) {
@@ -98,7 +98,7 @@ window.jQuery(function ($) {
     ev.preventDefault();
   });
 
-  setTimeout(function () {
+  W.setTimeout(function () {
     $('.gsc-input a.gsst_a').attr({
       role: 'button',
       title: 'Delete search',
@@ -115,22 +115,24 @@ window.jQuery(function ($) {
 
   /* oEmbed / Open Media Player ..
   */
-  $.fn.oembed && $('a[ href *= _EMBED_ME_ ], a[ href *= ".ac.uk/pod/" ]').oembed(null, {
-    oupodcast: { rgb: 'omp-purple' },
-    youtube: { rgb: 'omp-orange' }
-  },
-  function (data, xundefined) {
-    var m_title = data.html.match(/(title="[^"]+")/);
-    var at_title = m_title ? m_title[ 1 ] : null;
-    // Clean up Flickr embeds :(.
-    if (data.provider_name === 'Flickr') {
-      data.code = data.code.replace(/<\/div><div.+/, '</div>'); // .replace(/<script.+/, "");
-      data.code = data.code.replace(/href/, at_title + ' href');
-    }
-    console.debug('onEmbed: ', data, xundefined);
+  if ($.fn.oembed) {
+    $('a[ href *= _EMBED_ME_ ], a[ href *= ".ac.uk/pod/" ]').oembed(null, {
+      oupodcast: { rgb: 'omp-purple' },
+      youtube: { rgb: 'omp-orange' }
+    },
+    function (data, xundefined) {
+      var m_title = data.html.match(/(title="[^"]+")/);
+      var at_title = m_title ? m_title[ 1 ] : null;
+      // Clean up Flickr embeds :(.
+      if (data.provider_name === 'Flickr') {
+        data.code = data.code.replace(/<\/div><div.+/, '</div>'); // .replace(/<script.+/, "");
+        data.code = data.code.replace(/href/, at_title + ' href');
+      }
+      console.debug('onEmbed: ', data, xundefined);
 
-    $.fn.oembed.insertCode(this, 'replace', data);
-  });
+      $.fn.oembed.insertCode(this, 'replace', data);
+    });
+  }
 
   $('a[ href *= _FRAME_ME_ ]').each(function () {
     var $link = $(this);

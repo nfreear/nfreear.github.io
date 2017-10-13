@@ -13,19 +13,20 @@ cache: bundler
 sudo: false
 
 before_install:
-  - nvm install v4.4
-  - npm install npm -g
-  - npm --version
+  # Was: - nvm install v4.4
+  - nvm install v8.1.3
+  - npm i npm -g
+  - npm -v
 
 install:
   #- bundle install
   #- gem install github-pages
-  - make npm-install
+  - npm install
 
 script:
-  - bundle exec jekyll --version
-  - grunt
-  - bundle exec jekyll build
+  - npm run version
+  - npm test
+  - npm run build
   # http://localhost:4000
 
 after_script:
@@ -39,4 +40,4 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
-#End.
+# End.
