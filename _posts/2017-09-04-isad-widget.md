@@ -29,13 +29,13 @@ It can be embedded on a page with the following _two lines_ of HTML
 ```html
 <div id="isad-widget"></div>
 
-<script src="https://unpkg.com/isad-widget@1.0.1-beta#._.js"></script>
+<script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '^1' }}#._.js"></script>
 ```
 
 (_Thanks [unpkg][]!_)
 
-(_Note, you need permission to add the Javascript to your website, as shown above.
-Not all users who are "authors" will have that permission._)
+I'm keen to find ways to help users to put the banner-link on thair site.
+(_Unfortunately, not all users who are "authors" on a website will have permission to insert Javascript._)
 
 This version is very basic. I thought I'd get it out, and gauge the response.
 
@@ -57,6 +57,13 @@ Please feedback via the [comments](#comments), to [@nfreear on Twitter][], and [
 
 [![The widget - link to ISAD][widget-img]][isad]
 
+---
+
+### Update
+
+6 October 2017 ~ I added support for configurable parameters,
+including the [option to link to the BSA, not ISA][usage].
+
 
 [@nfreear on Twitter]: https://twitter.com/nfreear
 [on Facebook]: https://facebook.com/nickfreear
@@ -68,6 +75,7 @@ Please feedback via the [comments](#comments), to [@nfreear on Twitter][], and [
 [gaad-widget]: /2017/05/14/gaad-widget.html "Global accessibility awareness day ~ 'gaad-widget'"
 [npmjs]: https://npmjs.com/package/isad-widget
 [github]: https://github.com/nfreear/isad-widget
+[usage]: https://github.com/nfreear/isad-widget#usage
 [unpkg]: https://unpkg.com "unpkg is a fast content delivery network for everything on npm."
 [mit]: https://nfreear.mit-license.org/2017#!-isad-widget "MIT License (code)"
 [widget-img]: https://raw.githubusercontent.com/nfreear/isad-widget/1.0.1-beta/style/isad-widget.jpg

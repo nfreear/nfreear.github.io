@@ -51,8 +51,8 @@ your support is everything...
 
 ## Acknowledgements
 
-The research forms part of the Brite-Euram III Intelpadprint project _BE 96-3180_,
-funded through the European Commission.
+The research forms part of the [Brite-Euram III Intelpadprint project _BE 96-3180_][project],
+funded through the European Commission ([report][]).
 The author would like to thank the EC, and the partners: Maastricht University (NL),
 Philips CFT and Philips DAP (NL), Marabu GmbH (DE), Tampoprint GmbH and
 Alfa Tools GmbH (DE), LEGO Group and Lego Engineering A/S (DK).
@@ -70,7 +70,7 @@ Will, Ade and Luis for being in the front line.
 
 Finally to my principal supervisor, Dr. James Shippen -- my biggest thank you.
 
-Partners: [University of Birmingham][], Mechanical... Engineering
+Partners: [University of Birmingham][uob], Mechanical... Engineering
 | [Maastricht University][], Department of Mathematics ([RLW][]) | [LEGO][] [en] |
 [Philips Consumer Electronics][] (Research) | [Tampoprint AG][] [en] | [European Union portal][EU], [EC - Brite-Euram][EC].
 
@@ -84,13 +84,19 @@ visual inspection, quality control, pad printing, tampo-graphic.
 
 * Total word count:  41087 (8 chapters) / Pages: 202.
 
+[![Download the thesis][ethe-img]][e-thesis]
+
+[![University of Birmingham][uob-logo]][uob]
 
 
-[e-thesis]: http://etheses.bham.ac.uk/890/ "Download the thesis from the University"
+[e-thesis]: http://etheses.bham.ac.uk/890/ "Download the thesis from the University of Birmingham"
+[ethe-img]: http://etheses.bham.ac.uk/890/5/preview.png
 [arch]: https://web.archive.org/web/*/http://etheses.bham.ac.uk/890/
 [QR]: http://chart.apis.google.com/chart?chs=86x86&chld=1&cht=qr&chl=http://etheses.bham.ac.uk/890#qr
 
-[University of Birmingham]: http://www.bham.ac.uk/
+[uob]: https://www.birmingham.ac.uk/
+[uob-olg]: http://www.bham.ac.uk/
+[uob-logo]: http://etheses.bham.ac.uk/images/UBirmingham_h50.png "University of Birmingham"
 [eng.bham]: http://www.eng.bham.ac.uk/mechanical/
 [Maastricht University]: http://www.unimaas.nl/?taal=en
 [math.unimaas]: http://www.unimaas.nl/?template=werkveld.htm&id=4JTR4BS3R2DU64NB16O7&taal=en
@@ -102,5 +108,11 @@ visual inspection, quality control, pad printing, tampo-graphic.
 [EU]: http://europa.eu.int/
 [EC]: http://europa.eu.int/comm/research/brite-eu/thematic/
 
+[project]: http://cordis.europa.eu/project/rcn/35198_en.html
+  "Development of an intelligent learning pad-printing system, BRPR960269, FP4-BRITE/EURAM 3. 1996-12-01 to 1999-11-30."
+[report]: http://cordis.europa.eu/result/rcn/25158_en.html
+  "Report Summary, BRPR960269. Development of an intelligent learning pad-printing system; IntelPadPrint."
+[brief]: http://cordis.europa.eu/result/rcn/80521_en.html
+  "Result In Brief, BRPR960269, Pad-printing the intelligent way."
 
 [End]: end
