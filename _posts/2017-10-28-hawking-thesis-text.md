@@ -1,6 +1,5 @@
 ---
-published: false
-x-csp-disable: true
+# x-csp-disable: true
 layout: post
 title:  Can we have a text version of Hawking thesis?
 date:   2017-10-24 12:00
