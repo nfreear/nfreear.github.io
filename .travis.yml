@@ -19,18 +19,18 @@ before_install:
   - npm -v
 
 install:
-  #- bundle install
+  - bundle install
   #- gem install github-pages
   - npm install
 
 script:
-  - npm run version
   - npm test
   - npm run build
   # http://localhost:4000
 
 after_script:
-  - grunt exec:count
+  - npm run count
+  - npm run version
 
 notifications:
   webhooks:

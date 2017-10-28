@@ -14,9 +14,10 @@
   },
   "scripts": {
     "build": "bundle exec jekyll build",
-    "draft": "jekyll serve --drafts --unpublished --future",
-    "start": "jekyll serve",
+    "serve": "jekyll serve",
+    "start": "jekyll serve --drafts --unpublished --future",
     "version": "bundle exec jekyll --version",
+    "count": "grunt exec:count",
     "fix": "semistandard --fix",
     "test": "grunt && semistandard"
   },
