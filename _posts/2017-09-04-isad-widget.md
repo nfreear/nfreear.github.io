@@ -7,6 +7,10 @@ og-desc: To help promote and celebrate International Stuttering Awareness Day (I
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image: https://unpkg.com/isad-widget@1.0.1-beta/style/isad-widget.jpg
 og-image-alt: ISAD-widget embedded on a web-page.
+
+last_updated: 2017-10-06
+changefreq: daily
+priority: 1.0
 ---
 
 

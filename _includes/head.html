@@ -6,6 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl }}" type="application/xml">
   <meta name="google-site-verification" content="aQpZHJpekYdSfnJK75V3ptYoHd8vGpFhfs90_lVGqoE" />
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} {% unless page.title %}| {{ site.description | strip_html | truncate: 160 }}{% endunless %}</title>

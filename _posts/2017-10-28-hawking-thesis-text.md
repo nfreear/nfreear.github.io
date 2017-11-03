@@ -7,6 +7,10 @@ tags:   [ accessibility, "open access", thesis ]
 og-desc: Congratulations ... I'm a little disappointed that alongside the PDF of the scanned thesis, there isn't a text version.
 og-image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg
 og-image-alt: Stephen Hawking.
+
+last_updated: 2017-11-03
+changefreq: daily
+priority: 1.0
 ---
 
 Dear University of Cambridge,
@@ -68,11 +72,34 @@ I need to change this!
 (However, my thesis has negligible or zero scientific or cultural importance,
 when compared with the work of Stephen Hawking ;).)
 
+---
 
+### Update
+
+03 November 2017:
+The [main url now points to a HTML page with extended meta-data][PDF] - progress!
+Examining the [Wayback Machine][wayback], it seems that the URL originally
+pointed to a HTML page, then changed so that it redirected (302) to the PDF.
+It has now been changed to serve a HTML page.
+
+Cambridge University's [CUDL contains a table of contents][CUDL]:
+
+> * Abstract (image 9, page 2)
+> * Introduction (image 10, page 3)
+> * Acknowledgements (image 14, page 7)
+> * Chapter 1: The Hoyle-Narlikar theory of gravitation (image 15, page 8)
+> * Chapter 2: Perturbations (image 31, page 24)
+> * Chapter 3: Gravitational radiation in an expanding universe (image 54, page 47)
+> * Chapter 4: Singularities (image 101, page 94)
+
+
+[wayback]: http://web.archive.org/web/*/https://www.repository.cam.ac.uk/handle/1810/251038
+  "Internet Archive: 23 October 2017 onwards."
 [art]: http://cam.ac.uk/research/news/step-inside-the-mind-of-the-young-stephen-hawking-as-his-phd-thesis-goes-online-for-first-time
   "Step inside the mind of the young Stephen Hawking as his PhD thesis goes online for first time"
 [PDF]: https://www.repository.cam.ac.uk/handle/1810/251038
-  "'Properties of expanding universes', Stephen Hawking, 1966 (PDF)."
+  "'Properties of expanding universes', Stephen Hawking, 1966 (was PDF)."
+[CUDL]: https://cudl.lib.cam.ac.uk/view/MS-PHD-05437
 [search]: https://www.repository.cam.ac.uk/discover?query=%22Properties+of+expanding+universes%22
   "'Properties of expanding universes', Stephen Hawking, 1966."
 [terms of use]: https://osc.cam.ac.uk/repository/repository-terms-use
@@ -84,6 +111,8 @@ when compared with the work of Stephen Hawking ;).)
   "To be: findable, accessible, interoperable, re-usable (FAIR)."
 [nature]: https://www.nature.com/articles/sdata201618
   "The FAIR Guiding Principles for scientific data management and stewardship, Wilkinson et al. Nature, 2016. [doi:10.1038/sdata.2016.18]"
+[esq]: http://esquire.com/lifestyle/a13082404/stephen-hawkings-expanding-universes-phd-thesis-available/
+  "Stephen Hawking Released His Ph.D. Thesis for Free and It Crashed Cambridge's Website"
 [a11y]: https://en.wikipedia.org/wiki/Accessibility
 [wcag21]: https://w3.org/TR/WCAG21/#toc
   "Percievable, operable, usable, robust (POUR). Web Content Accessibility Guidelines (WCAG) 2.1."

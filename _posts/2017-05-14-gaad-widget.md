@@ -7,6 +7,10 @@ og-desc: To help promote and celebrate Global Accessibility Awareness Day (GAAD)
 og-image: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image-00: https://unpkg.com/gaad-widget@3.1.0-beta/style/gaad-widget.png
 og-image-alt: GAAD-widget embedded on a web-page.
+
+last_updated: 2017-07-01
+changefreq: daily
+priority: 0.9
 ---
 
 

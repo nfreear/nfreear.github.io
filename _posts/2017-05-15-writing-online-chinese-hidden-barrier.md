@@ -6,6 +6,9 @@ tags:   accessibility  gerontology  China
 og-desc: Let me tell you a story ... It turns out that you need something extra to write Chinese on the Web. And, it's a hidden barrier.
 og-image: https://c1.staticflickr.com/5/4167/34296737840_bcd615585f_n.jpg
 og-image-alt: Handwriting icon, on Google Translate.
+
+changefreq: daily
+priority: 0.9
 ---
 
 

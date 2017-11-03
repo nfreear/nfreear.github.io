@@ -11,6 +11,10 @@ og-image-alt: simple-speak widget embedded on a web-page.
 x-footer-script: https://unpkg.com/simple-speak@1.3.0-beta#._.js
 x-embed-url:  https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/embed/?
 x-get-voices: https://cdn.rawgit.com/nfreear/simple-speak/1.3.0-beta/test/get-voices.html
+
+last_updated: 2017-07-01
+changefreq: daily
+priority: 0.9
 ---
 
 
