@@ -60,8 +60,18 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-exec');
 	//grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', [ 'jshint', 'exec:semistandard' ]);
+	grunt.registerTask('default', [ 'jshint', 'exec:semistandard', 'egg' ]);
 
+  grunt.registerTask('egg', function () {
+		var pkg = require('./package.json');
+		var config = grunt.file.read('./_config.yml');
+
+		config = config.replace(/(egg|rtt): .+/, 'egg: ' + rot13(pkg.egg)); //.replace(/build: .+/, 'build: ' + (new Date).toISOString());
+
+		grunt.file.write('./_config.yml', config);
+
+		grunt.log.writeln('egg:', pkg.egg, rot13(pkg.egg));
+	});
 
 	/* ------------------------------------------------------------------- */
 
@@ -79,5 +89,10 @@ module.exports = function (grunt) {
 
 	function isVerbose() {
 		return grunt.option('verbose') || grunt.option('debug');
+	}
+
+  // https://stackoverflow.com/questions/617647/where-is-my-one-line-implementation-of-rot13-in-javascript-going-wrong
+	function rot13 (s) {
+    return s.replace(/[A-Z]/gi, function (c) { return String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26); });
 	}
 };

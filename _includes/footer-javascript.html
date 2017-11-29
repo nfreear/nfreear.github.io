@@ -5,11 +5,12 @@
  data-post_title={{ page.title | jsonify }}
  data-post_id={{ page.id | jsonify }}
  data-post_count="{{ site.posts | size | jsonify }}"
+ data-rtt={{ site.egg | jsonify }}
  data-site_time={{ site.time | jsonify }}
 ></div>
 
-<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '3.1.0-beta' }}#._.js"></script>
-<script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '1.1.2' }}#._.js" data-v="... @^1"></script>
+<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '^3' }}#._.js"></script>
+<script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '^1' }}#._.js"></script>
 {% if site.x_gaad_version %} {% endif %}
 
 <script src="https://unpkg.com/jquery@{{ site.x_jquery_version | default: '2.2.4' }}/dist/jquery.min.js"></script>

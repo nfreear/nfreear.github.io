@@ -26,8 +26,9 @@
     "url": "git+https://github.com/nfreear/nfreear.github.io.git"
   },
   "author": "Nick Freear (@nfreear)",
-  "license": "MIT",
+  "license": "(MIT AND CC-BY-SA-4.0)",
   "homepage": "http://nick.freear.org.uk/",
+  "egg": "Happy birthday to you!",
   "semistandard": {
     "ignore": [
       "Gruntfile.js",

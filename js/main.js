@@ -39,7 +39,7 @@ window.jQuery(function ($) {
     W.console = {
       info: function () {}
     };
-  }
+  } /* */
   var console = W.console;
 
   /* Google Analytics.
@@ -161,6 +161,14 @@ window.jQuery(function ($) {
       $(line).attr('id', 'L' + (pidx + 1) + '-' + (lidx + 1));
     });
   });
+
+  function rot13 (s) {
+    return s.replace(/[A-Z]/gi, function (c) { return String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26); });
+  }
+
+  if (BLOG.rtt) {
+    console.log(rot13(BLOG.rtt));
+  }
 
   console.debug('main.js', debug, BLOG);
 });
