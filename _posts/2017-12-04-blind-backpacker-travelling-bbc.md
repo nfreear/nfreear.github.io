@@ -7,6 +7,9 @@ tags:   travel  video
 og-desc: 'BBC: Mr Giles’s first solo trip was to New Orleans in 2000 - he has now visited more than 120 countries.'
 og-image: https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/A733/production/_99030824_mediaitem99030823.jpg
 og-image-alt: Mr Giles’s first solo trip was to New Orleans in 2000 - he has now visited more than 120 countries.
+last_updated: 2017-12-04
+changefreq: daily
+priority: 1.0
 ---
 
 Sometimes we can take the most extraordinary things for granted.
@@ -26,13 +29,16 @@ Now he features on a World Disability Day special of
 
 _Enjoy!_
 
-[Completely blind backpacker travelling around the world][bbc-iframe]
+[![Completely blind backpacker travelling around the world][bbc-img]][bbc]
+
+<!-- [Completely blind backpacker travelling around the world][X-bbc-iframe] -->
 
 [![Seeing the Amercas My Way e-book][amz-img-2]][amz-americ]
 
 
 [bbc]: http://bbc.co.uk/news/av/disability-42198169/completely-blind-backpacker-travelling-around-the-world
   "Completely blind backpacker travelling around the world - BBC News."
+[bbc-img]: https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/A733/production/_99030824_mediaitem99030823.jpg
 [bbc-iframe]: https://www.bbc.co.uk/news/av/embed/p05prq9h/42198169#!_FRAME_ME_
 [bbc-ip]: https://bbc.co.uk/iplayer/episode/b09j2vhb/the-travel-show-world-disability-day-special
   "BBC iPlayer - The Travel Show - World Disability Day Special. Available: 28 days (2 Dec.)"

@@ -14,8 +14,8 @@ sudo: false
 
 before_install:
   # Was: - nvm install v4.4
-  - nvm install v8.1.3
-  - npm i npm -g
+  - nvm install v8.1
+  #- npm i npm -g
   - npm -v
 
 install:
