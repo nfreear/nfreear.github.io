@@ -4,6 +4,7 @@
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
 [![Blog up][up-icon]][blog]
+[![Accessibility testing - blog passes][pa11y-icon]][pa11y-ci]
 [![@nfreear on Twitter][twit-icon]][twitter]
 
 
@@ -39,7 +40,7 @@ npm start
 
 ---
 
-© 2009-2017 Nick Freear.
+© 2009-2018 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`, `*.html`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -66,5 +67,10 @@ npm start
 [tom]: https://github.com/mojombo/mojombo.github.io
 [travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg
 [travis-ci]: https://travis-ci.org/nfreear/nfreear.github.io "Build status – Travis-CI"
+
+[pa11y-ci]: https://github.com/pa11y/pa11y-ci
+    "Automated accessibility testing - via 'pa11y-ci'"
+[pa11y-icon]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
+[wcag-icon]: https://img.shields.io/badge/accessibility-WCAG_2.0_AAA-green.svg
 
 [up-icon]: https://img.shields.io/website-up-down-green-red/http/nick.freear.org.uk.svg?label=Blog

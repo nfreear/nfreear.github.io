@@ -27,6 +27,9 @@ script:
   - npm test
   - npm run build
   # http://localhost:4000
+  # http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
+  # Sleep while Github-Pages re-builds ... ?
+  - sleep 40; npm run pa11y-ci
 
 after_script:
   - npm run count

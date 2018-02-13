@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5,
 
 /* Accessibility [a11y].
  */
+a {
+  color: #2474dc; // Was: #2a7ae2;
+}
 .sr-only {
     position: absolute;
     top: -1000px;
