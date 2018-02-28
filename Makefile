@@ -12,7 +12,7 @@ POST_FILE=_posts/$(POST_DATE)-edit-me.md
 TEMPLATE=_drafts/2017-09-15-template.md
 
 
-default: draft
+default: help
 
 help:
 	# Targets: serve draft rewrite count find q={ KEYWORD }

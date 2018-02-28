@@ -21,6 +21,7 @@
     "count": "grunt exec:count",
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
     "fix": "semistandard --fix",
+    "new-post": "make new-post",
     "test": "grunt && semistandard"
   },
   "repository": {
