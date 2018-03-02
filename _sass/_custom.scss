@@ -91,7 +91,7 @@ img[ src *= "open-media-player/badge.svg" ] {
 }
 
 .post-content img[ src *= "shields.io" ] {
-    width: 120px; height: 30px; // x 1.5;
+    // width: 120px; height: 30px; // x 1.5;
 }
 .X-site-footer img[ src *= "shields.io" ] {
     width: 96px; height: 24px; // x 1.2;
@@ -155,6 +155,9 @@ iframe {
 #IDCommentsPostTitle,
 #idc-container {
     display: none;
+}
+#IDCommentNewThreadText {
+  width: 99% !important;
 }
 
 .ajax-loader {

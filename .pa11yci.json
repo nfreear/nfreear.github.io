@@ -2,20 +2,24 @@
   "#": "Automated accessibility testing ~ https://github.com/pa11y/pa11y-ci",
 
   "defaults": {
-    "standard": "WCAG2AA",
-    "timeout": 5000
+    "standard": "WCAG2A",
+    "threshold": 0,
+    "timeout": 8000,
+    "wait": 3000,
+    "verifyPage": "idc-container",
+    "ignore": [ "notice", "warning" ]
   },
   "urls": [
     "https://nick.freear.org.uk/2017/05/14/gaad-widget.html?gaadwidget=force&_ua=pa11y-ci"
   ],
 
   "X-LOCAL-urls": [
-    "http://127.0.0.1:4000/?&_ua=pa11y-ci"
+    "http://127.0.0.1:4000/2017/05/14/gaad-widget.html?&_ua=pa11y-ci"
   ],
-
   "X-UNUSED--urls": [
     "https://nick.freear.org.uk/2017/05/14/gaad-widget.html?gaadwidget=force&_ua=pa11y-ci",
     "http://freear.org.uk/?_ua=pa11y-ci",
-    "http://freear.org.uk/moodle/?_ua=pa11y-ci"
+    "http://freear.org.uk/moodle/?_ua=pa11y-ci",
+    "https://github.com/nfreear/nfreear.github.io"
   ]
 }

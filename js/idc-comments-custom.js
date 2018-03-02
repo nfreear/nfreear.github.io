@@ -12,6 +12,19 @@ window.jQuery(function ($) {
   'use strict';
 
   var accessibility_fixes = {
+    // Fixes, via "pa11y-ci" !
+    '#IDCSubscribeEmail0, #IDCSubscribeEmail1': { title: 'Email address' },
+    '#IDCommentNewThreadText, #txtComment': { title: 'Enter text' },
+    '#IDfrmHeaderWPLogin img': { alt: 'Login via WordPress' },
+    '#IDCommentUserBarLink1, #IDCommentUserBarLink2': { title: 'User bar' },
+    '#id_twName_Reply': { title: 'Reply' },
+    '#id_twName_NewThread': { title: 'New thread' },
+    '#id_twAvatar_Reply': { alt: 'Reply' },
+    '#id_twAvatar_NewThread': { alt: 'New thread' },
+    '#idc-container iframe[ src *= empty ]': { title: '(empty)' },
+    '#idc-container img[ src *= remoteCheckin ]': { alt: '(remote checkin)' },
+
+    // Original fixes.
     'a[ href *= "javascript:" ]': { role: 'button' },
     'a.idc-close': { title: 'Close', role: 'button' },
     '#idc-container #txtEmailNewThread': { type: 'email', placeholder: 'joe@example.org' },
@@ -29,7 +42,7 @@ window.jQuery(function ($) {
   // "#IDComment1000836892"
   var comment_hash_re = /(#IDComment(\d+))/;
   var m_hash = W.location.hash.match(comment_hash_re);
-  var script_src = '//intensedebate.com/js/genericCommentWrapper2.php?';
+  var script_src = 'https://intensedebate.com/js/genericCommentWrapper2.php?';
 
   // 1. Comment configuration.
   var params = {
