@@ -13,7 +13,7 @@ You can find me all over the Web &hellip; :
 
 * [Profile at The Open University](http://www.open.ac.uk/people/ndf42 "OU profile")
 * [Facebook](https://fb.com/nick.freear)
-* [LinkedIn](https://linkedin.com/pub/nicholas-freear/40/781/b11)
+* [LinkedIn](https://linkedin.com/in/nfreear/)
 * [Google+](https://profiles.google.com/n.d.freear#112441018708933635212)
 * [Google Scholar][scholar]
 * [Twitter: @nfreear](https://twitter.com/nfreear)
@@ -78,6 +78,6 @@ You can find me all over the Web &hellip; :
 [fr-oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_basic_stats#!__FRAME_ME__
 [QR]: http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=http%3A%2F%2Ffreear.org.uk#!_QR_
     "QR code for Freear.org.uk, via Google charts"
-
+[linkedin-OLD]: https://linkedin.com/pub/nicholas-freear/40/781/b11
 
 [End]: end

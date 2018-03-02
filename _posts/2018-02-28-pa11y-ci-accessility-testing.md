@@ -1,24 +1,30 @@
 ---
-published: false
 layout: post
 title:  Accessibility testing, with 'pa11y-ci'
-date:   2018-02-28 21:35
-tags:   [ a11y, travis-ci, "open source", nodejs, javascript ]
-og-desc: A short description
-og-image: https://..
-og-image-alt: ALT text.
+date:   2018-03-02 21:25
+x-created: 2018-02-28 21:35
+tags:   [ accessibility, travis-ci, "open source", NPM, javascript ]
+# og-desc: A short description
+# og-image: https://..
+# og-image-alt: ALT text.
 
 last_updated: 2018-02-28
 changefreq: daily
 priority: 1.0
 ---
 
-I've recently come across [pa11y-ci][], and I'm impressed with how easy
-it is to use for automated accessibility testing.
+
+I've recently come across an open source, automated accessibility
+testing tool called [pa11y-ci][], and I'm really impressed with how easy
+it is to set up, and the usefulness of the results.
+
+Note, tools like `pa11y-ci` are not of course a replacement for accessibility testing with humans.
 
 `pa11y-ci` is written in Javascript for Node.js.
 It is built on top of [pa11y][], and [HTML_CodeSniffer][].
 And, it integrates well with [continuous integration][ci] platforms like [Travis-CI][].
+
+Here's a run down on how I'm using it so far. (You'll need [npm][].)
 
 To get started, run this command in your terminal:
 
@@ -46,7 +52,8 @@ a `standard`, some `urls` and other options. Here's an example:
 }
 ```
 
-I'm eschewing [Grunt][] et al, and simply adding `scripts` to my `package.json`:
+I'm eschewing [Grunt][] _et al_, and simply adding `scripts` to my
+[`package.json`][pkg]:
 
 ```json
 {
@@ -57,6 +64,12 @@ I'm eschewing [Grunt][] et al, and simply adding `scripts` to my `package.json`:
     "pa11y-ci": "pa11y-ci --config .pa11yci.json"
   }
 }
+```
+
+To run the above `script`, type this in your terminal:
+
+```sh
+npm run pa11y-ci
 ```
 
 Here's a more complete [`package.json`][pkg]:
@@ -71,7 +84,7 @@ Here's a more complete [`package.json`][pkg]:
     "pa11y-ci": "^1.3.1"
   },
   "scripts": {
-    "test": "npm run pa11y-ci && echo other commands ..",
+    "test": "echo Testing ...",
     "serve-ci": "live-server --port=9001 -V --no-browser --watch=DUMMY",
 
     "pa11y": "pa11y --standard WCAG2AAA http://127.0.0.1:9001/#..",
@@ -80,7 +93,7 @@ Here's a more complete [`package.json`][pkg]:
 }
 ```
 
-And, here is a simplified [`.travis.yml`][trav]:
+And, here is a simplified [`.travis.yml`][trav] file:
 
 ```yaml
 language: node_js
@@ -99,7 +112,7 @@ script:
   - npm run serve-ci & sleep 5; npm run pa11y-ci;
 ```
 
-The above results in this [Travis-CI job output][job]:
+The above results in this [Travis-CI job output][gaad-job]:
 
 ```
 > pa11y-ci --config .pa11yci.json
@@ -117,31 +130,32 @@ The good:
 
  * The [Cloudworks][] home-page
  * [gaad-widget][]
+ * ...
 
 The bad:
 
- * [The comments on my blog][blog] :(
+ * [The comments on my blog][blog] ([see job output][blog-job]) :(
  * ...
 
-If you'd like to use `pa11y-ci`, why not add a badge to your README?
+
+
+If you'd like to use `pa11y-ci`, why not add a [badge][] to your README?
+For example:
 
 [![Accessibility testing - GAAD passes][pa11y-icon]][pa11y-ci]
 
+Articles by [Andrew Mee][], [Ire Aderinokun] and others contain more useful tips.
 
----
 
-[!['Kitten' photograph][kitten-img]][kitten]
-
-[kitten-img]: https://c1.staticflickr.com/6/5027/5558881213_deb384bdb8_z.jpg
-[kitten]: https://flickr.com/photos/barbarellathemadcatlady/5558881213
-    "Kitten, by Barbarella Buchner, 25 March 2011. License: CC-BY-SA-2.0"
-
+[npm]: https://npmjs.com/get-npm
 [pa11y]: http://pa11y.org/
 [gh-pa11y]: https://github.com/pa11y/pa11y
 [pa11y-ci]: https://github.com/pa11y/pa11y-ci
 [travis-ci]: https://travis-ci.org/nfreear/gaad-widget
-[job]: https://travis-ci.org/nfreear/gaad-widget/jobs/347455031#L1083-L1104
+[gaad-job]: https://travis-ci.org/nfreear/gaad-widget/jobs/347455031#L1083-L1104
+[blog-job]: https://travis-ci.org/nfreear/nfreear.github.io/jobs/348424796#L1470-L1554
 [pa11y-icon]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
+[badge]: https://shields.io/ "accessibility-pa11y--ci-blue.svg"
 [HTML_CodeSniffer]: http://squizlabs.github.io/HTML_CodeSniffer/
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [grunt]: https://gruntjs.com/
@@ -152,6 +166,10 @@ If you'd like to use `pa11y-ci`, why not add a badge to your README?
 
 [gaad-widget]: https://github.com/nfreear/gaad-widget
 [cloudworks]: http://cloudworks.ac.uk/
-[blog]: #
+[blog]: # "Oh dear! A work-in-progress"
+
+[Andrew Mee]: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
+[Joviano Dias]: https://medium.com/springernature-qa/integrating-pa11y-ci-in-your-ci-cd-pipeline-f143bb5e36f
+[Ire Aderinokun]: https://bitsofco.de/pa11y/
 
 [End]: //.
