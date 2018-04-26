@@ -14,6 +14,10 @@ priority: 1.0
 ---
 
 
+_Caveat:_ this blog post is aimed mainly at software developers, and
+those with some familiarity with Node and [npm][].
+
+
 I've recently come across an open source, automated accessibility
 testing tool called [pa11y-ci][], and I'm really impressed with how easy
 it is to set up, and the usefulness of the results.
@@ -68,7 +72,7 @@ I'm eschewing [Grunt][] _et al_, and simply adding `scripts` to my
 
 To run the above `script`, type this in your terminal:
 
-```sh
+```shell
 npm run pa11y-ci
 ```
 
@@ -114,7 +118,7 @@ script:
 
 The above results in this [Travis-CI job output][gaad-job]:
 
-```
+```sql
 > pa11y-ci --config .pa11yci.json
 Running Pa11y on 2 URLs:
 GET /embed/?gaadwidget=force&_ua=pa11y-ci 200 28.105 ms - 1708
@@ -137,6 +141,32 @@ The bad:
  * [The comments on my blog][blog] ([see job output][blog-job]) :(
  * ...
 
+An example snippet follows, containing an error from the Travis-CI job output for my blog:
+
+```sql
+$ npm run pa11y-ci
+
+> nfreear.github.io@1.0.0 pa11y-ci /home/travis/build/nfreear/nfreear.github.io
+> pa11y-ci --config .pa11yci.json
+
+Running Pa11y on 1 URLs:
+ > https://nick.freear.org.uk/2017/05/14/gaad-widget.html?gaadwidget=force&_ua=pa11y-ci - 8 errors
+
+Errors in https://nick.freear.org.uk/2017/05/14/gaad-widget.html?gaadwidget=force&_ua=pa11y-ci:
+
+ • This form does not contain a submit button, which creates issues for those
+   who cannot submit the form using the keyboard. Submit buttons are INPUT
+   elements with type attribute "submit" or "image", or BUTTON elements with
+   type "submit" or omitted/invalid.
+
+   (#IDCommentPopupInner > form)
+
+   <form> <label for="txtResolveEmail">P...</form>
+
+...
+
+✘ 0/1 URLs passed
+```
 
 
 If you'd like to use `pa11y-ci`, why not add a [badge][] to your README?
@@ -147,13 +177,22 @@ For example:
 Articles by [Andrew Mee][], [Ire Aderinokun] and others contain more useful tips.
 
 
+### Update
+
+16 March 2018: when you don't want to publicise the test URL, for example,
+for a hidden acceptance server, you can set an environment variable,
+and dynamically generate the configuration using Javascript.
+
+See this Gist, [`.pa11yci.conf.js`][js] for an example.
+
+
 [npm]: https://npmjs.com/get-npm
 [pa11y]: http://pa11y.org/
 [gh-pa11y]: https://github.com/pa11y/pa11y
 [pa11y-ci]: https://github.com/pa11y/pa11y-ci
 [travis-ci]: https://travis-ci.org/nfreear/gaad-widget
-[gaad-job]: https://travis-ci.org/nfreear/gaad-widget/jobs/347455031#L1083-L1104
-[blog-job]: https://travis-ci.org/nfreear/nfreear.github.io/jobs/348424796#L1470-L1554
+[gaad-job]: https://travis-ci.org/nfreear/gaad-widget/jobs/347455031#L1083-L1104 "Travis-CI output: success."
+[blog-job]: https://travis-ci.org/nfreear/nfreear.github.io/jobs/348424796#L1470-L1554 "Travis-CI output: errors."
 [pa11y-icon]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
 [badge]: https://shields.io/ "accessibility-pa11y--ci-blue.svg"
 [HTML_CodeSniffer]: http://squizlabs.github.io/HTML_CodeSniffer/
@@ -171,5 +210,7 @@ Articles by [Andrew Mee][], [Ire Aderinokun] and others contain more useful tips
 [Andrew Mee]: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
 [Joviano Dias]: https://medium.com/springernature-qa/integrating-pa11y-ci-in-your-ci-cd-pipeline-f143bb5e36f
 [Ire Aderinokun]: https://bitsofco.de/pa11y/
+
+[js]: https://gist.github.com/nfreear/cece86bf6d5d4d531bf0646417a868fb ".pa11yci.conf.js"
 
 [End]: //.

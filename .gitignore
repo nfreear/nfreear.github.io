@@ -15,6 +15,10 @@ _out/
 #!_out/.htaccess
 
 blog.md
+_pages/comment-frame.htm
+_pages/contribute.json
+_pages/sm.md
 
+pa11y-ci-report.md
 
 # End.
