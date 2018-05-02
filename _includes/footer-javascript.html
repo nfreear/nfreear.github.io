@@ -9,7 +9,8 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
-<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '^3' }}#._.js"></script>
+<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '^3' }}/dist/gaad-widget.min.js"
+  data-gaad-widget='{ "days_before": 20, "debug": true }' ></script>
 <script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '^1' }}#._.js"></script>
 {% if site.x_gaad_version %} {% endif %}
 

@@ -39,7 +39,7 @@ ex_bodyclass: tribute
 
 x_csp_site_enable: false
 # x_jquery_version: 2.2.4
-x_gaad_version: 3.1.0-beta
+# x_gaad_version: 3.2.0
 x_isad_version: 1.1.2
 # x_black_ribbon: My thoughts are with the victims of the Manchester attack, 22 May 2017.
 
