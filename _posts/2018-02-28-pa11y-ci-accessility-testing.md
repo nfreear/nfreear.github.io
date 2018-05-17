@@ -30,11 +30,15 @@ And, it integrates well with [continuous integration][ci] platforms like [Travis
 
 Here's a run down on how I'm using it so far. (You'll need [npm][].)
 
+### 1. Install `pa11y-ci`
+
 To get started, run this command in your terminal:
 
 ```sh
 npm install pa11y-ci --save-dev
 ```
+
+### 2. Configure `pa11y-ci`
 
 Create a configuration file named [`.pa11yci.json`][.pa11y], specifying
 a `standard`, some `urls` and other options. Here's an example:
@@ -55,6 +59,8 @@ a `standard`, some `urls` and other options. Here's an example:
   ]
 }
 ```
+
+### 3. Add a `pa11y-ci` script
 
 I'm eschewing [Grunt][] _et al_, and simply adding `scripts` to my
 [`package.json`][pkg]:
@@ -97,6 +103,8 @@ Here's a more complete [`package.json`][pkg]:
 }
 ```
 
+### 4. Add `pa11y-ci` to continuous integration
+
 And, here is a simplified [`.travis.yml`][trav] file:
 
 ```yaml
@@ -115,6 +123,8 @@ script:
   - npm test
   - npm run serve-ci & sleep 5; npm run pa11y-ci;
 ```
+
+### Example outputs
 
 The above results in this [Travis-CI job output][gaad-job]:
 
@@ -179,11 +189,17 @@ Articles by [Andrew Mee][], [Ire Aderinokun] and others contain more useful tips
 
 ### Update
 
-16 March 2018: when you don't want to publicise the test URL, for example,
+_16 March 2018_: when you don't want to publicise the test URL, for example,
 for a hidden acceptance server, you can set an environment variable,
 and dynamically generate the configuration using Javascript.
 
 See this Gist, [`.pa11yci.conf.js`][js] for an example.
+
+### Update 2
+
+_17 May 2018_: I've also got `pa11y-ci` running within [GitLab CI].
+
+See the [`.gitlab-ci.yml`][gitlab-yml] configuration file.
 
 
 [npm]: https://npmjs.com/get-npm
@@ -197,11 +213,13 @@ See this Gist, [`.pa11yci.conf.js`][js] for an example.
 [badge]: https://shields.io/ "accessibility-pa11y--ci-blue.svg"
 [HTML_CodeSniffer]: http://squizlabs.github.io/HTML_CodeSniffer/
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
-[grunt]: https://gruntjs.com/
+[grunt]: https://gruntjs.com/ "Grunt JavaScript task runner."
 
 [pkg]: https://github.com/nfreear/gaad-widget/blob/3.x/package.json#L1 "package.json"
 [trav]: https://github.com/nfreear/gaad-widget/blob/3.x/.travis.yml#L1 ".travis.yml"
 [.pa11y]: https://github.com/nfreear/gaad-widget/blob/3.x/.pa11yci.json#L1 ".pa11yci.json"
+[gitlab-yml]: https://gitlab.com/nfreear/gaad-widget/blob/3.x/.gitlab-ci.yml#L29 ".gitlab-ci.yml"
+[gitlab CI]: https://gitlab.com/nfreear/gaad-widget/pipelines "GitLab Continuous Integration pipelines"
 
 [gaad-widget]: https://github.com/nfreear/gaad-widget
 [cloudworks]: http://cloudworks.ac.uk/
