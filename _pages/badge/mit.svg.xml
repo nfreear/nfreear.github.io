@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /badge/mit-license.svg
+permalink: /badge/mit.svg
+x-alt-url: /badge/mit-license.svg
 x-created: 2018-05-16
 x-icon: https://img.shields.io/npm/l/gaad-widget.svg
 x-nav-class: sr-only

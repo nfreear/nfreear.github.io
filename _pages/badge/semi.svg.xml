@@ -1,6 +1,7 @@
 ---
 layout: null
-permalink: /badge/semistandard.svg
+permalink: /badge/semi.svg
+x-alt-url: /badge/semistandard.svg
 x-created: 2018-05-16
 x-icon: https://img.shields.io/badge/code_style-semistandard-brightgreen.svg?_style=flat-square
 x-nav-class: sr-only

@@ -24,11 +24,11 @@ it is to set up, and the usefulness of the results.
 
 Note, tools like `pa11y-ci` are not of course a replacement for accessibility testing with humans.
 
-`pa11y-ci` is written in Javascript for Node.js.
+`pa11y-ci` is written in Javascript for [Node.js][].
 It is built on top of [pa11y][], and [HTML_CodeSniffer][].
 And, it integrates well with [continuous integration][ci] platforms like [Travis-CI][].
 
-Here's a run down on how I'm using it so far. (You'll need [npm][].)
+Here's a run down on how I'm using it so far. (You'll need Node.js, which includes [npm][].)
 
 ### 1. Install `pa11y-ci`
 
@@ -202,17 +202,20 @@ _17 May 2018_: I've also got `pa11y-ci` running within [GitLab CI].
 See the [`.gitlab-ci.yml`][gitlab-yml] configuration file.
 
 
-[npm]: https://npmjs.com/get-npm
-[pa11y]: http://pa11y.org/
+[node.js]: https://nodejs.org/en/download/ "Node.js includes npm."
+[npm]: https://npmjs.com/get-npm "Node package manager (npm), for Node.js"
+[pa11y]: http://pa11y.org/ "Pa11y is your automated accessibility testing pal "
 [gh-pa11y]: https://github.com/pa11y/pa11y
-[pa11y-ci]: https://github.com/pa11y/pa11y-ci
+[pa11y-ci]: https://github.com/pa11y/pa11y-ci "Pa11y - Continuous Integration (CI)"
 [travis-ci]: https://travis-ci.org/nfreear/gaad-widget
 [gaad-job]: https://travis-ci.org/nfreear/gaad-widget/jobs/347455031#L1083-L1104 "Travis-CI output: success."
-[blog-job]: https://travis-ci.org/nfreear/nfreear.github.io/jobs/348424796#L1470-L1554 "Travis-CI output: errors."
-[pa11y-icon]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
+[blog-job]: https://travis-ci.org/nfreear/nfreear.github.io/jobs/348424796#L1470-L1554
+    "Travis-CI output: errors."
+[pa11y-icon]: /badge/pa11y-ci.svg
+[pa11y-i0]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
 [badge]: https://shields.io/ "accessibility-pa11y--ci-blue.svg"
 [HTML_CodeSniffer]: http://squizlabs.github.io/HTML_CodeSniffer/
-[ci]: https://en.wikipedia.org/wiki/Continuous_integration
+[ci]: https://en.wikipedia.org/wiki/Continuous_integration "Continuous Integration (CI)"
 [grunt]: https://gruntjs.com/ "Grunt JavaScript task runner."
 
 [pkg]: https://github.com/nfreear/gaad-widget/blob/3.x/package.json#L1 "package.json"

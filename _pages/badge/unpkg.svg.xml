@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /badge/by-unpkg.svg
+permalink: /badge/unpkg.svg
 x-created: 2018-05-29
 x-icon: https://img.shields.io/badge/CDN-unpkg-orange.svg
 x-nav-class: sr-only

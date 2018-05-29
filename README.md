@@ -1,5 +1,5 @@
 
-[![Build status: Travis-CI][travis-icon]][travis-ci]
+[![Build status — Travis-CI][travis-icon]][travis-ci]
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
@@ -16,7 +16,7 @@ Experimental!
 
 I'm re-developing my blog, using [Jekyll][] and [GitHub pages][].
 
-*  <http://nick.freear.org.uk>
+*  <https://nick.freear.org.uk>
 * (<https://nfreear.github.io>)
 
 
@@ -54,7 +54,7 @@ npm start
 [cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [cc-icon]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "Content: Creative Commons License CC-BY-SA"
 [MIT License]: https://nfreear.mit-license.org/2009-2018#!-blog
-[mit-icon]: https://nick.freear.org.uk/badge/mit-license.svg "Code: MIT License"
+[mit-icon]: https://nick.freear.org.uk/badge/mit.svg "Code: MIT License"
 [mit-i0]: https://img.shields.io/badge/license-MIT-blue.svg "(Timeout errors)"
 [Jekyll]: https://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
 [jekyll-icon]: https://nick.freear.org.uk/badge/by-jekyll.svg
@@ -73,7 +73,8 @@ npm start
 
 [pa11y-ci]: https://github.com/pa11y/pa11y-ci
     "Automated accessibility testing - via 'pa11y-ci'"
-[pa11y-icon]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
+[pa11y-icon]: https://nick.freear.org.uk/badge/pa11y-ci.svg
+[pa11y-i0]: https://img.shields.io/badge/accessibility-pa11y--ci-blue.svg
 [wcag-icon]: https://img.shields.io/badge/accessibility-WCAG_2.0_AAA-green.svg
 
 [up-icon]: https://img.shields.io/website-up-down-green-red/http/nick.freear.org.uk.svg?label=Blog
