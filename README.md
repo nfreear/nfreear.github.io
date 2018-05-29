@@ -53,14 +53,17 @@ npm start
 [cc-icon-lg]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [cc-icon]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "Content: Creative Commons License CC-BY-SA"
-[MIT License]: https://nfreear.mit-license.org/2009-2017#!-blog
-[mit-icon]: https://img.shields.io/badge/license-MIT-blue.svg "Code: MIT License"
-[Jekyll]: http://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
-[jekyll-icon]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
-[Prose.io]: http://prose.io/ "Edited via Prose.io"
-[prose-icon]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
-[blog]: http://nick.freear.org.uk
-[blog-icon]:  http://nick.freear.org.uk/badge.svg "Count of blog posts"
+[MIT License]: https://nfreear.mit-license.org/2009-2018#!-blog
+[mit-icon]: https://nick.freear.org.uk/badge/mit-license.svg "Code: MIT License"
+[mit-i0]: https://img.shields.io/badge/license-MIT-blue.svg "(Timeout errors)"
+[Jekyll]: https://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
+[jekyll-icon]: https://nick.freear.org.uk/badge/by-jekyll.svg
+[jekyll-i0]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red
+[Prose.io]: https://prose.io/ "Edited via Prose.io"
+[prose-icon]: https://nick.freear.org.uk/badge/by-prose-io.svg
+[prose-i0]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
+[blog]: https://nick.freear.org.uk
+[blog-icon]:  https://nick.freear.org.uk/badge.svg "Count of blog posts"
 [twitter]: https://twitter.com/nfreear "@nfreear on Twitter"
 [twit-icon]: https://img.shields.io/twitter/follow/nfreear.svg?style=social
 [GitHub pages]: https://pages.github.com/
