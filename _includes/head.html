@@ -1,3 +1,6 @@
+{% assign PKG = site.data.package %}
+{% assign PEER = site.data.package.peerDependencies %}
+
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +19,8 @@
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://unpkg.com/html5shiv@{{ PEER.html5shiv }}/dist/html5shiv.min.js"></script>
+    <script src="https://unpkg.com/respond.js@{{ PEER['respond.js'] | default '^1' }}/dest/respond.min.js"></script>
   <![endif]-->
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

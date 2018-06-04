@@ -23,7 +23,7 @@ ex_long_desc: > # this means to ignore newlines until "baseurl:"
 excerpt_separator: "<!--more-->"
 #paginate: 2
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://nick.freear.org.uk"
+url: "https://nick.freear.org.uk"
 #url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear
 github_username:  nfreear
@@ -38,9 +38,6 @@ ex_comments: true
 ex_bodyclass: tribute
 
 x_csp_site_enable: false
-# x_jquery_version: 2.2.4
-# x_gaad_version: 3.2.0
-x_isad_version: 1.1.2
 # x_black_ribbon: My thoughts are with the victims of the Manchester attack, 22 May 2017.
 
 js_config:
@@ -59,9 +56,9 @@ date_format: "%-d %B %Y"
 ex_feed_limit: 100  # Default: 10;
 
 ex_custom_nav:
-  - <a href="http://freear.org.uk/moodle/" title="Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide, by Nick Freear">Moodle book</a>
-  - <a href="http://accessify.wikia.com/wiki/Accessify_Wiki" title="Working together to fix accessibility on the Web, one site at a time">Accessify Wiki</a>
-  - <a href="http://freear.org.uk/" title="My legacy blog, Freear.org.uk">Legacy</a>
+  - <a href="https://freear.org.uk/moodle/" title="Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide, by Nick Freear">Moodle book</a>
+  - <a href="https://accessify.wikia.com/wiki/Accessify_Wiki" title="Working together to fix accessibility on the Web, one site at a time">Accessify Wiki</a>
+  - <a href="https://freear.org.uk/" title="My legacy blog, Freear.org.uk">Legacy</a>
   #- <a href="#">Test 2</a>
 
 #ex_site_message: Hello world! Just a <a href="#">test</a>!
@@ -74,7 +71,6 @@ __ex_site_message: >
 # https://access.ecs.soton.ac.uk/ToolBar/
 # https://atbar.org/
 ex_atbar: true
-
 
 exclude:
   #- _drafts/do-not-delete.txt
@@ -90,7 +86,7 @@ exclude:
   - _bin/
   - node_modules/
   - vendor
-  - package.json
+  #- package.json
 
 include:
   - _pages

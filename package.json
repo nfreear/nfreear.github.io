@@ -1,9 +1,10 @@
 {
   "private": true,
   "name": "nfreear.github.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages.",
   "main": "Gruntfile.js",
+  "engines": { "node": ">=6.0", "ruby": "2.3.1p112", "jekyll": "3.1.6" },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
@@ -12,6 +13,18 @@
     "grunt-exec": "^1.0.0",
     "pa11y-ci": "^1.3.1",
     "semistandard": "^11.0.0"
+  },
+  "peerDependencies": {
+    "jquery": "3.3.1",
+    "html5shiv": "3.7.3",
+    "respond.js": "1.4.2",
+    "gaad-widget": "^3",
+    "isad-widget": "^1.1",
+    "cookie-notice": "^1",
+    "jquery-oembed": "https://embed.open.ac.uk/scripts/jquery.oembed.js#^1.0",
+    "intensedebate": "https://intensedebate.com/js/genericCommentWrapper2.php#^2.0",
+    "atbar": "https://core.atbar.org/atbar/en/latest/atbar.min.js#^1.0",
+    "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
@@ -22,16 +35,16 @@
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
     "fix": "semistandard --fix",
     "new-post": "make new-post",
+    "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
     "test": "grunt && semistandard"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nfreear/nfreear.github.io.git"
-  },
-  "author": "Nick Freear (@nfreear)",
+  "repository": "https://github.com/nfreear/nfreear.github.io",
+  "author": "Nick Freear {@nfreear}",
   "license": "(MIT AND CC-BY-SA-4.0)",
-  "homepage": "http://nick.freear.org.uk/",
+  "homepage": "https://nick.freear.org.uk/",
   "egg": "Happy birthday to you!",
+  "keywords": [],
+  "contributors": [],
   "semistandard": {
     "ignore": [
       "Gruntfile.js",

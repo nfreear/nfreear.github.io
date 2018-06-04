@@ -1,3 +1,5 @@
+{% assign PKG = site.data.package %}
+{% assign PEER = site.data.package.peerDependencies %}
 
 <div
  id="js-config"
@@ -9,18 +11,20 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
-<script src="https://unpkg.com/gaad-widget@{{ site.x_gaad_version | default: '^3' }}/dist/gaad-widget.min.js"
+<script src="https://unpkg.com/cookie-notice@{{ PEER.cookie-notice }}/dist/cookie.notice.min.js"
+  data-cookie-notice='{ "debug": true }' ></script>
+<script src="https://unpkg.com/gaad-widget@{{ PEER.gaad-widget | default: '^3' }}/dist/gaad-widget.min.js"
   data-gaad-widget='{ "days_before": 20, "debug": true }' ></script>
-<script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '^1' }}#._.js"></script>
+<script src="https://unpkg.com/isad-widget@{{ PEER.isad-widget }}#._.js"></script>
 {% if site.x_gaad_version %} {% endif %}
 
-<script src="https://unpkg.com/jquery@{{ site.x_jquery_version | default: '2.2.4' }}/dist/jquery.min.js"></script>
-{% comment %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.x_jquery_version }}/jquery.min.js"></script>{% endcomment %}
+<script src="https://unpkg.com/jquery@{{ PEER.jquery | default: '2.2.4' }}/dist/jquery.min.js"></script>
+{% comment %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ PEER.jquery }}/jquery.min.js"></script>{% endcomment %}
 {% case page.url %}
 {% when '/index.html' or '/tag/' or '/search/' %}
 <script id="no-oembed"></script><!--no-embed-->
 {% else %}
-<script src="https://embed.open.ac.uk/scripts/jquery.oembed.js"></script>
+<script src="{{ PEER.jquery-oembed }}"></script>
 {% endcase %}
 <!--page.url: {{ page.url }} -->
 <script src="/js/main.js"></script>
@@ -37,3 +41,5 @@
 {% if site.x_black_ribbon %}
 <script>console.log('{{ site.x_black_ribbon }}')</script>
 {% endif %}
+
+<!--<pre>jQuery peer: {{ PEER.jquery }}</pre>-->
