@@ -17,6 +17,8 @@ priority: 1.0
 _Caveat:_ this blog post is aimed mainly at software developers, and
 those with some familiarity with Node and [npm][].
 
+_Caveat 2:_ the examples below relate to `pa11y-ci` 1.3.* and `pa11y` 4.*,
+and may need adjusting for `pa11y-ci` 2.*. and `pa11y` 5.*.
 
 I've recently come across an open source, automated accessibility
 testing tool called [pa11y-ci][], and I'm really impressed with how easy
@@ -35,7 +37,7 @@ Here's a run down on how I'm using it so far. (You'll need Node.js, which includ
 To get started, run this command in your terminal:
 
 ```sh
-npm install pa11y-ci --save-dev
+npm install pa11y-ci@^1.3 --save-dev
 ```
 
 ### 2. Configure `pa11y-ci`
@@ -123,6 +125,8 @@ script:
   - npm test
   - npm run serve-ci & sleep 5; npm run pa11y-ci;
 ```
+
+_Note:_ `&` after a command in bash pushes it to the background.
 
 ### Example outputs
 
