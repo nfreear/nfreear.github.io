@@ -19,6 +19,7 @@
     "html5shiv": "3.7.3",
     "respond.js": "1.4.2",
     "gaad-widget": "^3",
+    "github-describe": "^1",
     "isad-widget": "^1.1",
     "cookie-notice": "^1",
     "jquery-oembed": "https://embed.open.ac.uk/scripts/jquery.oembed.js#^1.0",
@@ -45,6 +46,11 @@
   "egg": "Happy birthday to you!",
   "keywords": [],
   "contributors": [],
+  "x-count": {
+    "drafts": 14,
+    "posts": 47,
+    "total": 61
+  },
   "semistandard": {
     "ignore": [
       "Gruntfile.js",

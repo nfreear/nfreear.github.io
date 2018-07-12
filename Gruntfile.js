@@ -11,7 +11,7 @@ module.exports = function (grunt) {
 		dir:  '_posts',
 
 		exec: {
-			count: 'echo "Count of posts: " && ls _posts/ | wc -l',
+			count: 'echo "Count of posts: " && ls _posts/*.md | wc -l',
 			draft: 'jekyll serve --drafts --unpublished --future',
 			serve: 'jekyll serve',
 			gem: 'gem install github-pages',
@@ -22,14 +22,14 @@ module.exports = function (grunt) {
 		},
 
 		sass: {
-  	},
+		},
 		jshint: {
 			options: {
 				bitwise: true,
 				curly: true,
 				eqeqeq: true,
 				futurehostile: true,
-				//laxcomma: true,
+				// laxcomma: true,
 				undef: true,
 				// https://github.com/jshint/jshint/blob/master/src/messages.js#L80
 				//'-W033': true,    // Ignore Missing semicolon;
@@ -58,11 +58,11 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-exec');
-	//grunt.loadNpmTasks('grunt-contrib-watch');
+	// grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', [ 'jshint', 'exec:semistandard', 'egg' ]);
+	grunt.registerTask('default', [ 'jshint', 'exec:semistandard', 'egg', 'count' ]);
 
-  grunt.registerTask('egg', function () {
+	grunt.registerTask('egg', function () {
 		var pkg = require('./package.json');
 		var config = grunt.file.read('./_config.yml');
 
@@ -71,6 +71,20 @@ module.exports = function (grunt) {
 		grunt.file.write('./_config.yml', config);
 
 		grunt.log.writeln('egg:', pkg.egg, rot13(pkg.egg));
+	});
+
+	grunt.registerTask('count', function () {
+		var PKG = require('./package.json');
+		var exec = require('child_process').execSync;
+
+		var total = parseInt(exec('ls _posts/*.md | wc -l'));
+		var drafts = parseInt(exec('grep "published: false" _posts/*.md | wc -l'));
+
+		PKG[ 'x-count' ] = { drafts: drafts, posts: (total - drafts), total: total };
+
+		grunt.file.write('./package.json', JSON.stringify(PKG, null, 2));
+
+		grunt.log.writeln('count:', PKG[ 'x-count' ]);
 	});
 
 	/* ------------------------------------------------------------------- */

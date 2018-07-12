@@ -64,6 +64,8 @@ npm start
 [prose-i0]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
 [blog]: https://nick.freear.org.uk
 [blog-icon]:  https://nick.freear.org.uk/badge.svg "Count of blog posts"
+[blog-ico-2]: https://img.shields.io/badge/dynamic/xml.svg?label=posts&url=https%3A//nick.freear.org.uk/about.html&query=//%40data-post_count
+    "Count of blog posts"
 [twitter]: https://twitter.com/nfreear "@nfreear on Twitter"
 [twit-icon]: https://img.shields.io/twitter/follow/nfreear.svg?style=social
 [GitHub pages]: https://pages.github.com/
