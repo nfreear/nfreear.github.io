@@ -1,0 +1,35 @@
+
+/* Staticman comments.
+*/
+
+.staticman-comments {
+
+  label {
+    display: block;
+    width: 28rem;
+
+    input,
+    textarea {
+      float: right;
+    }
+  }
+
+  input,
+  textarea {
+    font-size: 1.05rem;
+    padding: .2rem .5rem;
+    // width: 15rem;
+    width: 68%;
+  }
+
+  button {
+    cursor: pointer;
+    padding: .2rem 1rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    clear: both;
+    // margin: .8rem 0;
+  }
+}

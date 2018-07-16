@@ -23,6 +23,7 @@ layout: default
     {{ content }}
   </article>
 
+{% include comments.html %}
 
 {% if site.ex_comments %}
   <noscript>Sorry, comments require Javascript.</noscript>
@@ -30,7 +31,7 @@ layout: default
   <!--<div id="IDCommentsPostTitle">{{ page.title }}</div>-->
   <div id="{{ site.js_config.comment_div }}"></div>
 {% else %}
-  <p class="comments-disabled">Comments disabled.</p>
+  <p class="idc comments-disabled" title="IntenseDebate comments disabled.">'ID' comments disabled.</p>
 {% endif %}
 
 </div>

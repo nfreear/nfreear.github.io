@@ -34,7 +34,7 @@ x-github-url: https://github.com/nfreear/nfreear.github.io
 
 # 'truncatewords: 28' (Was: truncate: 220)
 ex_excerpt_truncate: 28
-ex_comments: true
+ex_comments: false
 ex_bodyclass: tribute
 
 x_csp_site_enable: false

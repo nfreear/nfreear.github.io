@@ -23,6 +23,7 @@
     "isad-widget": "^1.1",
     "cookie-notice": "^1",
     "jquery-oembed": "https://embed.open.ac.uk/scripts/jquery.oembed.js#^1.0",
+    "staticman-api": "https://api.staticman.net/v2/#^2.0",
     "intensedebate": "https://intensedebate.com/js/genericCommentWrapper2.php#^2.0",
     "atbar": "https://core.atbar.org/atbar/en/latest/atbar.min.js#^1.0",
     "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
