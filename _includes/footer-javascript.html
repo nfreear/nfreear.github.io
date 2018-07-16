@@ -1,6 +1,10 @@
 {% assign PKG = site.data.package %}
 {% assign PEER = site.data.package.peerDependencies %}
 
+<a id="github-describe" data-github-describe-repo="nfreear/nfreear.github.io"></a>
+
+<script data-X-src="https://unpkg.com/github-describe@{{ PEER.github-describe }}/index.js"></script>
+
 <div
  id="js-config"
 {% for cfg in site.js_config %} data-{{ cfg[0] }}={{ cfg[1] | jsonify }}{% endfor %}
@@ -28,6 +32,7 @@
 {% endcase %}
 <!--page.url: {{ page.url }} -->
 <script src="/js/main.js"></script>
+<script src="/js/comment.js"></script>
 
 {% if site.ex_comments and page.excerpt %}
 <script src="/js/idc-comments-custom.js"></script>
