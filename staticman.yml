@@ -22,7 +22,7 @@ comments:
   branch: master
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: Add comment (Staticman)
+  commitMessage: 'Adding a comment [ci skip]'
   # commitMessage: Add Staticman data
 
   # (*) REQUIRED
@@ -94,5 +94,7 @@ x-defaultComment:
 x-formAction: https://api.staticman.net/v2/entry/nfreear/nfreear.github.io/master/comments
 
 x-redirectBase: https://nick.freear.org.uk/?comment=ok&r=
+
+x-enable: false
 
 # End.

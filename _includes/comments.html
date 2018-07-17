@@ -5,6 +5,9 @@
 
 {% assign SM = site.data.staticman %}
 {% assign redirect_url = page.path | replace: '_posts/', SM.x-redirectBase | replace: '.md', '.html' %}
+
+{% if SM.x-enable %}
+
 <div class="staticman-comments">
 <hr />
 
@@ -40,3 +43,6 @@
 </div>
 
 </div>
+{% else %}
+  <p class="sm comments-disabled" title="Staticman comments disabled.">'SM' comments disabled.</p>
+{% endif %}
