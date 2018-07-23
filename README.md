@@ -70,7 +70,7 @@ npm start
 [twit-icon]: https://img.shields.io/twitter/follow/nfreear.svg?style=social
 [GitHub pages]: https://pages.github.com/
 [tom]: https://github.com/mojombo/mojombo.github.io
-[travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg
+[travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg?branch=master
 [travis-ci]: https://travis-ci.org/nfreear/nfreear.github.io "Build status – Travis-CI"
 
 [pa11y-ci]: https://github.com/pa11y/pa11y-ci

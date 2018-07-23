@@ -31,10 +31,16 @@ window.jQuery(function ($) {
       body: $COMMENT_FORM.serialize() // JSON.stringify(params($COMMENT_FORM))
     })
     .then(response => {
+      // function checkStatus(response) {
       if (response.ok) {
-        return response.json();
+        return Promise.resolve(response);
       }
-      throw new Error([ response, response.text() ]); // TODO:
+
+      return response.json().then(json => {
+        const error = new Error(json.message || response.statusText);
+        return Promise.reject(Object.assign(error, { response }));
+      });
+      // }
     })
     .then(data => {
       if (data.success) {
