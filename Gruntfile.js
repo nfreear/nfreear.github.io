@@ -31,11 +31,12 @@ module.exports = function (grunt) {
 				futurehostile: true,
 				// laxcomma: true,
 				undef: true,
+				esversion: 6,
 				// https://github.com/jshint/jshint/blob/master/src/messages.js#L80
 				//'-W033': true,    // Ignore Missing semicolon;
 				//'-W030': true,    // Ignore Expected an assignment or function call and instead saw an expression;
 				//'-W069': true,    // Ignore {a} is better written in dot notation;
-				globals: { window: false }
+				globals: { window: false, console: false }
 			},
 			blog: [ 'js/*.js', '!js/intensedebate/*' ],
 			grunt: {

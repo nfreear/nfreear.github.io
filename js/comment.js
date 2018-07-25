@@ -3,7 +3,6 @@
 */
 
 window.jQuery(function ($) {
-
   const fetch = window.fetch;
   const $COMMENT_FORM = $('#comment-form');
   const ACTION = $COMMENT_FORM.attr('action');
@@ -18,7 +17,7 @@ window.jQuery(function ($) {
 
     ev.preventDefault();
 
-    console.warn('Comment submit:', ACTION, $COMMENT_FORM.serialize(), params($COMMENT_FORM));
+    console.warn('Comment submit:', ACTION, $COMMENT_FORM.serialize(), params($COMMENT_FORM), noRedirect);
 
     fetch(ACTION, {
       method: 'POST',
@@ -53,16 +52,16 @@ window.jQuery(function ($) {
   console.warn('Comment.js loaded:', $COMMENT_FORM, ACTION, params($COMMENT_FORM));
 
   // DEPRECATED!
-  function params($form) {
+  function params ($form) {
     var paramObj = {};
 
-    $.each($form.serializeArray(), function(_, kv) {
+    $.each($form.serializeArray(), function (_, kv) {
       /* if (paramObj.hasOwnProperty(kv.name)) {
         paramObj[kv.name] = $.makeArray(paramObj[kv.name]);
         paramObj[kv.name].push(kv.value);
       }
       else { */
-        paramObj[ kv.name ] = kv.value;
+      paramObj[ kv.name ] = kv.value;
       // }
     });
 
@@ -70,7 +69,7 @@ window.jQuery(function ($) {
   }
 
   // DEPRECATED!
-  function noRedirect(paramObj) {
+  function noRedirect (paramObj) {
     paramObj[ 'options[X-redirect]' ] = paramObj[ 'options[redirect]' ];
     paramObj[ 'options[redirect]' ] = '';
 
