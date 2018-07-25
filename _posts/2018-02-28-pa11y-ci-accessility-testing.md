@@ -126,7 +126,7 @@ script:
   - npm run serve-ci & sleep 5; npm run pa11y-ci;
 ```
 
-_Note:_ `&` after a command in bash pushes it to the background.
+_Note:_ `&` after a command in bash pushes it to the [background][].
 
 ### Example outputs
 
@@ -235,6 +235,8 @@ See the [`.gitlab-ci.yml`][gitlab-yml] configuration file.
 [Andrew Mee]: http://cruft.io/posts/automated-accessibility-testing-node-travis-ci-pa11y/
 [Joviano Dias]: https://medium.com/springernature-qa/integrating-pa11y-ci-in-your-ci-cd-pipeline-f143bb5e36f
 [Ire Aderinokun]: https://bitsofco.de/pa11y/
+[background]: https://maketecheasier.com/run-bash-commands-background-linux/
+  "Running Bash Commands in the Background the Right Way [Linux], Derrik Diener, 2016."
 
 [js]: https://gist.github.com/nfreear/cece86bf6d5d4d531bf0646417a868fb ".pa11yci.conf.js"
 

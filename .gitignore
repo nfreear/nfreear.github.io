@@ -1,4 +1,5 @@
 *.html
+!comments.html
 *.txt
 /*.svg
 
@@ -20,5 +21,8 @@ _pages/contribute.json
 _pages/sm.md
 
 pa11y-ci-report.md
+
+_posts/1994-2*
+_posts/2018/
 
 # End.
