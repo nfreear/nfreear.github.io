@@ -18,8 +18,11 @@
   textarea {
     font-size: 1.05rem;
     padding: .2rem .5rem;
-    // width: 15rem;
-    width: 68%;
+    width: 74%; // Was: 68%; 15rem;
+  }
+
+  textarea {
+    height: 5rem;
   }
 
   button {
@@ -38,5 +41,22 @@
     border: 1px solid darkorange;
     border-radius: .3rem;
     padding: .6rem;
+  }
+
+  .g-recaptcha {
+    width: 28rem;
+
+    &> div {
+      width: auto !important;
+    }
+
+    iframe {
+      border-width: 1px;
+      // display: block;
+      float: right;
+      margin: .5rem 0;
+      min-height: 0;
+      // width: 75%;
+    }
   }
 }

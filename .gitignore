@@ -8,6 +8,10 @@ _site
 node_modules/*
 package-lock.json
 
+.bundle/
+Gemfile.lock
+vendor/
+
 *BAK*
 *copy*
 *edit-me*

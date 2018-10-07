@@ -8,6 +8,7 @@
 <div
  id="js-config"
 {% for cfg in site.js_config %} data-{{ cfg[0] }}={{ cfg[1] | jsonify }}{% endfor %}
+ data-page_layout={{ page.layout | jsonify }}
  data-post_title={{ page.title | jsonify }}
  data-post_id={{ page.id | jsonify }}
  data-post_count="{{ site.posts | size | jsonify }}"
@@ -19,7 +20,7 @@
   data-cookie-notice='{ "debug": true }' ></script>
 <script src="https://unpkg.com/gaad-widget@{{ PEER.gaad-widget | default: '^3' }}/dist/gaad-widget.min.js"
   data-gaad-widget='{ "days_before": 20, "debug": true }' ></script>
-<script src="https://unpkg.com/isad-widget@{{ PEER.isad-widget }}#._.js"></script>
+<script src="https://unpkg.com/isad-widget@{{ PEER.isad-widget }}/dist/isad-widget.js"></script>
 {% if site.x_gaad_version %} {% endif %}
 
 <script src="https://unpkg.com/jquery@{{ PEER.jquery | default: '2.2.4' }}/dist/jquery.min.js"></script>
@@ -32,7 +33,12 @@
 {% endcase %}
 <!--page.url: {{ page.url }} -->
 <script src="/js/main.js"></script>
+
+{% if page.layout == 'post' %}
 <script src="/js/comment.js"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+{% endif %}
 
 {% if site.ex_comments and page.excerpt %}
 <script src="/js/idc-comments-custom.js"></script>

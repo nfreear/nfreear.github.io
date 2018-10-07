@@ -45,11 +45,11 @@ window.jQuery(function ($) {
       if (data.success) {
         console.warn('Staticman OK:', data);
 
-        $MESSAGE.text('Thank you! Comment in moderation queue.');
+        $MESSAGE.text('Thank you! Comment in moderation queue.').addClass('success');
       } else {
         console.error('Staticman Error:', data);
 
-        $MESSAGE.text('Error. ' + data.errorCode);
+        $MESSAGE.text('Error. ' + data.errorCode).addClass('error');
       }
     })
     .catch(error => console.error('Staticman Error (2):', error));

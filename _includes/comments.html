@@ -18,9 +18,11 @@
   <input name="options[redirect]" type="hidden" value="{{ redirect_url }}" data-X-value="{{ site.baseurl }}/"/>
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}"/>
-  <p><label>Name <input name="fields[name]" placeholder="Jo Bloggs" required minlength=3 maxlength=24 /></label>
-  <p><label>Email <input name="fields[email]" type="email" placeholder="jo@bloggs.net" required minlength=7 maxlength=32 /></label>
+  <p><label>Name <input name="fields[name]" autocomplete="name" placeholder="Jo Bloggs" required minlength=3 maxlength=24 /></label>
+  <p><label>Email <input name="fields[email]" type="email" autocomplete="email" placeholder="jo@bloggs.net" required minlength=7 maxlength=32 /></label>
   <p><label>Comment <textarea name="fields[message]" required minlength=8 maxlength=200 ></textarea></label>
+
+  <div class="g-recaptcha" data-sitekey="{{ SM.comments.reCaptcha.siteKey }}" title="re Captcha"></div>
 
   <p><button type="submit">Add comment</button>
 </form>
