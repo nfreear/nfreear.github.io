@@ -20,7 +20,7 @@ the EasiRiser
 
 by
 
-Nicholas freear
+Nicholas Freear
 
 May 1997
 
