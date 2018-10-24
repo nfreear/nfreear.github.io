@@ -41,7 +41,7 @@ There is a lot still to do, and we'd love your feedback and contributions.
 
 [Fork][gh] the [GPL][]-licensed code [on GitHub][gh].
 
-<iframe src="http://iet-embed-acct.open.ac.uk/dev/our-journey/test.html?zoom=60&demo=1"></iframe>
+<iframe src="https://iet-ou.github.io/our-journey/tool/?zoom=65&embed=1&demo=1" allowfullscreen ></iframe>
 
 
 [tim]: https://iet.open.ac.uk/people/tim.coughlan
