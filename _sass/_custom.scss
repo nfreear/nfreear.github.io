@@ -187,8 +187,9 @@ iframe[ src *= youtu ] {
     width: 560px;
 }
 iframe[ src *= our-journey ] {
-    height: 610px;
-    width: 110%;
+    min-height: 560px;
+    min-width: 450px;
+    width: 113%;
 }
 iframe:hover, iframe:focus, a.x-me:hover {
     border-color: #ff6d00;  // darkorange;

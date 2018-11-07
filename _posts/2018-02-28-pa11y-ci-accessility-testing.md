@@ -18,7 +18,7 @@ _Caveat:_ this blog post is aimed mainly at software developers, and
 those with some familiarity with Node and [npm][].
 
 _Caveat 2:_ the examples below relate to `pa11y-ci` 1.3.* and `pa11y` 4.*,
-and may need adjusting for `pa11y-ci` 2.*. and `pa11y` 5.*.
+and may need adjusting for `pa11y-ci` 2.*. and `pa11y` 5.x.
 
 I've recently come across an open source, automated accessibility
 testing tool called [pa11y-ci][], and I'm really impressed with how easy

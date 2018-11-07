@@ -3,7 +3,7 @@ x-csp-disable: true
 layout: post
 title:  our-journey
 date:   2018-10-05 13:32
-tags:   [ "open source", ou, javascript ]
+tags:   [ "open source", ou, javascript, accessibility ]
 og-desc: Our Journey is an interactive online tool to chart the highs and lows of student journeys.
 og-image: https://github.com/IET-OU/our-journey/raw/master/assets/screenshot-1.png
 og-image-alt: our-journey — screenshot of the online tool.
@@ -19,6 +19,7 @@ to publish the code for [our-journey][] as an open-source project.
 _our-journey_ started off as a [paper-based game][download], to be used in workshops,
 and developed by Tim, [Kate Lister][kate] ([IET][]) and Glen Darby (_LTI Translation_).
 (_You may be surprised at our track-record as a distance university, in using paper-based tools!_)
+
 It allows a student to describe their journey through education, in terms of the highs and lows,
 happiness, frustrations, stress and so on.
 The student can chart not only the learning-related steps — writing essays, revising, group tutorials etc.,
@@ -41,18 +42,29 @@ There is a lot still to do, and we'd love your feedback and contributions.
 
 [Fork][gh] the [GPL][]-licensed code [on GitHub][gh].
 
-<iframe src="https://iet-ou.github.io/our-journey/tool/?zoom=65&embed=1&demo=1" allowfullscreen ></iframe>
+### Update
 
+_14 & 24 October 2018_: Added `<iframe>` embed, (uses `?zoom=65` URL parameter added in [v1.4.0][log]).
+Version 1.4.0 contains many enhancements & fixes.
+
+Note, colleagues have undertaken accessibility testing, and Tim (_and to some extent myself_) are fixing issues.
+
+See: [Changelog][log].
+
+<iframe src="https://iet-ou.github.io/our-journey/tool/?zoom=65&embed=1&demo=1" allowfullscreen ></iframe>
 
 [tim]: https://iet.open.ac.uk/people/tim.coughlan
 [kate]: https://twitter.com/KateMarburg
-[iet]: https://iet.open.ac.uk/ "Institute of Educational Technology"
+[iet]: https://iet.open.ac.uk/
+  "Institute of Educational Technology (IET), at The Open University."
 [our-journey]: https://iet-ou.github.io/our-journey/ "our-journey"
 [download]: https://iet-ou.github.io/our-journey/download.html "PDF downloads"
-[tool]: https://unpkg.com/our-journey/index.html
+[tool]: https://iet-ou.github.io/our-journey/tool/?demo=1
 [gh]: https://github.com/IET-OU/our-journey "'our-journey' on GitHub"
 [gpl]: https://github.com/IET-OU/our-journey/blob/master/LICENSE.txt
   "GNU General Public License v3.0 [GPL-3.0+]"
+[log]: https://github.com/IET-OU/our-journey/blob/master/docs/CHANGELOG.md
+  "Changelog / release notes"
 
 [oro]: https://oro.open.ac.uk/54760/
   "Paper: The accessibility of administrative processes: Assessing the impacts on students in higher education. Coughlan & Lister, 2018."
