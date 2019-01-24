@@ -53,6 +53,8 @@ See: [Changelog][log].
 
 <iframe src="https://iet-ou.github.io/our-journey/tool/?zoom=65&embed=1&demo=1" allowfullscreen ></iframe>
 
+<!-- [yt][] -->
+
 [tim]: https://iet.open.ac.uk/people/tim.coughlan
 [kate]: https://twitter.com/KateMarburg
 [iet]: https://iet.open.ac.uk/
@@ -71,5 +73,6 @@ See: [Changelog][log].
 [oro-2]: https://oro.open.ac.uk/48991/
   "Paper: Understanding Accessibility as a Process through the Analysis of Feedback from Disabled Students. Coughlan, Ullmann & Lister, 2017."
 [image]: https://github.com/IET-OU/our-journey/raw/master/assets/screenshot-1.png
+[yt]: https://youtu.be/nbIWjdsZmm0?t=15643&t_end=17278&_EMBED_X_ME_ "OpenTEL Show & TEL Event - 6 Oct 2018 Day One (unlisted)"
 
 [End]: //.
