@@ -11,12 +11,12 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 
 You can find me all over the Web &hellip; :
 
-* [Profile at The Open University](http://www.open.ac.uk/people/ndf42 "OU profile")
+* [Profile at The Open University][wels]
 * [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/in/nfreear/)
 * [Google+](https://profiles.google.com/n.d.freear#112441018708933635212)
 * [Google Scholar][scholar]
-* [Twitter: @nfreear](https://twitter.com/nfreear)
+* [Twitter: @nfreear](https://twitter.com/@nfreear)
 * [Twitter: @AccessifyWiki](https://twitter.com/AccessifyWiki)
 * [Pinboard: ndf](https://pinboard.in/u:ndf)
 <!--* [Delicious: nfreear](http://del.icio.us/nfreear)-->
@@ -34,8 +34,8 @@ You can find me all over the Web &hellip; :
 * [Travis-CI: nfreear](https://travis-ci.org/nfreear) and [IET-OU](https://travis-ci.org/IET-OU)
 * [ScraperWiki](https://classic.scraperwiki.com/profiles/nfreear/)
 * [Yahoo! Pipes][pipes]
-* [Mycroft](http://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
-* [Cloudworks](http://cloudworks.ac.uk/user/view/1040)
+* [Mycroft](https://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
+* [Cloudworks](https://cloudworks.ac.uk/user/view/1040#!-N-Freear)
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
 * [Libraries.io](https://libraries.io/github/nfreear/projects)
 * [Open HUB](https://openhub.net/accounts/nfreear "Formerly called 'Ohloh'")
@@ -59,8 +59,9 @@ You can find me all over the Web &hellip; :
 
 <div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
-
-
+[wels]: http://wels.open.ac.uk/people/ndf42
+  "Profile in, Faculty of Wellbeing, Education and Language Studies (WELS), at The Open University"
+[ou]: http://www.open.ac.uk/people/ndf42 "Profile at, The Open University"
 [iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
 [scholar]: https://scholar.google.com/scholar?as_q=&as_sauthors=%22N+Freear%22&as_sdt=1.&as_sdts=5
 [pipes-X]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
@@ -76,7 +77,7 @@ You can find me all over the Web &hellip; :
 [oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_thin_badge?format=gif&ref=Thin+badge
     "Open Media Player, on Open HUB"
 [fr-oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_basic_stats#!__FRAME_ME__
-[QR]: http://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=http%3A%2F%2Ffreear.org.uk#!_QR_
+[QR]: https://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=http%3A%2F%2Ffreear.org.uk#!_QR_
     "QR code for Freear.org.uk, via Google charts"
 [linkedin-OLD]: https://linkedin.com/pub/nicholas-freear/40/781/b11
 
