@@ -5,7 +5,7 @@
   "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages.",
   "main": "./Gruntfile.js",
   "engines": {
-    "node": ">=6.0",
+    "node": ">=8.0",
     "ruby": "2.3.7p456",
     "jekyll": "3.7.3"
   },
@@ -54,8 +54,8 @@
   "contributors": [],
   "x-count": {
     "drafts": 15,
-    "posts": 48,
-    "total": 63
+    "posts": 50,
+    "total": 65
   },
   "husky": {
     "hooks": {

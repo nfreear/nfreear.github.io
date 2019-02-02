@@ -7,15 +7,15 @@ ex_long_desc: > # this means to ignore newlines until "baseurl:"
   I’m rebooting my blog using GitHub pages & Jekyll.
   <a href="https://github.com/nfreear/nfreear.github.io">(site source)</a>
   <br>
-  The blog archive is at <a href="http://freear.org.uk">Freear.org.uk</a> &bull; &copy;Nick Freear.
+  The blog archive is at <a href="https://freear.org.uk">Freear.org.uk</a> &bull; &copy;Nick Freear.
 
   <i>
-  <a href="https://nfreear.mit-license.org/2009-2017#!-blog"><img alt="MIT license"
+  <a href="https://nfreear.mit-license.org/2009-2019#!-blog"><img alt="MIT license"
   src="/assets/shields-io-license-MIT.svg"
   data-src="https://img.shields.io/badge/license-MIT-blue.svg" title=
   "Code: source code snippets are released under an MIT license"></a>
 
-  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"
   ><img alt="Creative Commons License"
   src="/assets/license-cc-by-sa-88x31.png" data-src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" title=
   "Content: released under a Creative Commons Attribution-ShareAlike 4.0 License"></a>
@@ -76,7 +76,9 @@ exclude:
   #- _drafts/do-not-delete.txt
   - Makefile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
+  - package-lock.json
   - ".htaccess"
   - LICENSE.MD
   - README.md

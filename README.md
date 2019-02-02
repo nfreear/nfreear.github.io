@@ -8,7 +8,6 @@
 [![Git hooks][hook-icon]][hook]
 [![@nfreear on Twitter][twit-icon]][twitter]
 
-
 # nfreear.github.io
 
 ## Nick Freear's blog
@@ -17,17 +16,14 @@ Experimental!
 
 I'm re-developing my blog, using [Jekyll][] and [GitHub pages][].
 
-*  <https://nick.freear.org.uk>
+*  [nick.freear.org.uk][]
 * (<https://nfreear.github.io>)
-
 
 My legacy blog posts:
 
 * <http://freear.org.uk>
 
-
 See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
-
 
 ## Install .. Test
 
@@ -40,8 +36,7 @@ npm start
 
 
 ---
-
-© 2009-2018 Nick Freear.
+© 2009-2019 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`, `*.html`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -54,7 +49,7 @@ npm start
 [cc-icon-lg]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [cc-icon]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "Content: Creative Commons License CC-BY-SA"
-[MIT License]: https://nfreear.mit-license.org/2009-2018#!-blog
+[MIT License]: https://nfreear.mit-license.org/2009-2019#!-blog
 [mit-icon]: https://nick.freear.org.uk/badge/mit.svg "Code: MIT License"
 [mit-i0]: https://img.shields.io/badge/license-MIT-blue.svg "(Timeout errors)"
 [Jekyll]: https://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
@@ -63,6 +58,7 @@ npm start
 [Prose.io]: https://prose.io/ "Edited via Prose.io"
 [prose-icon]: https://nick.freear.org.uk/badge/by-prose-io.svg
 [prose-i0]: https://img.shields.io/badge/edited_via-Prose.io-73955c.svg#!-d-green
+[nick.freear.org.uk]: https://nick.freear.org.uk
 [blog]: https://nick.freear.org.uk
 [blog-icon]:  https://nick.freear.org.uk/badge.svg "Count of blog posts"
 [blog-ico-2]: https://img.shields.io/badge/dynamic/xml.svg?label=posts&url=https%3A//nick.freear.org.uk/about.html&query=//%40data-post_count
