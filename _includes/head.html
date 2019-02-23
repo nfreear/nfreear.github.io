@@ -34,4 +34,7 @@
   {% if page.x-style %}
   <style>{{ page.x-style }}</style>
   {% endif %}
+  {% if page.x-image-width %}
+  <style> .post-content img, .post-content a img { max-width: {{ page.x-image-width }}px; margin: 1.2rem auto; } </style>
+  {% endif %}
 </head>

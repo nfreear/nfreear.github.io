@@ -28,15 +28,18 @@ without being the owner or publisher of the web page.
 ## Why Accessify Wiki?
 
 _Accessify Wiki_ envisages a world where you really need to achieve something on a web page,
-book train tickets, read something, or whatever,
+book train tickets, read some content, or whatever,
 and there's an accessibility problem which prevents you from completing your task.
 
-The owner of the page(s) can't make the fix in a timely fashion,
+The owner of the page(s) can't make the fix in a timely fashion[* *][note-1],
 so you reach out to ask if the community can help you crowd-source the solution, using Accessify Wiki.
 
 And, the community pulls through.
 
-In due course, the owner of the page(s), will hopefully incorporate the accessibility fix or fixes, completing a _virtuous cicrle_.
+In due course, the owner of the page(s), will hopefully incorporate the accessibility fix or fixes, completing a _virtuous circle_.
+
+_Note, the web-site owner/publisher remains ultimately responsible for fixing accessibility issues.
+Accessify Wiki merely aims to facilitate a pragmatic stop-gap._
 
 ## Where did it come from?
 
@@ -47,7 +50,7 @@ Initial experimentation happened in [ScraperWiki][], and the [legacy Wiki][], is
 The legacy [API][json], [bookmarklet][] and [user Javascript][] were [developed][gh-old] between April 2013 and June 2014.
 In 2016, I started a [new Wiki][] written in Markdown, powered by [Jekyll][] and hosted on GitHub Pages.
 
-[embed][]
+[Accessify Wiki introduction, on SlideShare][embed]
 
 ## Describing a fix
 
@@ -101,7 +104,7 @@ some sites by a [Content Security Policy][csp].
 
 The system can use the `test_urls` listed in the `config` object to
 periodically test the number of selectors and attribute-value pairs that successfully match.
-When the _hit/miss_ ratio goes below a threshold, this can be flagged to the Wiki maintainers/editors.
+When the _hit/miss_ ratio goes below a threshold, this can be flagged to the _Wiki_ maintainers/editors.
 
 This provides an automated way to continuously test and monitor quality.
 
@@ -120,14 +123,20 @@ javascript:(
 )(document, {})
 ```
 
-I envision these being used as the basis for browser add-ons/extensions.
+In the future, I envision these being used as the basis for browser add-ons/extensions.
 
 ## What next?
 
 The initial phase of _Accessify Wiki_ was a frenetic period of development and testing.
 Since then I've had conversations, but never moved on to the next stages.
 
-I would love to conduct a pilot study to test the efficacy of the prototype system(s) with real users.
+I would love to conduct a pilot study to test the efficacy of the prototype system(s) with real users,
+and with assistive technologies.
+
+A colleague has suggested the use of _Accessify Wiki_ for teaching and learning,
+which is an interesting idea that I'd love to explore further.
+
+And, I need to do some outreach work within the accessibility, _dis-ability_ and possibly open-source communities.
 
 Here's [some new code][gist].
 
@@ -145,8 +154,9 @@ Here's [some new code][gist].
 [bookmarklet]: https://accessifywiki.appspot.com/browser/js/accessifyhtml5-marklet.js
   "Bookmarklet. 14 April 2013 - June 2014"
 [user Javascript]: https://accessifywiki.appspot.com/browser/userjs/accessify.user.js
-[json]: https://accessifywiki--1.appspot.com/fix?url=https://www.google.co.uk/search%3Fq=Accessify-wiki "JSON API, with CORS headers"
-[jsonp]: https://accessifywiki--1.appspot.com/fix?callback=_callback&url=https://www.google.co.uk/search%3Fq=Accessify-wiki "JSON with padding API"
+[json]: https://accessifywiki--1.appspot.com/fix?url=https://google.co.uk/search%3Fq=Accessify-wiki "JSON API, with CORS headers"
+[jsonp]: https://accessifywiki--1.appspot.com/fix?callback=_FN&url=https://google.co.uk/search%3Fq=Accessify-wiki
+  "JSON with padding API"
 [gh-old]: https://github.com/nfreear/accessify-wiki "Legacy webapp2-based API. 14 April 2013 - June 2014"
 [gh-api]: https://github.com/accessifywiki/accessifywiki-api
 [selectors]: https://w3.org/TR/selectors-3/
@@ -172,16 +182,18 @@ Here's [some new code][gist].
 [bm]: javascript:(function(D,AC5U){var%20s=D.createElement('script');s.src='https://accessifywiki.appspot.com/browser/js/accessifyhtml5-marklet.js?x='+Math.random();D.body.appendChild(s)})(document,{})
   "Javascript bookmarklet :— drag to the bookmark bar in your browser."
 
-[i]: http://web.archive.org/web/20170113173533/https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player
+[i]: https://web.archive.org/web/20170113173533/https://elevator.jisc.ac.uk/e/accessiblebydesign/idea/open-media-player
   "Accessible by Design idea: Open Media Player 3.0"
 [embed]: https://slideshare.net/nfreear/accessify-wikiintrov12?_EMBED_ME_
-  "Accessify Wiki introduction v1.2"
+  "Accessify Wiki introduction v1.2 — SlideShare"
 [ss-2]: https://slideshare.net/nfreear/accessify-wiki-a5-leaflets-v1
 [video]: http://youtu.be/KsUTiasR4F0?_EMBED_ME_
 [twitter]: https://twitter.com/accessifywiki
 
 [gist]: https://gist.github.com/nfreear/afd3b2119ed3d633e608f52a1cbc0f2f
   "New Accessify wiki Javascript"
+
+[note-1]: #p-8 "Note 1."
 
 <!-- <iframe
   src="https://slideshare.net/slideshow/embed_code/key/9zsi2K174uSDx0" allowfullscreen

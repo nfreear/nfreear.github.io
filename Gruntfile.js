@@ -2,6 +2,9 @@
   Nfreear blog task-runner | © 2016 Nick Freear | License: MIT.
 */
 
+const PACKAGE_JSON = './package.json';
+const CONFIG_YAML = './_config.yml';
+
 module.exports = function (grunt) {
 	'use strict';
 
@@ -64,26 +67,26 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', [ 'jshint', 'exec:semistandard', 'egg', 'count' ]);
 
 	grunt.registerTask('egg', function () {
-		var pkg = require('./package.json');
-		var config = grunt.file.read('./_config.yml');
+		const PKG = require(PACKAGE_JSON);
+		var config = grunt.file.read(CONFIG_YAML);
 
-		config = config.replace(/(egg|rtt): .+/, 'egg: ' + rot13(pkg.egg)); //.replace(/build: .+/, 'build: ' + (new Date).toISOString());
+		config = config.replace(/(egg|rtt): .+/, 'egg: ' + rot13(PKG.egg)); //.replace(/build: .+/, 'build: ' + (new Date).toISOString());
 
-		grunt.file.write('./_config.yml', config);
+		grunt.file.write(CONFIG_YAML, config);
 
-		grunt.log.writeln('egg:', pkg.egg, rot13(pkg.egg));
+		grunt.log.writeln('egg:', PKG.egg, rot13(PKG.egg));
 	});
 
 	grunt.registerTask('count', function () {
-		var PKG = require('./package.json');
-		var exec = require('child_process').execSync;
+		var PKG = require(PACKAGE_JSON);
+		const exec = require('child_process').execSync;
 
-		var total = parseInt(exec('ls _posts/*.md | wc -l'));
-		var drafts = parseInt(exec('grep "published: false" _posts/*.md | wc -l'));
+		const total = parseInt(exec('ls _posts/*.md | wc -l'));
+		const drafts = parseInt(exec('grep "published: false" _posts/*.md | wc -l'));
 
 		PKG[ 'x-count' ] = { drafts: drafts, posts: (total - drafts), total: total };
 
-		grunt.file.write('./package.json', JSON.stringify(PKG, null, 2));
+		grunt.file.write(PACKAGE_JSON, JSON.stringify(PKG, null, 2));
 
 		grunt.log.writeln('count:', PKG[ 'x-count' ]);
 	});

@@ -53,9 +53,9 @@
   "keywords": [],
   "contributors": [],
   "x-count": {
-    "drafts": 15,
+    "drafts": 16,
     "posts": 50,
-    "total": 65
+    "total": 66
   },
   "husky": {
     "hooks": {

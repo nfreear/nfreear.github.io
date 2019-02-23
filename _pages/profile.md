@@ -14,7 +14,7 @@ You can find me all over the Web &hellip; :
 * [Profile at The Open University][wels]
 * [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/in/nfreear/)
-* [Google+](https://profiles.google.com/n.d.freear#112441018708933635212)
+* [Google+](https://plus.google.com/+NickFreear)
 * [Google Scholar][scholar]
 * [Twitter: @nfreear](https://twitter.com/@nfreear)
 * [Twitter: @AccessifyWiki](https://twitter.com/AccessifyWiki)
@@ -65,11 +65,10 @@ You can find me all over the Web &hellip; :
 [iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
 [scholar]: https://scholar.google.com/scholar?as_q=&as_sauthors=%22N+Freear%22&as_sdt=1.&as_sdts=5
 [pipes-X]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
-    "Read only - may be slow! (Yahoo Pipes)"
-[pipes]: https://web.archive.org/web/20160408134939/http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
-    "Archive.org copy - Yahoo Pipes"
-[gawds]: https://web.archive.org/web/20111104032019/http://www.gawds.org/showmember.php?memberid=2424#!_ARCHIVE_
-    "Original link broken (GAWDS)"
+[pipes]: https://web.archive.org/web/20160408134939/http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#
+    "Archive, 08-April-2016 - Yahoo Pipes"
+[gawds]: https://web.archive.org/web/20111104032019/http://gawds.org/showmember.php?memberid=2424
+    "Archive, 04-Nov-2011. Original link broken (GAWDS)"
 [book]: https://packtpub.com/moodle-2-for-teaching-4-9-year-olds-beginners-guide/book?ref=freear.org.uk
     "My book, published by Packt"
 [oh-cloud]: https://openhub.net/p/cloudengine/widgets/project_thin_badge?format=gif&ref=Thin+badge
@@ -77,8 +76,9 @@ You can find me all over the Web &hellip; :
 [oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_thin_badge?format=gif&ref=Thin+badge
     "Open Media Player, on Open HUB"
 [fr-oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_basic_stats#!__FRAME_ME__
-[QR]: https://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=http%3A%2F%2Ffreear.org.uk#!_QR_
-    "QR code for Freear.org.uk, via Google charts"
+[QR]: https://chart.apis.google.com/chart?chs=200x200&cht=qr&chl=https%3A//nick.freear.org.uk#!_QR_
+    "QR code for Nick.freear.org.uk, via Google charts"
 [linkedin-OLD]: https://linkedin.com/pub/nicholas-freear/40/781/b11
+[gplus-OLD]: https://profiles.google.com/n.d.freear#112441018708933635212
 
-[End]: end
+[End]: //.
