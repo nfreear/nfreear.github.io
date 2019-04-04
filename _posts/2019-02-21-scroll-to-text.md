@@ -77,7 +77,9 @@ You can visit the site at :~ [scrolltotext.github.io][].
 
 And, view and contribute to [the source code][gh] ([MIT License][mit]).
 
-...
+## Update
+
+_24 February_: I gather that Chrome is testing a ['Scroll to text'][ch-stt] [feature][ch-stt-gh].
 
 [gh]: https://github.com/scrolltotext/scrolltotext.github.io
 [gh-orig]: https://github.com/nfreear/scroll-to-text
@@ -113,5 +115,12 @@ And, view and contribute to [the source code][gh] ([MIT License][mit]).
   "“Angry people are not always wise.” ― Jane Austen, Pride and Prejudice, Chapter 45."
 [wels-tips]: https://scrolltotext.github.io/?url=https://ounews.co/education-languages-health/health/wellbeing-tips-for-2019/&text=catch%20sight%20of%20the%20beautiful
   "'catch sight of the beautiful', Wellbeing tips for 2019 By Hannah Grimmette - January 15, 2019, OU News."
+
+[ch-stt]: https://chromeunboxed.com/chromes-scroll-to-text-looks-to-anchor-tag-the-web/
+  "Chrome's “SCROLL TO TEXT” looks to anchor tag the web, February 16, 2019 By GABRIEL BRANGERS"
+[ch-stt-gh]: https://github.com/bokand/ScrollToTextFragment
+  "Proposal: Scroll-To-Text using a URL fragment"
+[ch-stt-news]: https://m.dailyhunt.in/news/india/english/91mobiles-epaper-mobiles/google+chrome+testing+scroll+to+text+feature+to+allow+users+to+share+link+to+specific+section+on+a+page-newsid-108928476
+  "Google Chrome testing 'Scroll to Text' feature to allow users to share link to specific section on a page, 16 Feb 2019, by 91 Mobiles."
 
 [End]: //.
