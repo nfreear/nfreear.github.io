@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright © 2009-2018 Nick Freear
+Copyright © 2009-2019 Nick Freear
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -6,7 +6,7 @@
     "threshold": 0,
     "timeout": 8000,
     "wait": 3000,
-    "verifyPage": "idc-container",
+    "verifyPage": "idc comments-disabled",
     "ignore": [ "notice", "warning" ]
   },
   "urls": [

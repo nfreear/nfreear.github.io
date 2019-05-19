@@ -21,7 +21,7 @@ I'm re-developing my blog, using [Jekyll][] and [GitHub pages][].
 
 My legacy blog posts:
 
-* <http://freear.org.uk>
+* <https://freear.org.uk>
 
 See [Tom Preston-Werner's blog][tom] for another Jekyll-based example.
 
