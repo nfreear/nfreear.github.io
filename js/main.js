@@ -92,11 +92,11 @@ window.jQuery(function ($) {
     title: 'Show/hide navigation',
     'aria-label': 'Show / hide navigation'
   })
-  .on('click', function (ev) {
-    $('header .trigger').toggle();
+    .on('click', function (ev) {
+      $('header .trigger').toggle();
 
-    ev.preventDefault();
-  });
+      ev.preventDefault();
+    });
 
   W.setTimeout(function () {
     $('.gsc-input a.gsst_a').attr({
@@ -149,7 +149,7 @@ window.jQuery(function ($) {
     // var text = $link.html().replace(/#!.+/, '');
 
     if (m) {
-      $link.addClass(m[ 1 ].toLowerCase() + ' x-me').attr('href', urlclean);  // .html(text);
+      $link.addClass(m[ 1 ].toLowerCase() + ' x-me').attr('href', urlclean); // .html(text);
     }
     console.debug('big-me: ', m);
   });

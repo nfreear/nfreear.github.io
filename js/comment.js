@@ -9,6 +9,10 @@ window.jQuery(function ($) {
   const $MESSAGE = $COMMENT_FORM.find('.message');
   // const FIELDS = $COMMENT_FORM.find('input, textarea').filter('[name]');
 
+  window.setTimeout(function () {
+    $('#g-recaptcha-response').attr({ required: 'required' });
+  }, 2000);
+
   $COMMENT_FORM.on('submit', function (ev) {
     // alert('HI');
     $MESSAGE.text('Submitting comment ...').addClass('waiting');
@@ -29,30 +33,30 @@ window.jQuery(function ($) {
       redirect: 'manual', // 'follow',
       body: $COMMENT_FORM.serialize() // JSON.stringify(params($COMMENT_FORM))
     })
-    .then(response => {
+      .then(response => {
       // function checkStatus(response) {
-      if (response.ok) {
-        return Promise.resolve(response);
-      }
+        if (response.ok) {
+          return Promise.resolve(response);
+        }
 
-      return response.json().then(json => {
-        const error = new Error(json.message || response.statusText);
-        return Promise.reject(Object.assign(error, { response }));
-      });
+        return response.json().then(json => {
+          const error = new Error(json.message || response.statusText);
+          return Promise.reject(Object.assign(error, { response }));
+        });
       // }
-    })
-    .then(data => {
-      if (data.success) {
-        console.warn('Staticman OK:', data);
+      })
+      .then(data => {
+        if (data.success) {
+          console.warn('Staticman OK:', data);
 
-        $MESSAGE.text('Thank you! Comment in moderation queue.').addClass('success');
-      } else {
-        console.error('Staticman Error:', data);
+          $MESSAGE.text('Thank you! Comment in moderation queue.').addClass('success');
+        } else {
+          console.error('Staticman Error:', data);
 
-        $MESSAGE.text('Error. ' + data.errorCode).addClass('error');
-      }
-    })
-    .catch(error => console.error('Staticman Error (2):', error));
+          $MESSAGE.text('Error. ' + data.errorCode).addClass('error');
+        }
+      })
+      .catch(error => console.error('Staticman Error (2):', error));
   });
 
   console.warn('Comment.js loaded:', $COMMENT_FORM, ACTION, params($COMMENT_FORM));
