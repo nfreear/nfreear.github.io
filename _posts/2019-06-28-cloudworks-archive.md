@@ -1,8 +1,4 @@
 ---
-# https://github.com/nfreear/nfreear.github.io
-
-published: false
-
 x-csp-disable: true
 layout: post
 title:  Cloudworks Archive
@@ -59,7 +55,6 @@ while minimizing security and other risks.
 
 I hope to follow up this post with some Cloudworks statistics.
 
-
 [cloudworks]: https://cloudworks.ac.uk/
 [ce]: https://github.com/IET-OU/cloudengine "GitHub source code, on GitHub"
 [arch]: https://iet-ou.github.io/cloudworks-ac-uk/
@@ -81,6 +76,5 @@ I hope to follow up this post with some Cloudworks statistics.
 [ev]: https://iet-ou.github.io/cloudworks-ac-uk/events/archive.html "Event archive"
 [h818]: https://iet-ou.github.io/cloudworks-ac-uk/cloudscape/view/3030.html
   "OU H818 'The Networked Practitioner' Online Conference 2019"
-
 
 [End]: //
