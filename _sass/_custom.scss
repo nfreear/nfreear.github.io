@@ -235,12 +235,20 @@ iframe:hover, iframe:focus, a.x-me:hover {
   padding-bottom: 75%;
 }
 
+.post-content img {
+  border-radius: 3px;
+  display: block;
+  margin: 1.3rem auto;
+  max-height: 460px;
+  outline: 1px solid #ccc;
+  outline-offset: 4px;
+}
+
 .post-content a img {
     outline: 2px solid #ccc;
     outline-offset: 6px;
     display: block;
     margin: 1.3rem .3rem; // Was: 1.3em auto;
-    border-radius: 4px;
 }
 a:hover img {
     outline: 2px solid darkorange;
