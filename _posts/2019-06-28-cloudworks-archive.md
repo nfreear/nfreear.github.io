@@ -17,7 +17,7 @@ on this 10 year old web-site.
 
 The _Cloudworks_ web-site was launched at the end of 2009,
 and 10 years later at the end of June 2019, we have closed the [original site][cloudworks].
-and created a read-only archive version instead.
+and created a [read-only archive version][arch] instead.
 
 _Why is this?_
 
@@ -60,9 +60,12 @@ while minimizing security and other risks.
 
 I hope to follow up this post with some Cloudworks statistics.
 
+[iet-ou.github.io/cloudworks-ac-uk][arch-big]
+
 [cloudworks]: https://cloudworks.ac.uk/
 [ce]: https://github.com/IET-OU/cloudengine "CloudEngine source code, on GitHub"
 [arch]: https://iet-ou.github.io/cloudworks-ac-uk/
+[arch-big]: https://iet-ou.github.io/cloudworks-ac-uk/#!_BIG_ME_
 [gh]: https://github.com/IET-OU/cloudworks-ac-uk "Cloudworks Archive source, on GitHub"
 [wb]: https://web.archive.org/web/*/cloudworks.ac.uk
 

@@ -88,6 +88,8 @@ I used a brand new donor bike, which is a [Planet X Full Monty SRAM Apex 1 Mecha
 
 _Go build!_
 
+[www.bamboobicycleclub.org][bam-big]
+
 ---
 
 <!-- * [Google Doc][gdoc] -->
@@ -96,6 +98,7 @@ _Go build!_
 [oliver]: https://amazon.co.uk/Touring-Bikes-Practical-Tony-Oliver/dp/1852233397
 [bj]: https://www.bamboobicyclesbj.com/
 [bam]: https://www.bamboobicycleclub.org/
+[bam-big]: https://www.bamboobicycleclub.org/#!_BIG_ME_
 [donor]: https://planetx.co.uk/i/q/CBPXFMAPEX1MECH/planet-x-full-monty-sram-apex-1-mechanical-disc-gravel-bike
 [cost]: https://quora.com/How-much-more-expensive-is-it-to-build-a-bicycle-from-its-components-than-buying-a-complete-one
   "How much more expensive is it to build a bicycle from its components than buying a complete one? (Quora)"
