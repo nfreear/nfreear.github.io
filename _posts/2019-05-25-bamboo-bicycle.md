@@ -15,13 +15,13 @@ I've been building a bicycle from scratch. And the catch? _It's made from bamboo
 
 Actually, I can trace the journey back to my teens when I became obsessed with bike frame building,
 and devoured [Tony Oliver's 1990 book Touring Bikes: A Practical Guide][oliver].
-(I know, for some kids is computer games or football …)
+(_I know, for some kids its computer games or football …_)
 
 Having been a keen cyclist, but an unfulfilled frame-builder for the past
 twenty plus years, I resumed my journey in Beijing about four years ago,
 when I came across David Wang's [Bamboo Bicycles Beijing][bj].
 Unfortunately, I found out at the start of this year that they were no longer running workshops,
-but David kindly past me on to the [Bamboo Bicycle Club][bam], run by James Marr.
+but David kindly passed me on to the [Bamboo Bicycle Club][bam], run by James Marr.
 
 Fast forwarding, I was lucky enough to go on a two-day weekend,
 intense frame-building workshop in May, at the Bamboo Bicycle Club, Canning Town in London's east end.
@@ -95,6 +95,13 @@ _Go build!_
 <!-- * [Google Doc][gdoc] -->
 * [SVG of bike design (Gist)][gist]
 
+## Update
+
+_11th September:_  I completed the bike 15 July 2019, and I've been riding it since <!--11--> August 2019.
+
+[![Nick's bike on Instagram][inst-img]][inst-ndf]
+
+
 [oliver]: https://amazon.co.uk/Touring-Bikes-Practical-Tony-Oliver/dp/1852233397
 [bj]: https://www.bamboobicyclesbj.com/
 [bam]: https://www.bamboobicycleclub.org/
@@ -114,6 +121,11 @@ _Go build!_
 
 [img-group]: filesystem:https://docs.google.com/persistent/docs/documents/1PiQkNBCvvCDuMOpR9Xn2SGBmfQKD9ET1Pm_ngfSxcKc/image/1_VlHuodClvCZS1GEA3Su3y3HUmNGdHn3npVC8F0?zx=afbij5wlzyv
 [gist]: https://gist.github.com/nfreear/2c1d9ba6ea9a3ed3a1b1c3d3333d8fce
+
+[inst]: https://instagram.com/bamboobicycleclub/
+[inst-ndf]: https://instagram.com/p/Bz8RHhkAtV_/
+  "bamboobicycleclub :— 'Build by Nick at a weekend workshop! a 1 x 11 system with disc brakes' (Instagram, 15-July-2019)"
+[inst-img]: https://scontent-lhr3-1.cdninstagram.com/vp/21b7c43ae8b57b04ab6e8cd21a386dfb/5DF7D675/t51.2885-15/e15/65729369_115144866221733_4052884049565276030_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&_nc_cat=109
 
 [End]: //.
 
