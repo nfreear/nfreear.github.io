@@ -36,7 +36,7 @@ npm start
 
 
 ---
-© 2009-2019 Nick Freear.
+© 2009-2020 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`, `*.html`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]

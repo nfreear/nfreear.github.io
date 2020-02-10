@@ -2,12 +2,12 @@
   "private": true,
   "name": "nfreear.github.io",
   "version": "1.1.0",
-  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages.",
+  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2020 NDF.",
   "main": "./Gruntfile.js",
   "engines": {
     "node": ">= 11",
     "ruby": "2.3.7p456",
-    "jekyll": "3.7.3"
+    "jekyll": "3.8.5"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
