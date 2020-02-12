@@ -2,12 +2,15 @@
 x-csp-disable: true
 layout: post
 title:  My stammer
-date:   2020-02-02 12:00
+date:   2020-02-10 12:00
+# Was: date:   2020-02-02 12:00
 tags:   [ stammer, stutter ]
 
-last_updated: 2020-02-02
+last_updated: 2020-02-10
 changefreq: daily
 priority: 1.0
+
+x-style: 'body .gist iframe.render-viewer { height: 640px; width: 100%; margin: 0; }'
 ---
 
 <script src="https://gist.github.com/nfreear/53e3a49968f3b4d4f784a6a65d99b8b9.js"></script>

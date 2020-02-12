@@ -9,7 +9,7 @@ permalink: /sitemap.xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!--  Homepage -->
   <url>
-    <loc>http://{{ site.domain | default: 'nick.freear.org.uk' }}/</loc>
+    <loc>https://{{ site.domain | default: 'nick.freear.org.uk' }}/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
 		<priority>1.0</priority>
@@ -17,7 +17,7 @@ permalink: /sitemap.xml
 
   {% for page in site.posts %}
   <url>
-    <loc>http://{{ site.domain | default: 'nick.freear.org.uk' }}{{ page.url }}</loc>
+    <loc>https://{{ site.domain | default: 'nick.freear.org.uk' }}{{ page.url }}</loc>
     {% if page.last_updated %}
     <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
     {% elsif page.date %}
