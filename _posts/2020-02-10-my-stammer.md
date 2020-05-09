@@ -10,7 +10,7 @@ last_updated: 2020-02-10
 changefreq: daily
 priority: 1.0
 
-x-style: 'body .gist iframe.render-viewer { height: 640px; width: 100%; margin: 0; }'
+x-style: 'body .gist iframe.render-viewer { height: 640px; }'
 ---
 
 <script src="https://gist.github.com/nfreear/53e3a49968f3b4d4f784a6a65d99b8b9.js"></script>
@@ -26,7 +26,7 @@ Others have built on this analogy, with the [Iceberg Beast][] ([more][], another
 For me the visible traits are:
 
  * _Blocking_ — this is the basic character of my stammer now, and has been for a long time;
- * _Repetition_ — I don't do much of this now - I did a lot when I was younger (the classic "_p-p-please_");
+ * _Repetition_ — I don't do much of this now — I did a lot when I was younger (the classic "_p-p-please_");
  * _Physical tension_ — in my neck, shoulders, jaw ...;
  * _Avoidance_ — I try to do less of this — avoiding situations (e.g. _phone calls_), sounds, words;
 

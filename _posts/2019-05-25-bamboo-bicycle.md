@@ -99,6 +99,9 @@ _Go build!_
 
 _11th September:_  I completed the bike 15 July 2019, and I've been riding it since <!--11--> August 2019.
 
+[![Completed bike][img-3]][photo-3]
+
+
 [![Nick's bike on Instagram][inst-img]][inst-ndf]
 
 
@@ -106,7 +109,8 @@ _11th September:_  I completed the bike 15 July 2019, and I've been riding it si
 [bj]: https://www.bamboobicyclesbj.com/
 [bam]: https://www.bamboobicycleclub.org/
 [bam-big]: https://www.bamboobicycleclub.org/#!_BIG_ME_
-[donor]: https://planetx.co.uk/i/q/CBPXFMAPEX1MECH/planet-x-full-monty-sram-apex-1-mechanical-disc-gravel-bike
+[donor]: https://web.archive.org/web/20190620204932if_/https://www.planetx.co.uk/i/q/CBPXFMAPEX1MECH/planet-x-full-monty-sram-apex-1-mechanical-disc-gravel-bike
+[donor.ORIG]: https://planetx.co.uk/i/q/CBPXFMAPEX1MECH/planet-x-full-monty-sram-apex-1-mechanical-disc-gravel-bike
 [cost]: https://quora.com/How-much-more-expensive-is-it-to-build-a-bicycle-from-its-components-than-buying-a-complete-one
   "How much more expensive is it to build a bicycle from its components than buying a complete one? (Quora)"
 
@@ -115,12 +119,18 @@ _11th September:_  I completed the bike 15 July 2019, and I've been riding it si
 [logo]: https://www.bamboobicycleclub.org/wp-content/uploads/2017/04/BBC_round.png#!size=sm
 [img-logo-0]: filesystem:https://docs.google.com/persistent/docs/documents/1PiQkNBCvvCDuMOpR9Xn2SGBmfQKD9ET1Pm_ngfSxcKc/image/1QnC7ejCadxa9mvhQ0nAo9fEygw42JmXWZyLOKys?zx=dhu417yz9rvi
 [fr-day-1]: https://photos.app.goo.gl/TmqebD5grL1CnuZV6
+  "Bamboo bike frame, DAY 1 (main tubes positioned in jig, no glue)."
 [img-fr-day-1]: https://lh3.googleusercontent.com/LCQI6YsIsAhaJePiCXJ9ZkdX-zCE6CvEQrKxXdn6Hn08tfH3RspPZAuUP_XIc9-eZ-bQAYXihgIGU8XYLk6YbB93Z1Ul1tunn271hHgdEF7denfIHqgOyOUFp3ls4i0O3uX5HXT7smcT8EDE7WUGYdd8M4NcV9xe3cvPsH85tVf8n6NRb_GiDQgWhQ31E5gS3g6Cch2FwriBY_yvMDFuuEEz9VyJebyOetmcvUsTD0TwobXzzrb1Mt5JqxjkIZn3UQn7mBaVzsdIpWZOzC-v7-OR1A4a0RJzBoMuA11ioNXJRxSulVxcCvv3xdw2WrQHfDKxcY1adspQJY5SZgt8F5Qrpuu_uWay618Zffw01MlXzp-elF5b4F_cyCdpxgHng9f0gmCr_VHmZdqy5V-qGHPpcC_Jx7Eo-WKI9EZgwCaklHkFVjNkFRyZaN7BbH_nk9u0H-hxP9tznpmcokzALLlPGde02W-fnK0t0-IgDg_rujH_mx3Y0PG4MvAbc9_6a_1gmvKilFsslwcuvV1_8nUKNzViEqKZPviFjAB-POc1q-njTDNPwPG7IJu_s-f2Iy6up-Xdxa4GfIxMOBQryDZ6-nTLtVlw6Us2jBnovr10jG1mHGAsjHw1xvk97sdfQxulLFg_y5E2sgylgPAMHyDKL7nVM5ZSeT6yEAdqJv9PWDqgoNxuqnl61kRpCQEoj2O7eV9pSKUk22boXlcwAt3R=w1350-h972-no
 [fr-day-2]: https://photos.google.com/photo/AF1QipMvjDTgPPPJIgAi2HLcLFDvi2K2VTL3KT7OAGYU
+  "Bamboo bike frame, DAY 2 (wrapped joints, compressed with electrical tape)."
 [img-fr-day-2]: https://lh3.googleusercontent.com/TmI0Vau3tLqDNxI4D0CzM6joJ3mtfMaJLC_FQeFmTYLJSjrOjbhFMj0CX5Cse8BEzBQyn1vnuMUXjqu85d3hijQa6IF6u-wtFVbqrzG4xIRjqCSpK1P_2f26olqZaOHX3tBjNSEqwiSzhkhT_-FeYQtjNes1nhyJtgn6xVGIPTXT_Fead6q-r0fDvOp2Lj2F2QbR0UnmKzT74UDqCGt5KfuiWUXDwdkYawX6UCoCPZDXTI8Aloqc8r2LOc8O9O2a_LBhtZYRZEXqEPfYX2W4u4ZuFvuWpMjhIjw5LiWxqut18ndO-H-VZ3u8gOuC_zgmN9Pqxz9xr4uznwKTXelLjHNtA4EAYQ8H-lQPRwEr8T8zCcznspyjm9dqI6aQBulFCT1L24n1_FyjCKbQ6cPPQsE5JKjChHlvpldxdjEEcnjy7aVJOKlly1rWzIVyBZCf7ZgWTxOIQ25j6tuSo6yNjRf_ORo4gSRshz_Ly6_iA6734XgfdnuTb_UROdr72s-PGn-12MLhartztIjiYZyALbeIs7O9O1VbGcsyYFmAfetnZsya1pgbR1rGliV1kWhtcLcYN8hjwegpduUkQVRLGkah3UxTLjMBZ7LmCUj1hUA-hpiqQkYLygxHBPvnfnoAx-Jz5GQAURuZm5h7WQjEIwFDINn17qcccxLR5TT8Sosp1LPTIclMoUBdeUrnQccZhsFNtE2_-1gtXSRnVGlKEkgS=w1558-h1168-no
 
 [img-group]: filesystem:https://docs.google.com/persistent/docs/documents/1PiQkNBCvvCDuMOpR9Xn2SGBmfQKD9ET1Pm_ngfSxcKc/image/1_VlHuodClvCZS1GEA3Su3y3HUmNGdHn3npVC8F0?zx=afbij5wlzyv
 [gist]: https://gist.github.com/nfreear/2c1d9ba6ea9a3ed3a1b1c3d3333d8fce
+
+[photo-3]: https://photos.google.com/photo/AF1QipOOm8axI4iBbhTX-Cx_jiW6c4o2l6UhrKMv58E3
+  "The completed bike, out for a ride in Milton Bryan, 02-Oct-2019 (The Red Lion pub) (Google Photos)."
+[img-3]: https://lh3.googleusercontent.com/uPQnT8OF0j74GUqIlbkMPMZe1IunlDF7O1fMUj3zmf3tMJXHjXQEB-Ejq3KOpUKT4YWlXAgIUg2TbJ2SDYQLOk0T-Ke_eaR4EPJ8c3OFKk9RZWpkxrmf0w3oA_PzgcbIOpK7BbeUS7n_W1tzbFKDD-rdy22sHaHIbsLMrxKHxEmkBJZXQoZlg6VYYqfWejXseQPYIhnAkrJywvMQe-TBgXBJTjLfqwh4aZGuB0NvwYMAnf3jtIBKLowo2AoJzE_5dNXOgeI_trTBlhyH0ZXAadNDksqDiZOncbDxW60vMb4nWq8aqA2WS6UwbvdzXR0okPQN2HMPW1QrC4RZ0_K-5s_L1DlSjN2fCtQyXPTcHn2tiqbTOe8Gp5A6nuzGCeGqoxyYW7ciDzHdCWJpO_yOKrzAoxgckpgLa6ThUurTtBwTqCUe4Ss1Yw5xSSi4Ijr5pwC7vmhtV8gr_lSru-N7J1PlRWJHrxMXjF0EDUfHjRw2cpxkngbp0Ax7lf764YfvoS5n7xlEUwPeJ8BwJlRUtOpZZ1_ZpSGCzJUVeRFV8lHglpV3oT8CuwgmZtu0R5nTOSbmQ1QaPpVy4f1oEg6-54ijQX8cnPbzaD7equBRlTe0QXU0woviRUunPtuWaptzN5o_V3RlPCu-NdF8J11PoQ1xz3GVsEz7tyLQCFuGdtcc44qQVDYZCdc8LH4K5Q=w1984-h1487-no?authuser=0
 
 [inst]: https://instagram.com/bamboobicycleclub/
 [inst-ndf]: https://instagram.com/p/Bz8RHhkAtV_/

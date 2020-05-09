@@ -205,6 +205,11 @@ iframe:hover, iframe:focus, a.x-me:hover {
     width: 99%;
 }
 
+body .gist iframe.render-viewer {
+  margin: 0;
+  width: 100%;
+}
+
 /* Open Media Player embeds / Bootstrap embeds.
 */
 .embed-rsp.youtube,
