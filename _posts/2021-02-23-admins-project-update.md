@@ -21,7 +21,7 @@ The respondents preferred the ADMINS Chat-bot that they trialled for us,
 over the existing online form, when disclosing their disabilities and needs to us.
 (_Links to research papers to follow_.)
 
-[ADMINS Chat-bot "I have a prosthetic leg …" (screenshot)][cb-1]]
+[ADMINS Chat-bot "I have a prosthetic leg …" (screenshot)][cb-1]
 
 [Chetz Colwell][chetz] undertook accessibility testing before our main trial, and
 I've followed up by contributing [accessibility][bug] [fixes][pr] to the Microsoft _WebChat_ Javascript library.
@@ -55,6 +55,7 @@ _I'm very proud of what we achieved throughout 2019-2020, and the COVID crisis!_
 
 [chatbot-img-1]: https://photos.app.goo.gl/Dx8nmr48TZpgRpoZA
 [cb-1]: https://photos.google.com/share/AF1QipNRl8TrqxlRhSc2nE_zQDVydaWk5I10fI32XOtoOkssdUrcXDy_WJZbUK9A8vOSkg/photo/AF1QipMBjIoS3ZMNWd7QYmtFcSOVwvjTZWgWjAtwEk0D?key=eV9WMGJxeFZBTy1LUElrc284ajJmZ0xjME1ZbjRB
+  "ADMINS Chat-bot “I have a prosthetic leg …“ (screenshot)"
 [admins]: https://nick.freear.org.uk/2019/10/22/admins-project.html
   "Assistants to the Disclosure and Management of Information about Needs and Support (ADMINS)"
 [project]: https://iet.open.ac.uk/projects/admins
