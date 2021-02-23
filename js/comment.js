@@ -63,7 +63,7 @@ window.jQuery(function ($) {
 
   // DEPRECATED!
   function params ($form) {
-    var paramObj = {};
+    const paramObj = {};
 
     $.each($form.serializeArray(), function (_, kv) {
       /* if (paramObj.hasOwnProperty(kv.name)) {

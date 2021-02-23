@@ -11,7 +11,7 @@
 window.jQuery(function ($) {
   'use strict';
 
-  var accessibility_fixes = {
+  const accessibility_fixes = {
     // Fixes, via "pa11y-ci" !
     '#IDCSubscribeEmail0, #IDCSubscribeEmail1': { title: 'Email address' },
     '#IDCommentNewThreadText, #txtComment': { title: 'Enter text' },
@@ -34,18 +34,18 @@ window.jQuery(function ($) {
     // "region" or nested "article"?
     '#idc-container': { role: 'region', 'aria-labelledby': 'idc-commentcount_label' }
   };
-  var BLOG = $.NF_BLOG;
-  var $loader = $('#x-idc-comments-loading');
-  var $wrapper = $('#' + BLOG.comment_div);
-  var W = window;
-  var console = W.console;
+  const BLOG = $.NF_BLOG;
+  const $loader = $('#x-idc-comments-loading');
+  const $wrapper = $('#' + BLOG.comment_div);
+  const W = window;
+  const console = W.console;
   // "#IDComment1000836892"
-  var comment_hash_re = /(#IDComment(\d+))/;
-  var m_hash = W.location.hash.match(comment_hash_re);
-  var script_src = 'https://intensedebate.com/js/genericCommentWrapper2.php?';
+  const comment_hash_re = /(#IDComment(\d+))/;
+  const m_hash = W.location.hash.match(comment_hash_re);
+  let script_src = 'https://intensedebate.com/js/genericCommentWrapper2.php?';
 
   // 1. Comment configuration.
-  var params = {
+  const params = {
     acct: BLOG.comment_acct,
     title: BLOG.post_title,
     postid: BLOG.post_id,
@@ -102,7 +102,7 @@ window.jQuery(function ($) {
   }
 
   function when_call (when_true_FN, callback_FN, interval) {
-    var int_id = W.setInterval(function () {
+    const int_id = W.setInterval(function () {
       if (when_true_FN()) {
         W.clearInterval(int_id);
         callback_FN();

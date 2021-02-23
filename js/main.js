@@ -20,9 +20,9 @@
 window.jQuery(function ($) {
   'use strict';
 
-  var W = window;
-  var debug = W.location.search.match(/debug=1/); // /debug=([1-9])/
-  var BLOG = $('#js-config').data();
+  const W = window;
+  const debug = W.location.search.match(/debug=1/); // /debug=([1-9])/
+  const BLOG = $('#js-config').data();
 
   BLOG.debug = debug;
 
@@ -40,7 +40,7 @@ window.jQuery(function ($) {
       info: function () {}
     };
   } /* */
-  var console = W.console;
+  const console = W.console;
 
   /* Google Analytics.
   */
@@ -49,8 +49,8 @@ window.jQuery(function ($) {
 
   // Event tracking: https://developers.google.com/analytics/devguides/collection/analyticsjs/events
   $('a').on('click', function (ev) {
-    var url = $(this).attr('href');
-    var text = $(this).text();
+    const url = $(this).attr('href');
+    const text = $(this).text();
 
     // Assumption: absolute URL === external link.
     if (url.match(/^https?:/)) {
@@ -71,11 +71,11 @@ window.jQuery(function ($) {
 
   /* Browser search plugin button - Firefox 2+ and IE 7+, OpenSearch.
   */
-  var $plugin = $('[ role = search ] #plugin');
-  var $search = $('link[ rel = search ]');
+  const $plugin = $('[ role = search ] #plugin');
+  const $search = $('link[ rel = search ]');
 
   if (W.external && ('AddSearchProvider' in W.external) && $plugin.length) {
-    var $btn = $('<a role="button" >Add browser search plugin</a>')
+    const $btn = $('<a role="button" >Add browser search plugin</a>')
       .attr('href', $search.attr('href'))
       .on('click', function () {
         console.debug('Search plugin:', $search.attr('href'));
@@ -121,8 +121,8 @@ window.jQuery(function ($) {
       youtube: { rgb: 'omp-orange' }
     },
     function (data, xundefined) {
-      var m_title = data.html.match(/(title="[^"]+")/);
-      var at_title = m_title ? m_title[1] : null;
+      const m_title = data.html.match(/(title="[^"]+")/);
+      const at_title = m_title ? m_title[1] : null;
       // Clean up Flickr embeds :(.
       if (data.provider_name === 'Flickr') {
         data.code = data.code.replace(/<\/div><div.+/, '</div>'); // .replace(/<script.+/, "");
@@ -135,17 +135,17 @@ window.jQuery(function ($) {
   }
 
   $('a[ href *= _FRAME_ME_ ]').each(function () {
-    var $link = $(this);
-    var url = $link.attr('href').replace(/#!.+/, '');
+    const $link = $(this);
+    const url = $link.attr('href').replace(/#!.+/, '');
 
     $link.replaceWith('<div class="frame-me"><iframe src="' + url + '"></iframe></div>');
   });
 
   $('a[ href *= _ME_ ]').each(function () {
-    var $link = $(this);
-    var url = $link.attr('href');
-    var m = url.match(/#!?__?((BIG|[A-Z]+)_ME)_/i);
-    var urlclean = url.replace(/#!.+/, '');
+    const $link = $(this);
+    const url = $link.attr('href');
+    const m = url.match(/#!?__?((BIG|[A-Z]+)_ME)_/i);
+    const urlclean = url.replace(/#!.+/, '');
     // var text = $link.html().replace(/#!.+/, '');
 
     if (m) {
