@@ -122,7 +122,7 @@ window.jQuery(function ($) {
     },
     function (data, xundefined) {
       var m_title = data.html.match(/(title="[^"]+")/);
-      var at_title = m_title ? m_title[ 1 ] : null;
+      var at_title = m_title ? m_title[1] : null;
       // Clean up Flickr embeds :(.
       if (data.provider_name === 'Flickr') {
         data.code = data.code.replace(/<\/div><div.+/, '</div>'); // .replace(/<script.+/, "");
@@ -149,7 +149,7 @@ window.jQuery(function ($) {
     // var text = $link.html().replace(/#!.+/, '');
 
     if (m) {
-      $link.addClass(m[ 1 ].toLowerCase() + ' x-me').attr('href', urlclean); // .html(text);
+      $link.addClass(m[1].toLowerCase() + ' x-me').attr('href', urlclean); // .html(text);
     }
     console.debug('big-me: ', m);
   });

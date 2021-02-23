@@ -71,7 +71,7 @@ window.jQuery(function ($) {
         paramObj[kv.name].push(kv.value);
       }
       else { */
-      paramObj[ kv.name ] = kv.value;
+      paramObj[kv.name] = kv.value;
       // }
     });
 
@@ -80,8 +80,8 @@ window.jQuery(function ($) {
 
   // DEPRECATED!
   function noRedirect (paramObj) {
-    paramObj[ 'options[X-redirect]' ] = paramObj[ 'options[redirect]' ];
-    paramObj[ 'options[redirect]' ] = '';
+    paramObj['options[X-redirect]'] = paramObj['options[redirect]'];
+    paramObj['options[redirect]'] = '';
 
     return paramObj;
   }

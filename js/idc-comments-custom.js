@@ -92,12 +92,12 @@ window.jQuery(function ($) {
   // 7.
   if (m_hash) {
     when_call(function () {
-      return $(m_hash[ 1 ]).length;
+      return $(m_hash[1]).length;
     },
     function () {
       console.debug('Comment-scroll: ', m_hash);
       // $("#IDThread" + m_hash[ 2 ]).attr("tabindex", 0).focus();
-      $(m_hash[ 1 ]).attr({ tabindex: 0 }).focus();
+      $(m_hash[1]).attr({ tabindex: 0 }).focus();
     });
   }
 
