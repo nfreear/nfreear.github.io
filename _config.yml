@@ -17,7 +17,7 @@ ex_long_desc: > # this means to ignore newlines until "baseurl:"
 
   <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"
   ><img alt="Creative Commons License"
-  src="/assets/license-cc-by-sa-88x31.png" data-src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" title=
+  src="/assets/license-cc-by-sa-88x31.svg" data-src="https://creativecommons.org/about/downloads/" title=
   "Content: released under a Creative Commons Attribution-ShareAlike 4.0 License"></a>
   </i>
 excerpt_separator: "<!--more-->"
