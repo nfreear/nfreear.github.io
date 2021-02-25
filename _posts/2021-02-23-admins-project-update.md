@@ -15,16 +15,17 @@ priority: 1.0
 
 After a busy, rewarding and challenging year,
 [Paco][] launched the main trial for [ADMINS][] on the 18th November 2020.
-The trial was closed on the 10th January 2021, with 134 student respondents.
+It was closed on the 10th January 2021, with 134 student respondents completing all parts of the trial.
 
-The respondents preferred the ADMINS Chat-bot that they trialled for us,
+A key takeaway from the research was that respondents preferred the ADMINS Chat-bot they trialled
 over the existing online form, when disclosing their disabilities and needs to us.
 (_Links to research papers to follow_.)
 
-[ADMINS Chat-bot "I have a prosthetic leg …" (screenshot)][cb-1]
+![ADMINS Chat-bot "I have a prosthetic leg …" (screenshot)][cb-1]
 
 [Chetz Colwell][chetz] undertook accessibility testing before our main trial, and
-I've followed up by contributing [accessibility][bug] [fixes][pr] to the Microsoft _WebChat_ Javascript library.
+I've followed up by contributing [accessibility bug reports][bug] and [fixes][pr]
+to the Microsoft _WebChat_ Javascript library.
 
 Below I've summarised some of our technical achievements and some challenges we faced.
 
@@ -39,7 +40,7 @@ We developed …:
   built on [MS Speech][] Cognitive Services (_live-demoed_!);
 
 * And, a [LUIS model][] to classify multiple disabilities and health conditions
-  from a potentially long, multi-sentence disclosure from a student.
+  from a potentially long, multi-sentence disclosure by a student.
 
 ## Challenges
 
@@ -53,8 +54,11 @@ Read more in [various][ms-2021] blog [posts][five] from early February 2021.
 
 _I'm very proud of what we achieved throughout 2019-2020, and the COVID crisis!_
 
+Thanks to :~ [Tim][], [Kate][], [Paco][], [Wayne][], [Jo][],
+[Kevin][], [Peter][], [Rich][], [Paul][] and our consultant students.
+
 [chatbot-img-1]: https://photos.app.goo.gl/Dx8nmr48TZpgRpoZA
-[cb-1]: https://photos.google.com/share/AF1QipNRl8TrqxlRhSc2nE_zQDVydaWk5I10fI32XOtoOkssdUrcXDy_WJZbUK9A8vOSkg/photo/AF1QipMBjIoS3ZMNWd7QYmtFcSOVwvjTZWgWjAtwEk0D?key=eV9WMGJxeFZBTy1LUElrc284ajJmZ0xjME1ZbjRB
+[cb-1]: https://lh3.googleusercontent.com/pw/ACtC-3ca8AG0J8Zwqz_j6sChUENIM8KrXGBHxqTPyI7dE-Jq39C0AJWvfyQkIfYKFh02-tEMxTMaULv2F4i4-OBcmv4Yxkp-UtvWbL7GGCsniotGt0KSIQtvR5jonLdOURPc2zQbYEyGhs_U_XhVmCNATsDZFQ=w1209-h1704-no?authuser=0
   "ADMINS Chat-bot “I have a prosthetic leg …“ (screenshot)"
 [admins]: https://nick.freear.org.uk/2019/10/22/admins-project.html
   "Assistants to the Disclosure and Management of Information about Needs and Support (ADMINS)"
@@ -62,10 +66,23 @@ _I'm very proud of what we achieved throughout 2019-2020, and the COVID crisis!_
   "Assistants to the Disclosure and Management of Information about Needs and Support (ADMINS)"
 [luis]: https://eu.luis.ai/ "Language Understanding (LUIS), Microsoft"
 [ms speech]: https://speech.microsoft.com/# "Speech Studio, Microsoft"
+[tim]: https://iet.open.ac.uk/people/tim.coughlan "Tim Coughlan, academic (PI)"
+[kate]: http://wels.open.ac.uk/people/kml322 "Kate Lister, academic"
+[wayne]: https://researchgate.net/profile/Wayne-Holmes-2 "Wayne Holmes, academic"
 [paco]: https://iet.open.ac.uk/people/francisco.iniesto
-  "Dr Francisco Iniesto, academic"
+  "Francisco Iniesto, academic"
+[ian]: http://www.open.ac.uk/people/ik3399
+  "Ian Kenny, Visiting Fellow and OU student"
+[jo]: https://linkedin.com/in/joanne-watts-8b66b83a/
+  "Joanne Watts, Project Manager"
+[kevin]: https://iet.open.ac.uk/people/kevin.mcleod
+  "Kevin McLeod, Senior Learning and Teaching Technologies Manager"
+[peter]: https://iet.open.ac.uk/people/peter.devine
+  "Peter Devine, Educational Technology Designer"
 [rich]: https://iet.open.ac.uk/people/richard.greenwood#biography
   "Richard Greenwood, Edu Tech. developer"
+[nick]: https://iet.open.ac.uk/people/nick.freear
+  "Nick Freear, Edu Tech. developer"
 [paul]: http://www.open.ac.uk/people/pam3
   "Paul Maher, Senior Product Development Manager (Emerging Tech)"
 [paul fb]: https://facebook.com/paul.maher.98
