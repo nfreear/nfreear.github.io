@@ -1,4 +1,3 @@
-
 [![Build status — Travis-CI][travis-icon]][travis-ci]
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
@@ -7,6 +6,7 @@
 [![Accessibility testing - blog passes][pa11y-icon]][pa11y-ci]
 [![Git hooks][hook-icon]][hook]
 [![@nfreear on Twitter][twit-icon]][twitter]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnfreear%2Fnfreear-blog.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnfreear%2Fnfreear-blog?ref=badge_shield)
 
 # nfreear.github.io
 
@@ -80,3 +80,6 @@ npm start
 [hook-i0]: https://img.shields.io/badge/git--hook-husky-ff69b4.svg
 
 [up-icon]: https://img.shields.io/website-up-down-green-red/http/nick.freear.org.uk.svg?label=Blog
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnfreear%2Fnfreear-blog.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnfreear%2Fnfreear-blog?ref=badge_large)
