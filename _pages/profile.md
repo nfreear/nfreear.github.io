@@ -11,7 +11,7 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 
 You can find me all over the Web &hellip; :
 
-* [Profile at The Open University][wels]
+* [Profile at The Open University][iet]
 * [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/in/nfreear/)
 * [Google+](https://plus.google.com/+NickFreear)
@@ -35,7 +35,7 @@ You can find me all over the Web &hellip; :
 * [ScraperWiki](https://classic.scraperwiki.com/profiles/nfreear/)
 * [Yahoo! Pipes][pipes]
 * [Mycroft](https://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
-* [Cloudworks](https://cloudworks.ac.uk/user/view/1040#!-N-Freear)
+* [Cloudworks][cw-arch]
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
 * [Libraries.io](https://libraries.io/github/nfreear/projects)
 * [Open HUB](https://openhub.net/accounts/nfreear "Formerly called 'Ohloh'")
@@ -59,8 +59,8 @@ You can find me all over the Web &hellip; :
 
 <div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
-[wels]: http://wels.open.ac.uk/people/ndf42
-  "Profile in, Faculty of Wellbeing, Education and Language Studies (WELS), at The Open University"
+[iet]: https://iet.open.ac.uk/people/nick.freear
+  "Profile in the Institute of Educational Technology (IET), at The Open University"
 [ou]: http://www.open.ac.uk/people/ndf42 "Profile at, The Open University"
 [iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
 [scholar]: https://scholar.google.com/scholar?as_q=&as_sauthors=%22N+Freear%22&as_sdt=1.&as_sdts=5
@@ -80,5 +80,8 @@ You can find me all over the Web &hellip; :
     "QR code for Nick.freear.org.uk, via Google charts"
 [linkedin-OLD]: https://linkedin.com/pub/nicholas-freear/40/781/b11
 [gplus-OLD]: https://profiles.google.com/n.d.freear#112441018708933635212
+
+[cw-arch]: https://web.archive.org/web/20180805142914/https://cloudworks.ac.uk/user/view/1040#!-N-Freear
+    "Nick Freear on Cloudworks, archived August 2018."
 
 [End]: //.

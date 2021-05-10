@@ -22,11 +22,12 @@ I live in Milton Keynes with my wife and daughter, and do some cycling, kayaking
 * [My social media profiles](/profile.html).
 
 
-[iet]: http://iet.open.ac.uk/
+[iet]: https://iet.open.ac.uk/
 [The Open University]: http://www.open.ac.uk/
-[Moodle]: http://moodle.org/" "Moodle virtual learning environment"
-[CloudEngine]: http://getcloudengine.org/
-[Drupal]: http://drupal.org/
+[Moodle]: https://moodle.org/ "Moodle virtual learning environment"
+[CloudEngine]: https://github.com/IET-OU/cloudengine
+[CloudEngine-OLD]: http://getcloudengine.org/
+[Drupal]: https://drupal.org/
 [WordPress]: https://wordpress.org/
-[free]: http://gnu.org/philosophy/free-sw.html "free speech"
-[book]: http://packtpub.com/moodle-2-for-teaching-4-9-year-olds-beginners-guide/book?ref=freear.org.uk
+[free]: https://gnu.org/philosophy/free-sw.html "free speech"
+[book]: https://packtpub.com/moodle-2-for-teaching-4-9-year-olds-beginners-guide/book?ref=freear.org.uk
