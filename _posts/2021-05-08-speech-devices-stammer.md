@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title:  Speech-devices and stammering
 date:   2021-05-08 08:30:00
@@ -35,12 +35,14 @@ Luckily I'm not the only one working in this space! Project [Euphonia][] and Pro
 
 If you're interested in collaborating, please reach out to me on [twitter][nfreear] or [via The Open University][ou-profile].
 
+See [research papers on ORO][oro], [Microsoft][ms] and [OU research news][ou-1].
+
 [admins]: https://iet.open.ac.uk/projects/admins
   "Assistants to the Disclosure and Management of Information about Needs and Support"
 [webchat]: https://github.com/Microsoft/BotFramework-WebChat
-  "Microsoft's Bot Framework Web Chat component"
+  "Microsoft's Bot Framework Web Chat component, on GitHub."
 [cognitive speech]: https://github.com/Microsoft/cognitive-services-speech-sdk-js
-  "Microsoft Cognitive Services Speech SDK for JavaScript"
+  "Microsoft Cognitive Services Speech SDK for JavaScript, on GitHub."
 [twit-survey]: https://twitter.com/nfreear/status/1385986720928260096
   "“To all who #stutter/#stammer/have a disfluency from a stammerer- I'm interested in how speech-enabled Chatbots Alexa Siri & automated phone systems impact you. I'd love your responses to these Qs…”, tweet by @nfreear, 24-April-2021"
 [wcag]: https://www.w3.org/TR/WCAG21/
@@ -48,8 +50,18 @@ If you're interested in collaborating, please reach out to me on [twitter][nfree
 [euphonia]: https://sites.research.google/euphonia/about/
   "Project Euphonia is a Google Research initiative focused on helping people with atypical speech be better understood."
 [understood]: https://projectunderstood.ca/
-  "Teaching Google to understand people with Down syndrome, one voice at a time."
+  "Project Understood — teaching Google to understand people with Down syndrome, one voice at a time."
+[voiceitt]: https://voiceitt.com/
+  "voiceitt — An app for people with non-standard speech"
 [Leigh Clark]: https://doi.org/10.1145/3405755.3406139
   "Clark, L., Cowan, B. R., Roper, A., Lindsay, S., & Sheers, O. (2020, July). Speech diversity and speech interfaces: considering an inclusive future through stammering. In Proceedings of the 2nd Conference on Conversational User Interfaces (pp. 1-3)."
 [nfreear]: https://twitter.com/nfreear "@nfreear on Twitter"
 [ou-profile]: https://iet.open.ac.uk/people/nick.freear
+
+[ou-1]: http://www.open.ac.uk/research/news/ou-trials-chatbots-support-students-disabilities
+  "OU trials chatbots to support students with disabilities"
+[ms]: https://www.microsoft.com/en-gb/ai/ai-for-accessibility-projects#:~:text=ADMINS
+  "Microsoft AI for Accessibility projects — Chatbot to enable support for people with disabilities"
+[oro]: https://oro.open.ac.uk/cgi/search/archive/advanced?project_details_project_name=ADMINS#
+  "Research papers for the ADMINS project on Open Research Online (ORO)"
+[oro-2]: https://oro.open.ac.uk/cgi/search/archive/advanced?screen=Search&dataset=archive&title_merge=ALL&title=&person_merge=ALL&person=&abstract_merge=ALL&abstract=&keywords_merge=ALL&keywords=&documents_merge=ALL&documents=&faculty_dept_merge=ANY&research_centre_merge=ANY&editor_merge=ALL&editor=&project_details_funder_merge=ALL&project_details_funder=&project_details_project_id_merge=ALL&project_details_project_id=&project_details_project_name_merge=ALL&project_details_project_name=ADMINS&publication_merge=ALL&publication=&date=&publisher_merge=ALL&publisher=&datestamp=&oucu_merge=ALL&oucu=&satisfyall=ALL&order=-date%2Fcreators_name%2Ftitle&_action_search=Search#
